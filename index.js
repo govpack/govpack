@@ -102,7 +102,7 @@ if(typeof o.filter=='number'){LOG('Now we will filter and refine the Big DataSet
 function JSONP(fp){
 try{var JS=fs.readFileSync(fp).toString().replace(/^\uFEFF/, '').substr(4)}catch(er){LOG(er.stack);return 0}
 var o=0;try{eval('var o=('+JS+')')}catch(er){LOG(er.stack);return 0}
-if(typeof A!='object'){return 0}return o}
+if(typeof o!='object'){return 0}return o}
 
 function DownloadMany(o,cb){var x=o.download
 var fp1=DIR+x+'.js' /*module.exports={GetBiggerList}*/
