@@ -6,107 +6,105 @@ TD{border:1px solid gray;white-space:nowrap;text-align:center;}
 TABLE{border-collapse:collapse}
 .fr{border-style:none;font-size:120%;text-align:left}
 .th{background-color:silver;font-weight:900;font-size:120%}
-.hh{background-color:silver;font-weight:900;font-size:120%}
+.hh{background-color:silver;color:gray;font-weight:400;font-size:110%}
 .dt{color:white}
 .dl{}
-.up{font-size:140%;text-align:left;background:#ffffcc;padding-left:10px}
+
+.up{font-size:12pt;text-align:left;background:#ffffcc;padding-left:10px;font-weight:900;font-style:italic;}
 #d3{background:orange;font-size:20pt;padding:4px;border:1px solid black}
 #d4{background:lime;font-size:20pt;padding:4px;border:1px solid black}
-a{width:100%;display:inline-block}
-a:hover{background:lime;}
+.db{width:100%;display:inline-block;}
+a{color:cornflowerblue;text-decoration:none}
+a:hover{background:lime;text-decoration:underline overline;color:black}
+a:visited{color:cornflowerblue;}
+.rn{position:absolute;right:10px;top:5px;}
+.rn a{font-size:200%}
 </style>
 <script>
-function IIII(yo){YO=yo;wow=YO[0];
-fom=wow.format.toString()
-FOM=fom.toUpperCase()
+var KEC={};function UC(s){if(!s){return '#dcdcdc'};if(KEC[s]){return KEC[s]};if(!s.length){return '#dcdcdc'};for(var i=0,h=0;i<s.length;h=s.charCodeAt(i++)+((h<<5)- h));for(var i= 0,c='#';i<3;c+=('00'+((h >>i++*8)&0xFF).toString(16)).slice(-2)); KEC[s]=c;return c;}
+function SZ(b,places){/*Bytes to "FileSize.places[b|K|MB|GB]" string*/var x='b';if(b>1024){b=b/1024;if(b<1024){x='K'}else{b=b/1024;if(b<1024){x='MB'}else{b=b/1024;x='GB'}}};return b.toFixed(isNaN(places)?1:places)+''+x}
+function ABC(x){/*http://stackoverflow.com/questions/181596/how-to-convert-a-column-number-eg-127-into-an-excel-column-eg-aa*/var end=x;var AB='';var mod=0;while(end>0){mod=(end-1)%26;AB=String.fromCharCode(65+mod) + AB;end=parseInt((end-mod)/26)}return AB}
+
+function IIII(yo){YO=yo;wow=YO[0];fom=wow.format.toString();FOM=fom.toUpperCase()
+show()
 }
 
 function init(){
-//h1.innerText=
-//JSON.stringify(YO[0]).replace(/"/g,'');
+HED=self.document.getElementsByTagName('head')[0];
+var x=parseInt(self.location.hash.substr(1))||0;
+x=2
+load(x)
+}
+
+function load(x,cb){
+d4.innerText='...'
+d2.innerText=''
+d3.innerText='...'
+d5.innerText=''
+d6.innerText=''
+d7.innerText=''
+d7.href='#'+x
+d1.innerHTML=''
+setTimeout(function(){LOAD(x,cb)},1)
+}
+
+function LOAD(x,cb){cb=cb||function(){};var fp=x+'.txt'
+var sx=self.document.createElement('script'); 
+sx.onerror=function(sMsg,sUrl,sLine){prompt(sMsg,sUrl+sLine)} 
+if(sx.onload===null){sx.onload=cb}else{
+sx.onreadystatechange=function(){if(sx.readyState!='loaded'&&sx.readyState!='complete'){return} 
+cb()}} 
+sx.src=fp;HED.appendChild(sx)
+}
+
+function show(){
 d4.innerText=wow.Fields
 d2.innerText=wow.DataSets
 d3.innerText=wow.format
-d5.innerText=wow.API
-d6.innerText=wow.API
-
-//:77,:1328,
-var o=null;var tgs='';
-var C=[];
-var T=[];
-var R=[];
-
-var tb='';var L=0
+d5.innerText=wow.CKAN
+d6.innerText=wow.CKAN
+d7.innerText=fom
+d7.href='#'+wow.CKAN
+var o=null;var tgs='';var C=[];var T=[];var R=[];var tb='';var L=0
 for(var i=1;i<YO.length;i++){o=YO[i]
-//tgs+='<div>'+i+'.'+JSON.stringify(o)+'</div>'
-
 if(!(o.C && o.T && o.R)){return}
-C=o.C
-T=o.T
-R=o.R
-
-L=C.length
+C=o.C;T=o.T;R=o.R;L=C.length
 if(!L){return}
-tb='<table>\n<tr><td class=dl>'
-tb+='<a title="'+o.url+'" href="'+o.url+'" target="_blank" style="">'+fom+' ['+SZ(o.size)+']</a>&nbsp;&nbsp;&nbsp;'
-tb+='</td><td colspan="'+(C.length-1)+'" class=fr ><b>'+o.d+'</b>'
+tb='<table>\n<tr>'
+tb+='<td colspan="'+(C.length)+'" class=fr ><b>•'+o.d+'</b>'
 tb+='</td></tr>'
-
-
 tb+='<tr>';for(var c=1;c<L;c++){tb+='<td class=hh >'+ABC(c)+'</td>'};tb+='</tr>'
-
-
 tb+='<tr>';for(var c=1;c<L;c++){tb+='<td class=th style="background:'+UC(C[c])+'">'+C[c]+'</td>'};tb+='</tr>'
 tb+='<tr class=dt >';for(var c=1;c<L;c++){tb+='<td style="background:'+UC(T[c])+'">'+T[c]+'</td>'};tb+='</tr>'
 tb+='<tr>';for(var c=1;c<L;c++){tb+='<td>'+R[C[c]]+'</td>'};tb+='</tr>'
-
-
-tb+='<tr><td class=up colspan="'+(C.length)+'"><b>'+o.rows+'<b> rows × '+o.cols+' columns </td></tr>'
-
-
+tb+='<tr>'
+tb+='<td class=dl>'
+tb+='<a title="'+o.url+'" href="'+o.url+'" target="_blank" class="db" >'+fom
+if(o.size!=-1){tb+=' '+SZ(o.size)+''}
+tb+='</a>&nbsp;&nbsp;&nbsp;</td>'
+tb+='<td class=up colspan="'+(C.length-1)+'">'+o.rows+' rows × '+o.cols+' columns </td></tr>'
 tb+='</table>'
 tgs+='<br><br>'+tb
 }
-
 d1.innerHTML=tgs
-
 }
-
-
-var KEC={}
-function UC(s){if(!s){return '#dcdcdc'};if(KEC[s]){return KEC[s]};if(!s.length){return '#dcdcdc'};for(var i=0,h=0;i<s.length;h=s.charCodeAt(i++)+((h<<5)- h));for(var i= 0,c='#';i<3;c+=('00'+((h >>i++*8)&0xFF).toString(16)).slice(-2)); KEC[s]=c;return c;}
-function SZ(b,places){/*Bytes to "FileSize.places[b|K|MB|GB]" string*/var x='b';if(b>1024){b=b/1024;if(b<1024){x='K'}else{b=b/1024;if(b<1024){x='MB'}else{b=b/1024;x='GB'}}};return b.toFixed(isNaN(places)?1:places)+''+x}
-
-
-
-function ABC(columnNumber){
-//http://stackoverflow.com/questions/181596/how-to-convert-a-column-number-eg-127-into-an-excel-column-eg-aa
-var dividend = columnNumber;
-    var columnName ='';
-    var modulo=0;
-
-    while (dividend > 0)
-    {
-        modulo = (dividend - 1) % 26;
-        columnName = String.fromCharCode(65+modulo) + columnName;
-        dividend = parseInt((dividend - modulo) / 26);
-    } 
-
-    return columnName;
-}
-
 
 </script>
-<script src="0.txt" ></script>
+
 
 </head>
 <body id="bd" onload="init()">
+<span class="rn">
+<button onclick="load(0)">#0</button>
+<button onclick="load(1)">#1</button>
+<button onclick="load(2)">#2</button>
 
-<h2>govpack {fetch:<span id="d5"></span>} 
-<br>govpack {filter:<span id="d6"></span>}
-<br> found <span id="d2"></span>&nbsp;<span id="d3"></span> datasets
-<br>containing <span id="d4"></span> fields</h2>
-<i style="font-size:18pt">as shown below...<br>with one row of sample data</i>
+</span>
+<h2>govpack {fetch:<span id="d5"></span>} &nbsp; govpack {filter:<span id="d6"></span>}
+<br><br>Found <span id="d2"></span>&nbsp;<span id="d3"></span> datasets, containing <span id="d4"></span> fields</h2>
+<i style="font-size:14pt;color:silver;margin-left:4px">As shown below, with field names, field types,
+<br><a id="d7" href="#"></a> download links, a count of rows x columns,
+<br>and one row of actual data</i>
 <div id="d1"></div>
 
 
