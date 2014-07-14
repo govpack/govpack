@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 process.on('uncaughtException',function(er){console.log(er.stack)})
 
 var CK=[] /*A number of ckan API's/Dataset Catalogs to use*/
@@ -139,7 +140,7 @@ fs.stat(FP,function(er,me){if(er){LOG(er.stack);return cb(er)}LOG('\t\t['+j.k(me
 
 
 function GetBigList(x,cb){cb=cb||function(){}
-//if(x==2){return GetManyLists(x,cb)}
+if(x==2){return GetBiggerList(x,cb)}
 var url=CK[x].url+'current_package_list_with_resources'
 if(x==2){url+='?limit=10&page=1'}
 var web=(url.charAt(4)=='s'?https:http)
@@ -159,21 +160,29 @@ cb(null,{d:'GetBigList Saved package list!',fp:fp} )
 }
 
 function GetBiggerList(x,cb){cb=cb||function(){}
+var URL=CK[x].url+'current_package_list_with_resources'
+if(x==2){URL+='?limit=10&page='}
+var web=(URL.charAt(4)=='s'?https:http)
 
-//TODO
-//if(x==2){return GetManyLists(x,cb)}
-var url=CK[x].url+'current_package_list_with_resources'
-if(x==2){url+='?limit=10&page=1'}
-var web=(url.charAt(4)=='s'?https:http)
-var fp=DIR+x+'.js'
-  LOG('Downloading:\n'+url)
-  LOG('SavingAs:\n'+fp)
+var MAX=100
+var N=0
+var SaveAs=DIR+x+'_'
+	LOG('CONGLOMERATING:\n'+URL+' 1 to '+MAX)
+	LOG('SavingAs:\n'+SaveAs+' 1 to '+MAX)
 
 
-function NEXT(url,cb){
+
+function PagenNate(){
+if(++N>MAX){LOG('GetBiggerList('+x+') has finished!!');return cb(null,{d:'done'})}
+LOG(URL+N)
+LOG(SaveAs+N+'.txt')
+MakeRequest(URL+N,SaveAs+N+'.txt',function(er,o){LOG(o.d);PagenNate()})
+}
+
+function MakeRequest(url,fp,cb){
 web.get(url
 ,function(R){
-var data='module.exports=';
+var data=url+'\n'+fp+'\n\n';
 R.on('data',function(t){data+=t})
 R.on('end',function(){data+='';try{fs.writeFileSync(fp,data,'utf8')}catch(er){LOG(er.stack);return cb(er,{d:'GetBigList Failed to write File',fp:fp});
 cb(null,{d:'GetBigList Saved package list!',fp:fp} )
@@ -186,8 +195,7 @@ cb(null,{d:'GetBigList Saved package list!',fp:fp} )
 
 
 
-
-
+PagenNate()
 
 
 }
