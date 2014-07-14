@@ -102,43 +102,24 @@ objectified so we can describe them further and add more
      to fetch it as several pagenated sub requests (todo)
      namely GetBiggerList(x,cb){/*conglomerate page-enated package lists*/}
 
-#### AND npm is not making the govpack.cmd or bash script that I would like 
+#### at one stage npm was not making the corect govpack.cmd or shell script
+#### but as someone kindly pointed out the following 2 fixes worked!!
 
-     also TODO is howto make npm drop an sh +govpack.cmd
-     in the common bin folder ?? I put bin:{govpack:"./index.js"}
-     (and other tried things) in the package.json BUT npm adds only
-     govpack.cmd =
-     "%~dp0\node_modules\govpack\index.js"   %*
-     
-     and not the prefered 
-     
-     govpack.cmd =
-     
-     @IF EXIST "%~dp0\node.exe" (
-     "%~dp0\node.exe"  "%~dp0\node_modules\govpack\index.js" %*
-     ) ELSE (
-     node  "%~dp0\node_modules\govpack\index.js" %*
-    )
-    
-i tried editing govpack.cmd manually and it worked, so it's close 
-    
-#### So it is not presently working as desired
-###when the above fixes to package.json and  are made, 
-###without having to reference the full paths, oh dear
-####I mean, I would like it to work for other people as well
+     1) "bin": {"govpack": "index.js"}, /*add to your package.json*/
+     2)  and Add 
+             #!/usr/bin/env node  
+             to the top of your index.js file
+    funnily enough the shebang is useful on windows!!
 
-    "C:/A/N/node.exe" "C:/A/B/2/9/Ax/20/index.js" {download:0}
-    (works for me, lol, angry lol) since your paths will vary
+
+    "C:/A/N/node.exe" "C:/A/B/2/9/Ax/20/index.js" {fetch:1}
+    (works for me) but govpack {fetch:1} is better since your paths will vary
 
 index.js has code that should make govpack to work as both a Command Line tool AND a module
 
     if(require.main === module){/*Use from the CommandLine*/}
     else{module.exports=init/*work as a module*/}
 
-####But as per the above a couple of fixes are required
-also todo, a.htm should generate A-Z, then AA,AB,AC,AD as the column heading (as in Excel, etc)
-I will apply http://stackoverflow.com/questions/9905533/convert-excel-column-alphabet-e-g-aa-to-number-e-g-25
-to that, soonish. 
 
 ####Finally (get me the data)
 after having run govpack {fetch:0} and govpack {filter:0} you may also call
