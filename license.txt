@@ -4,7 +4,7 @@ WARNING MAY CONTAIN TRACES OF NUTS
 
 What i want to know is what license all theses 
 licenses are issued under? And if any of the words 
-mean anything at all? Like under what terms can *one* 
+mean anything at all? Like under what terms can one 
 distribute the License itself? Surely the license 
 itself is intellectual property and needs to be 
 "protected" by an additional set of pointless words.
