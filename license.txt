@@ -1,23 +1,67 @@
 ©™ LOLCAT™ LICENSE™ version™ 1.21.11
-Copyright (c) 1999-2020 Syknet, All Rights Reserved.
+Copyright (c) 1999-2020 govpack@gmail.com 
+Syknet, All Rights Reserved.
 WARNING MAY CONTAIN TRACES OF NUTS
 
-What i want to know is what license all theses 
-licenses are issued under? And if any of the words 
-mean anything at all? Like under what terms can one 
-distribute the License itself? Surely the license 
-itself is intellectual property and needs to be 
-"protected" by an additional set of pointless words.
+What i want to know is what license all theses licenses are licensed under? 
+And if any of the words mean anything at all? Like under what terms can one 
+distribute the License itself? Surely the license itself is intellectual property 
+and NEEDS to be "protected" by an additional set of pointless words.
 
-May a million LOLCAT leave a lot of dander on your doona,
-if you aren't in our good books!! You need to stock up
-on our cosmic karmic indulgences™ NOW™ woe betide anyone 
-with out them. We'll sick King Tut on you. (Sick king 
-tut' tut' himself.)
+May a million lolcats leave a lot of dander on your doona, if you aren't in our good books!! You need to stock up on our cosmic karmic indulgences™ NOW -- woe betide anyone 
+with out them. We'll sick King Tut on you. (Sick King tut' tut' himself, and he'll say "tut tut, tut, on YOU", lol).
 
-No part™ of™ this™ reproduction™ may™ be™ reproduced™ in™ any™ 
-form™ without™ written™ permission™ from™ govpack.
+No part™ of™ this™ reproduction™ may™ be™ reproduced™ in™ any™ form™ without™ written™ permission™ from™ govpack@gmail.com
 
-Also, at the same time we are issuing Universal Patents,
-on the letters a-z, the number 14 and the children's 
-telivision workshop.
+Also at the VERY same time we are issuing Universal Patents, 
+on the letters a-z, the number 14, and the children's television workshop.
+YEAH that's right bitch you're gonna have to start typing in ALL CAPS FROM NOW ON,  
+Also (legally speaking) should  a license specify what encoding it needs to be stored in? 
+like utf-7.5, etc or would a link to the online version sufficent? And what about
+for all the mofos who don't speak english should we include 20+ other translations? 
+Or should we just remain anglo centric, flat earth, narrow minded mofos ourselves? 
+Then translations and the translators work should also have licenses and copyright notices attached. 
+What license should apply to the "license of the license" and would that too need a license. 
+Who here WRITES legaleeze and wants to own up for crimes against humanity? Timewasting, Causing all sorts
+of unnecessary anxiety. Can we make backup copies of the license itself AND would it be twice as protected?
+if we included two or more copies of the license. Would 10x be sufficent, I mean I don't feel that protected,
+how about you?
+
+Also you must know that MIT does not want you to use their logo 
+or name, or such to assocate them with your product...  
+
+Quoted Legal	Notices from http://openpds.media.mit.edu/documents/System_Rules.pdf
+"""Legal	Notices
+Intellectual	Property:		Massachusetts	Institute	of	Technology,	©	2013.		Massachusetts	
+Institute	of	Technology	licenses....
+"MIT",	"Massachusetts	Institute	of	Technology",	and	its	logos	and	seal	are	trademarks	of	the	
+Massachusetts	Institute	of	Technology.	Except	for	purposes	of	attribution	as	required	by	
+our	Creative	Commons	License,	you	may	not	use	MIT’s	names	or	logos,	or	any	variations	
+thereof,	without	prior	written	consent	of	MIT.	You	may	not	use	the	MIT	name	in	any	of	its	
+forms	nor	MIT	seals	or	logos	for	promotional	purposes,	or	in	any	way	that	deliberately	or	
+inadvertently	claims,	suggests,	or	in	MIT's	sole	judgment	gives	the	appearance	or	
+impression	of	a	relationship	with	or	endorsement	by	MIT.""" see them's the RULES!!
+
+So, by using one of their licesnses you are breaking another of them. (BREAKING BAD)
+Or do YOU HAVE prior written consent from MIT? And you can't get prior
+written permission because a license to the effect of the above will
+have preceeded the MIT software license, since ALL stuffy academics 
+everywhere HAVE to protect their ivory towers by wrapping them in 
+more and more pointless words. So EVERYONE using the MIT LICENSE is in breach of 
+the preceeding LEGAL NOTICE, LICENSE (as quoted above). So I suggest you move to the 
+LOLCAT™ LICENSE™ version™ 1.21.11 it's better legally and morally speaking. 
+Lolcats over lawyers -- hellz years. P.S. we will be updating it by incrementing the 
+SEM VERZ. every millisecond or so (al la, npm package.json to keep issacs happy) 
+but don't worry it will be in github version control (welcome to git hell). 
+GPL isn't enough you've got to have fifty million versions of such. LOLCAT is calling
+BS on all of it. Every LOLCAT is gonna make a paw print. PAWS for the cause, yeah-A.
+
+And if we print out a portion of the source code do we need to print out a copy of 
+the license to go with it? or only a portion? if so which portion? or portions? 
+And if we use letters and other symbols from the alphabet, who owns the intellectual 
+property on those and what do we owe them ~ only the lolcat knows.
+
+res ipsa loquitur
+nil sine labore
+nunc est bibendum
+
