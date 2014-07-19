@@ -1,36 +1,47 @@
 ©™ LOLCAT™ LICENSE™ version™ 1.21.11
-Copyright (c) 1999-2020 govpack@gmail.com 
-Syknet, All Rights Reserved.
+Copyright (c) 1999-2020 govpack@gmail.com All Rights Reserved.
 WARNING MAY CONTAIN TRACES OF NUTS
 
-What i want to know is what license all theses licenses are licensed under? 
+What I want to know is what license all theses licenses are licensed under? 
 And if any of the words mean anything at all? Like under what terms can one 
 distribute the License itself? Surely the license itself is intellectual property 
 and NEEDS to be "protected" by an additional set of pointless words.
 
-May a million lolcats leave a lot of dander on your doona, if you aren't in our good books!! You need to stock up on our cosmic karmic indulgences™ NOW -- woe betide anyone 
-with out them. We'll sick King Tut on you. (Sick King tut' tut' himself, and he'll say "tut tut, tut, on YOU", lol).
+May a million lolcats leave a lot of dander on your doona, 
+if you ain't in our good books!! You need to stock up on our cosmic karmic indulgences™ NOW 
+woe betide anyone with out them. We'll sick King Tut on you. 
+Sick King tut' tut' himself, and he'll say: ~ "tut tut, tut, on YOU".
 
-No part™ of™ this™ reproduction™ may™ be™ reproduced™ in™ any™ form™ without™ written™ permission™ from™ govpack@gmail.com
+No part™ of™ this™ reproduction™ may™ be™ reproduced™ 
+in™ any™ form™ without™ written™ permission™ from™ govpack@gmail.com
 
-Also at the VERY same time we are issuing Universal Patents, 
-on the letters a-z, the number 14, and the children's television workshop.
-YEAH that's right bitch you're gonna have to start typing in ALL CAPS FROM NOW ON,  
-Also (legally speaking) should  a license specify what encoding it needs to be stored in? 
-like utf-7.5, etc or would a link to the online version sufficent? And what about
-for all the mofos who don't speak english should we include 20+ other translations? 
-Or should we just remain anglo centric, flat earth, narrow minded mofos ourselves? 
-Then translations and the translators work should also have licenses and copyright notices attached. 
-What license should apply to the "license of the license" and would that too need a license. 
-Who here WRITES legaleeze and wants to own up for crimes against humanity? Timewasting, Causing all sorts
-of unnecessary anxiety. Can we make backup copies of the license itself AND would it be twice as protected?
-if we included two or more copies of the license. Would 10x be sufficent, I mean I don't feel that protected,
-how about you?
+Also at the VERY same time we are issuing Universal Patents 
+on the latin letters a-z (YEAH that's right bitch you're gonna have to start typing in ALL CAPS FROM NOW ON)
+and the number 3 plus the plus symbol "+" and asterix "*" because we love the comix, 
 
-Also you must know that MIT does not want you to use their logo 
-or name, or such to assocate them with your product...  
+With legal representation brought to you by the children's television workshop, 
+the under fives all stars **** team, they'll s'plain it to you. And you can't 
+leave the table until you've eaten your vegetables.
 
-Quoted Legal	Notices from http://openpds.media.mit.edu/documents/System_Rules.pdf
+
+Also, legally speaking, should A license specify what encoding it needs to be stored in? 
+lolcat prefers utf-7.5, but like the hodgetwins say "do whatever the F@%#!! you wanna do!!"
+
+Or would a link to the online version of the license be okay? AND what about for all the mofos 
+who don't speak English? should we include 100+ other translations? Or should we just remain Anglo Centric, 
+flat earth, xenophobic, narrow minded, pig head mofos ourselves? Then translations and the translators work, 
+surely will also have licenses and copyright notices attached. What license should apply to the "license of the license" 
+and will that license need a license too (of course it would). Who here WRITES legaleeze and wants to own up for 
+crimes against humanity? Timewasting and causing all sorts of unnecessary anxiety? 
+Pile up words that amount to nothing? Can we, legally sepaking, make backup copies of the license itself? 
+Would one be twice as protected? if they included two or more copies of that license? Would 10x be sufficent? 100x? 1e9x? 
+Could that be a new type of best practice? I mean I don't feel that protected, how about you?
+
+Also you MUST know that MIT does not want you to use their logo 
+or NAME, or such to assocate them with your product, as quoted below...  
+
+from http://openpds.media.mit.edu/documents/System_Rules.pdf
+
 """Legal	Notices
 Intellectual	Property:		Massachusetts	Institute	of	Technology,	©	2013.		Massachusetts	
 Institute	of	Technology	licenses....
@@ -42,26 +53,41 @@ forms	nor	MIT	seals	or	logos	for	promotional	purposes,	or	in	any	way	that	delibe
 inadvertently	claims,	suggests,	or	in	MIT's	sole	judgment	gives	the	appearance	or	
 impression	of	a	relationship	with	or	endorsement	by	MIT.""" see them's the RULES!!
 
-So, by using one of their licesnses you are breaking another of them. (BREAKING BAD)
-Or do YOU HAVE prior written consent from MIT? And you can't get prior
+So, by USING one of their licesnses you are breaking another of them. (BREAKING BAD)
+Or do you HAVE prior written consent from MIT? And you CAN'T get prior
 written permission because a license to the effect of the above will
-have preceeded the MIT software license, since ALL stuffy academics 
-everywhere HAVE to protect their ivory towers by wrapping them in 
+have preceeded the MIT software license, because ALL stuffy academics 
+everywhere ABSOLUTELY HAVE TO protect their ivory towers by wrapping them in 
 more and more pointless words. So EVERYONE using the MIT LICENSE is in breach of 
-the preceeding LEGAL NOTICE, LICENSE (as quoted above). So I suggest you move to the 
-LOLCAT™ LICENSE™ version™ 1.21.11 it's better legally and morally speaking. 
-Lolcats over lawyers -- hellz years. P.S. we will be updating it by incrementing the 
-SEM VERZ. every millisecond or so (al la, npm package.json to keep issacs happy) 
-but don't worry it will be in github version control (welcome to git hell). 
-GPL isn't enough you've got to have fifty million versions of such. LOLCAT is calling
-BS on all of it. Every LOLCAT is gonna make a paw print. PAWS for the cause, yeah-A.
+the preceeding LICENSE (as quoted above). So I suggest you move to the 
+LOLCAT™ LICENSE™ version™ 1.21.11 it's WAY better - legally and morally speaking. 
 
-And if we print out a portion of the source code do we need to print out a copy of 
-the license to go with it? or only a portion? if so which portion? or portions? 
-And if we use letters and other symbols from the alphabet, who owns the intellectual 
-property on those and what do we owe them ~ only the lolcat knows.
+Lolcats over lawyers -- hellz years. P.S. we will be updating it by incrementing the 
+SEM VERZ. every millisecond or so (a' la' npm package.json, just to keep issacs happy) 
+But don't worry it will be in github version control!! welcome to git hell, everybody. 
+Should I rebase now? Saving a file just got SO hard. And GPL isn't enough you've got 
+to have fifty million versions of such (but don't worry they've got version numbers 
+so you can excpect more, which suggests that something IS WRONG with the ones before, 
+so expect more). LOLCAT is calling BS on ALL of it. Every LOLCAT is gonna make a paw print. 
+PAWS for the cause, hell yeah-A.
+
+If we print out a portion of the source code do we need to print out a copy of 
+the license to go with it? or only a portion? If so which portion or portions, and
+in which font? And if we use letters and other symbols from the alphabet, 
+who owns the IP on those and what do we owe them ~ only the lolcat knows.
+
+©™ LOLCAT™ LICENSE™ version™ 1.21.11 takes SOLE and FULL,
+and soulful, legal, environmental, personal, karmic, 
+responsibiltity! For EVERYTHING that happens, on all levels, 
+by whatever chain of causeation, every WHERE and every WHEN
+[retro active] from WAY back then, until the heat death 
+of the universe. Make that the MULTIVERSE (bump the semver, lol). 
+Everything is binding and attributable.
+LOLCAT is completely responsible.
+
 
 res ipsa loquitur
 nil sine labore
 nunc est bibendum
+lol cat lol
 
