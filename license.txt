@@ -53,10 +53,12 @@ forms	nor	MIT	seals	or	logos	for	promotional	purposes,	or	in	any	way	that	delibe
 inadvertently	claims,	suggests,	or	in	MIT's	sole	judgment	gives	the	appearance	or	
 impression	of	a	relationship	with	or	endorsement	by	MIT.""" see them's the RULES!!
 
-So, by USING one of their licesnses you are breaking another of them. (BREAKING BAD)
+(BREAKING BAD)
+
+So, by USING one of their licesnses you are breaking another. 
 Or do you HAVE prior written consent from MIT? And you CAN'T get prior
 written permission because a license to the effect of the above will
-have preceeded the MIT software license, because ALL stuffy academics 
+have preceeded the MIT software license, since ALL stuffy academics 
 everywhere ABSOLUTELY HAVE TO protect their ivory towers by wrapping them in 
 more and more pointless words. So EVERYONE using the MIT LICENSE is in breach of 
 the preceeding LICENSE (as quoted above). So I suggest you move to the 
