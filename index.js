@@ -11,7 +11,7 @@ var ha=__dirname.split(/[\\\/]/).slice(0,2).join('/')+'/';var hd=ha+'B/'
 var DIS=DIR+'CSV/' /*Changed according to {format:'XYZ'}*/
 var FORMAT='csv';var FOM='CSV';var fom='csv' 
 var OK=true
-var ZAM=DIR+'ufo/zamora.txt'
+var ZAM=DIR+'ufo/aa.txt'
 var o4=CROC(ZAM)
 var msg=''
 
@@ -111,7 +111,7 @@ var fp1=DIR+x+'.js' /*module.exports={GetBigList}*/
 var fp2=DIR+x+'.txt' /*Our refined list of IIII(jsonp)*/
 
 
-if(typeof o.f){LOG('Please be patient while we fetch AND filter from API#'+o.f);GetBiggerList(o.f, (function(x,cb){return function(){ScanList(x,cb)}}(o.f,cb)) );return}
+if(typeof o.f=='number'){LOG('Please be patient while we fetch AND filter from API#'+o.f);GetBiggerList(o.f, (function(x,cb){return function(){ScanList(x,cb)}}(o.f,cb)) );return}
 
 
 if(typeof o.download=='number'){LOG('Given {fetch:'+x+'} and {filter:'+x+'} MADE an EXISTING local vaild JSONP list at '+fp2+'\n\tcheck it out.The above file should be good for use inside any Browser based App\n\tCross Domain, Mobile or Desktop, Online or Offline, via file: OR http: protocols\nWe will now proceed to download '+FOM+' resources from online.\nResources '+DIR+FOM+'/1,2,3,4.'+FOM.toLowerCase()+', etc will be saved to match the numeric Array index in\n<script src="'+fp2+'"></script>\nAs surfaced on an html page via a JSONP reciever function IIII(resource_list ){/*Got resource_list */}\nAfter downloading we should have the metadata and the DATA!!');DownloadMany(o,cb);return}
