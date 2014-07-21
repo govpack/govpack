@@ -4,6 +4,15 @@ govpack is a tool to help download and explore CKAN datasets
 _all YO data is belong to us_
 ###made for GovHack oz 2014 
 
+added DEMO at http://govpack.github.io/govpack/#68 or #1,#2,,,#100 etc
+(it's a copy of a.htm added at /gh-pages/index.html)
+which uses the big list of sites from http://instances.ckan.org/
+the DEMO shows the hundred or so CKAN endpoints, BUT some of those
+are on the older v1, v2  'api/rest/dataset', 'api/2/rest/dataset' api's
+and not and not the latest v3 'api/3/action/' as fetched by govpack
+http://docs.ckan.org/en/ckan-1.8/apiv3.html -- so some don't show up
+
+
 http://hackerspace.govhack.org/content/npm-install-g-govpack-or-github-govpackgovpack
 
 also available on
@@ -13,6 +22,10 @@ https://www.npmjs.org/package/govpack
 
 
 ######help wanted, status and fixes required detailed below...
+
+ 
+
+
 
 ![image](http://hackerspace.govhack.org/sites/default/files/field/image/Screenshot%20%2812%29.png)
 
