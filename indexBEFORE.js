@@ -1,6 +1,24 @@
 #!/usr/bin/env node
 process.on('uncaughtException',function(er){console.log(er.stack)})
-var fs=require('fs');function LOG(x){console.log(x)}
+var CK=[] /*A number of ckan API's/Dataset Catalogs to use*/
+CK[0]={url:'http://demo.ckan.org/api/3/action/'}
+CK[1]={url:'https://data.qld.gov.au/api/3/action/'}
+CK[2]={url:'https://data.gov.au/api/3/action/'}
+CK[3]={url:'http://datahub.io/api/3/action/'}
+CK[4]={url:'http://data.kk.dk/api/3/action/'}
+
+CK[99]={url:'https://some_CKAN_action_endpoint/'}
+/*For example to use the ckan from "data.qld.gov.au" that is API#1 CK[1] {fetch:1} 
+use the command line to RUN "govpack {fetch:1}" then "govpack {filter:1}" 
+or add another CKAN API endpoint of your choosing (as above) and
+then RUN "govpack {fetch:1,filter:99}" then "govpack {download:99}" 
+Note: At this point GetBigList FAILS to {fetch:2} from the API#2 endpoint
+(API#2=is the national government package list too big??). So {fetch:1} is proving more useful 
+govpak {fecth:0} gives the demo ckan sample listings filled with sample data and pictures of cats and owls.
+Note: {fetch:X, filter:X} can be run as a combined sequence of operations 
+but {download:X} is best run seperately (after the filtered list has been saved to disk)
+*/
+var fs=require('fs');
 var util=require('util');
 var http=require('http');http.globalAgent.maxSockets=500
 var https=require('https');https.globalAgent.maxSockets=500
@@ -10,49 +28,20 @@ var DIR=(__dirname+'/').replace(/\x5c/g,'/')
 var ha=__dirname.split(/[\\\/]/).slice(0,2).join('/')+'/';var hd=ha+'B/'
 var DIS=DIR+'CSV/' /*Changed according to {format:'XYZ'}*/
 var FORMAT='csv';var FOM='CSV';var fom='csv' 
-var OK=true
-var ZAM=DIR+'ufo/zamora.txt'
-var o4=CROC(ZAM)
-var msg=''
-
-
-var j={k:function(b,places){/*Bytes to FileSize.places[b|K|MB|GB] string*/var x='b';if(b>1024){b=b/1024;if(b<1024){x='K'}else{b=b/1024;if(b<1024){x='MB'}else{b=b/1024;x='GB'}}};return b.toFixed(isNaN(places)?1:places)+''+x}}
-var l={j:function(o,s,q){/*JSON.stringify alternative*/
-if(s==2){return JSON.stringify(o)}
-if(o===null){return 'null'}
-function DS(s){return s.replace(/[\\]/g, '\\\\').replace(/'/g, '\\\'').replace(/[\b]/g,'\\b').replace(/[\f]/g,'\\f').replace(/[\n]/g,'\\n').replace(/[\r]/g,'\\r').replace(/[\t]/g,'\\t')}
-switch(typeof o){case 'undefined':return 'undefined';
-case 'string':return '\''+DS(o)+'\'';
-case 'number':return ''+o;case 'object':
-if(o.constructor.toString().indexOf('Date()')>0){return o.getTime()}
-if(o.constructor.toString().indexOf('RegExp()')>0){return ''+o}
-var RA=[];var AR=(o.constructor.toString().indexOf('Array()')>0);
-var v;for(var p in o){if(!o.hasOwnProperty(p)){continue}
-if(s){v=''+o[p]}else{v=this.j(o[p])}if(AR){RA.push(v);continue}
-if(q){RA.push('"'+p+'":'+v);continue}
-if((/^[$\w]+$/.test(p) && !/^\d/.test(p))||/^\d+$/.test(p)){RA.push(p+':'+v);continue}
-RA.push('"'+DS(p)+'":'+v)}return ((AR?'[':'{')+RA.join(',')+(!AR?'}':']')).replace(/},/g,'}\n,').replace(/,T:\[/g,',\n   T:[').replace(/,C:\[/g,',\n   C:[').replace(/,R:\{/g,',\n   R:{');
-default:return ''+o}
-}
-,E:function (fp){/*Open file in notepad++.exe*/cp.exec(ha+'C/np/notepad++.exe '+fp.replace(/file:\x2f+/,'').replace(/[?#][^/]+$/,''),{},function(err,stdout,stderr){if(err){LOG('######### run.js.l.E()###### '+err.stack)}})}
-
-}
-
-if(typeof o4=='object'){
-//LOG(o4);process.exit()
-//LOG(o4.CK?'YES':'NO')
-//process.exit()
-if(!o4.CK){OK=false;msg+='\n with property CK'}else{
-if(!o4.CK.pop){OK=false;msg+='\n CK needs to be an Array CK:[]'}
-if(!o4.CK.length){OK=false;msg+='\n Array CK[] needs some entries CK:[{},{}]'}
-}}else{OK=false;msg+='\n it needs to be an object'}
-
-if(OK===false){LOG('FIX '+ZAM+'\nand retry'+msg);LOG(o4);process.exit()}
-
-CK=o4.CK
+/*FORMAT updated by init() from {format:'XXX'} user options, the default is format:'csv' 
+you may wish to specify a different resource filetype to filter on,for instance:
+    txt|xlsx|jpg|json|html|png|pdf|xls|cvs|gif|xml|
+    rdf|hdf5|kml|pptx|docx|doc|odp|dat|jar|zip|shp| 
+case insensitive, would all be okay format:'XYZ' values to try, but CSV would be the most popular
+just run something like "index.js {filter:1,format:'XLS'}" as the json command line argument 
+or calling something like the following from your node code: 
+var GP=require('govpack');
+GP({filter:1,format:'XLS'},function(){console.log('Done!!')}) 
+*/
 
 
 if(require.main === module){/*Use from the CommandLine: RUN "node.exe index.js {fetch:0|1|2}" OR index.js {filter:1} etc*/ 
+var OK=true
 var o2={format:'csv'}
 var o3={}
 var ar=process.argv.slice(2).join(' ')
@@ -76,7 +65,8 @@ LOG('the default filter format is CSV')
 LOG('govpack {filter:1, format:\'csv\'}')
 
 if(OK){init(o3)}else{LOG('Fix json command line argument and retry');process.exit()}
-}else{module.exports=init
+}
+else{module.exports=init
 /***********************************************
 * Use as a module:                             *
 * Usage:                                       *
@@ -85,19 +75,18 @@ if(OK){init(o3)}else{LOG('Fix json command line argument and retry');process.exi
 ***********************************************/
 }
 
-
+function LOG(x){console.log(x)}
 
 function init(o,cb){/*The One and Only function exported and required. Calls out to internal functions based on settings in o*/
 cb=cb||function(){};
 var x=parseInt(o.download)
 if(isNaN(x)){x=parseInt(o.fetch)}
 if(isNaN(x)){x=parseInt(o.filter)}
-if(isNaN(x)){x=parseInt(o.f)}
 
 if(typeof o.port=='number'){return Serve(o,cb)}
 
-
-if(!PK(x)){return LOG('We dont have CKAN API #'+x+' "'+PK(x)+'" URL please add it. Or use another number and re-try.')}
+if(!CK[x]){return LOG('We dont have CKAN API #'+x+' OBJECT please add it to CK['+x+']={url:\'CKAN_API_ACTION_ENDPOINT\'} on index.js\nOr use [0|1|2] and retry')}
+if(!CK[x].url){return LOG('We dont have CKAN API #'+x+' URL please add it to CK['+x+']={url:\'CKAN_API_ACTION_ENDPOINT\'} on index.js\nOr use [0|1|2] and retry')}
 if(o.silent){LOG=function(){} /*turn terminal chatter off*/}
 if(o.format){FORMAT=o.format.toString().toLowerCase()}
 FOM=FORMAT.toUpperCase()
@@ -111,11 +100,11 @@ var fp1=DIR+x+'.js' /*module.exports={GetBigList}*/
 var fp2=DIR+x+'.txt' /*Our refined list of IIII(jsonp)*/
 
 
-if(typeof o.f){LOG('Please be patient while we fetch AND filter from API#'+o.f);GetBiggerList(o.f, (function(x,cb){return function(){ScanList(x,cb)}}(o.f,cb)) );return}
+
 
 
 if(typeof o.download=='number'){LOG('Given {fetch:'+x+'} and {filter:'+x+'} MADE an EXISTING local vaild JSONP list at '+fp2+'\n\tcheck it out.The above file should be good for use inside any Browser based App\n\tCross Domain, Mobile or Desktop, Online or Offline, via file: OR http: protocols\nWe will now proceed to download '+FOM+' resources from online.\nResources '+DIR+FOM+'/1,2,3,4.'+FOM.toLowerCase()+', etc will be saved to match the numeric Array index in\n<script src="'+fp2+'"></script>\nAs surfaced on an html page via a JSONP reciever function IIII(resource_list ){/*Got resource_list */}\nAfter downloading we should have the metadata and the DATA!!');DownloadMany(o,cb);return}
-//if(typeof o.fetch=='number' && typeof o.filter=='number'){LOG('Please be patient while we fetch AND filter from API#'+o.fetch);GetBigList(o.fetch, (function(x,cb){return function(){ScanList(x,cb)}}(o.filter,cb)) );return}
+if(typeof o.fetch=='number' && typeof o.filter=='number'){LOG('Please be patient while we fetch AND filter from API#'+o.fetch);GetBigList(o.fetch, (function(x,cb){return function(){ScanList(x,cb)}}(o.filter,cb)) );return}
 if(typeof o.fetch=='number'){LOG('Please be patient while we fetch from CKAN v3 API#'+o.fetch);GetBiggerList(o.fetch,cb);return}
 if(typeof o.filter=='number'){LOG('Now we will filter and refine the Big DataSet List @'+(DIR+x+'.js')+'\n~(hopefully that\'s in place OR RUN govpack {fetch:'+o.filter+'} to put it there)\nFiltering for on datasets/resources where format='+FOM+'\nAnd using a datastore_search query on API#'+o.filter+'\n'+CK[o.filter].url+'api/action/datastore_search?resource_id=###\nto get the size, description, field names, data types, row count, and the first row of actual data!!');ScanList(o.filter,cb);return}
 }
@@ -151,7 +140,7 @@ init(o,function(er,o){R.end(JSON.stringify(er||o))})
 
 
 function CROC(fp){
-try{var JS=fs.readFileSync(fp).toString().replace(/^\uFEFF/, '').replace(/\)[^)]+$/,')').substr(4)}catch(er){LOG(er.stack);return 0}
+try{var JS=fs.readFileSync(fp).toString().replace(/^\uFEFF/, '').substr(4)}catch(er){LOG(er.stack);return 0}
 var o=0;try{eval('var o=('+JS+')')}catch(er){LOG(er.stack);return 0}
 if(typeof o!='object'){return 0}return o}
 
@@ -202,17 +191,10 @@ fs.stat(FP,function(er,me){if(er){LOG(er.stack);return cb(er)}LOG('\t\t['+j.k(me
 )
 }
 
-function PK(x){var o=CK[x];if(!o){LOG(-1);return ''}
-var fp=o.U
-if(!fp){LOG(-2);return ''}
-if(typeof fp!='string'){LOG(-3);return ''}
-//LOG(fp+'api/3/action/')
-return fp+(o.X||'api/3/action/')
-}
 
 function GetBigList(x,cb){cb=cb||function(){}
 if(x==2){return GetBiggerList(x,cb)}
-var url=PK(x)+'current_package_list_with_resources'
+var url=CK[x].url+'current_package_list_with_resources'
 if(x==2){url+='?limit=10&page=1'}
 var web=(url.charAt(4)=='s'?https:http)
 var fp=DIR+x+'.js'
@@ -235,13 +217,13 @@ function GetBiggerList(x,cb){cb=cb||function(){}
 the idea here is to request it in parts: "?limit=100&page=1,2,3,4" etc 
 objectify and merge the parts and save that lot as as one file*/
 var PageSize=10;
-var URL=PK(x)+'current_package_list_with_resources?limit='+PageSize+'&page='
+var URL=CK[x].url+'current_package_list_with_resources?limit='+PageSize+'&page='
 
 var web=(URL.charAt(4)=='s'?https:http)
 var TXT='';
 var OBJ={help:'...',success:true,result:[]}
 var RZA=OBJ.result
-var N=0;var MAX=3;var FP=DIR+x+'.js'
+var N=0;var MAX=10;var FP=DIR+x+'.js'
 var EP='['+URL.split('/')[2]+ '] ('+PageSize+'/PerPage)'
 LOG('Requesting package_list_with_resources pages:'+(N+1)+' to '+MAX+' ['+PageSize+' records per page] \nWill Save As: '+FP+'\n')
 
@@ -250,9 +232,7 @@ PaginNate()
 function PaginNate(){N+=1;var getMore=(N<=MAX);
 if(getMore){
 LOG((parseInt((N-1)/MAX*100))+'% Got '+(N-1)+'/'+MAX+' pages - '+(MAX-N+1)+' more from '+EP)
-setTimeout(function(){GetPage(N)},40)
-
-}else{LOG('Pagination Complete');DONE()}
+GetPage(N)}else{LOG('Pagination Complete');DONE()}
 }
 
 
@@ -279,7 +259,7 @@ if(!B.length){return DoNext()}
 for(n=0;n<B.length;n++){bb=B[n] ;if(!bb){return DoNext()};if(!bb.format){return DoNext()}
 if(bb.format.toString().toLowerCase()!=FORMAT){return DoNext()}
 if(!bb.url){return DoNext()}
-ux=PK(x)+'datastore_search?resource_id='+bb.id+'&limit=1'
+ux=CK[x].url+'datastore_search?resource_id='+bb.id+'&limit=1'
 
 ************/
 
@@ -296,7 +276,7 @@ function DONE(){
 var txt='module.exports='+JSON.stringify(OBJ)
 fs.writeFile(FP,txt,{},function(er){if(er){LOG(er.stack);return cb(er)} 
 LOG('GetBiggerList('+x+') has finished!!')
-//setTimeout(function(){l.E(FP)},200)
+setTimeout(function(){l.E(FP)},200)
 return cb(null,{d:'done'})
 })
 }
@@ -324,7 +304,7 @@ var A=O.result
 if(!A){LOG(-5);return cb({message:'Failed to objectify package list from file. Run govpack.cmd {fetch:'+x+'} and retry'})}
 if(!A.pop){LOG(-6);return cb({message:'Failed to arrayify package list from above. Run govpack.cmd {fetch:'+x+'} and retry'})}
 
-//LOG(CK[x])
+LOG(CK[x])
 LOG('\n\tFOUND ['+A.length+'] packages/datasets\n\twith many subfiles and linked resources...')
 LOG('  ...now scanning to find the titles, field-names\n\t\tand row count for each ['+FORMAT.toUpperCase()+'] resource....\n\t\t\t\t......\n')
 var fe=null;
@@ -355,7 +335,7 @@ if(bb.format.toLowerCase()!=FORMAT){return DoNext()}
 //if(bb.format.toLowerCase().indexOf(FORMAT)==-1){return DoNext()}
 
 if(!bb.url){return DoNext()}
-ux=PK(x)+'datastore_search?resource_id='+bb.id+'&limit=1'
+ux=CK[x].url+'datastore_search?resource_id='+bb.id+'&limit=1'
 
 var web=(ux.charAt(4)=='s'?https:http)
 var oo={
@@ -374,10 +354,10 @@ rows:0//'fe.result.total'
 
 
 web.get(ux,function(R){var js='';
-R.on('error',function(){return setTimeout(DoNext,0)})
+R.on('error',function(){return setTimeout(DoNext,100)})
 R.on('data',function(t){js+=t;})
 R.on('end',function(){js+='';
-try{var fe=JSON.parse(js)}catch(er){LOG(js)+'#######'+er.message+'####NaughtyJSON#######';return setTimeout(DoNext,0)}
+try{var fe=JSON.parse(js)}catch(er){LOG(js)+'#######'+er.message+'####NaughtyJSON#######';return setTimeout(DoNext,10)}
 
 if(!fe){return DoNext()}
 if(typeof fe!='object'){return DoNext()}
@@ -402,7 +382,7 @@ C.push(oo);
  //some way to tell that we are done
 ;DataSets+=1
 LOG('['+DataSets+' DataSets]   ['+Fields+' Fields]')
-setTimeout(DoNext,0)
+setTimeout(DoNext,20)
 })})
 
 
@@ -418,7 +398,27 @@ setTimeout(DoNext,0)
 
 }
 
+var j={k:function(b,places){/*Bytes to FileSize.places[b|K|MB|GB] string*/var x='b';if(b>1024){b=b/1024;if(b<1024){x='K'}else{b=b/1024;if(b<1024){x='MB'}else{b=b/1024;x='GB'}}};return b.toFixed(isNaN(places)?1:places)+''+x}}
+var l={j:function(o,s,q){/*JSON.stringify alternative*/
+if(s==2){return JSON.stringify(o)}
+if(o===null){return 'null'}
+function DS(s){return s.replace(/[\\]/g, '\\\\').replace(/'/g, '\\\'').replace(/[\b]/g,'\\b').replace(/[\f]/g,'\\f').replace(/[\n]/g,'\\n').replace(/[\r]/g,'\\r').replace(/[\t]/g,'\\t')}
+switch(typeof o){case 'undefined':return 'undefined';
+case 'string':return '\''+DS(o)+'\'';
+case 'number':return ''+o;case 'object':
+if(o.constructor.toString().indexOf('Date()')>0){return o.getTime()}
+if(o.constructor.toString().indexOf('RegExp()')>0){return ''+o}
+var RA=[];var AR=(o.constructor.toString().indexOf('Array()')>0);
+var v;for(var p in o){if(!o.hasOwnProperty(p)){continue}
+if(s){v=''+o[p]}else{v=this.j(o[p])}if(AR){RA.push(v);continue}
+if(q){RA.push('"'+p+'":'+v);continue}
+if((/^[$\w]+$/.test(p) && !/^\d/.test(p))||/^\d+$/.test(p)){RA.push(p+':'+v);continue}
+RA.push('"'+DS(p)+'":'+v)}return ((AR?'[':'{')+RA.join(',')+(!AR?'}':']')).replace(/},/g,'}\n,').replace(/,T:\[/g,',\n   T:[').replace(/,C:\[/g,',\n   C:[').replace(/,R:\{/g,',\n   R:{');
+default:return ''+o}
+}
+,E:function (fp){/*Open file in notepad++.exe*/cp.exec(ha+'C/np/notepad++.exe '+fp.replace(/file:\x2f+/,'').replace(/[?#][^/]+$/,''),{},function(err,stdout,stderr){if(err){LOG('######### run.js.l.E()###### '+err.stack)}})}
 
+}
 
 
 

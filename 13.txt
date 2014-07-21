@@ -1,0 +1,105 @@
+IIII([{DataSets:26,Fields:285,CKAN:13,format:'csv',made:'Thu Jul 17 2014 13:59:11 GMT+1000 (E. Australia Standard Time)',ms:1405569551224}
+,{rows:93335,cols:7,size:19177,d:'',url:'http://civicdataprod1.cloudapp.net/storage/f/2014-07-07T21%3A35%3A13.451Z/201406-june-waterconsumptionbytract.csv',id:'8a413bf0-62d3-4304-80b6-05621f79a679',made:'2014-06-03T18:14:30.115055',mods:'2014-07-07T21:35:26.809438',
+   C:['_id','YEAR','MONTH','TRACT','SERVICE TYPE','WATER CONSUMPTION (100 cu ft)','CONNECTIONS'],
+   T:['int4','numeric','numeric','numeric','text','numeric','numeric'],
+   R:{"SERVICE TYPE":'Apartment',YEAR:'2000',MONTH:'1',CONNECTIONS:'11',TRACT:'101500',"WATER CONSUMPTION (100 cu ft)":'1975',_id:1}}
+,{rows:93335,cols:7,size:19177,d:'',url:'http://civicdataprod1.cloudapp.net/storage/f/2014-07-07T21%3A35%3A13.451Z/201406-june-waterconsumptionbytract.csv',id:'8a413bf0-62d3-4304-80b6-05621f79a679',made:'2014-06-03T18:14:30.115055',mods:'2014-07-07T21:35:26.809438',
+   C:['_id','YEAR','MONTH','TRACT','SERVICE TYPE','WATER CONSUMPTION (100 cu ft)','CONNECTIONS'],
+   T:['int4','numeric','numeric','numeric','text','numeric','numeric'],
+   R:{"SERVICE TYPE":'Apartment',YEAR:'2000',MONTH:'1',CONNECTIONS:'11',TRACT:'101500',"WATER CONSUMPTION (100 cu ft)":'1975',_id:1}}
+,{rows:3900,cols:15,size:6918425,d:'Salt Lake City Current Business Licenses',url:'http://civicdataprod2.cloudapp.net/storage/f/2014-05-30T08%3A29%3A52.012Z/bl.csv',id:'ba1792aa-d44f-4b41-b5ff-0633e8b13b79',made:'2014-05-30T08:25:17.425412',mods:'2014-05-30T08:30:06.108470',
+   C:['_id','LicenseNumber','LicenseType','BusinessName','ExpirationStatus','ExpirationDate','HouseNumber','Direction','StreetName','StreetSuffix','ZipCode','Location','NAICSCode','NAICSDesc','AppURL'],
+   T:['int4','text','text','text','text','timestamp','numeric','text','text','text','text','text','numeric','text','text'],
+   R:{NAICSCode:'53111',LicenseType:'Rental Dwelling',NAICSDesc:'SINGLE FAMILY RENTAL PROPERTY',LicenseNumber:'RNT2011-01797',ExpirationStatus:'Active',ZipCode:'84103-2516',StreetSuffix:'Ave',Direction:'E',AppURL:'https://aca.slcgov.com/Citizen/Cap/CapDetail.aspx?Module=BusLic&TabName=BusLic&capID1=11RNT&capID2=00000&capID3=00003&agencyCode=SLCREF&IsToShowInspection=yes',ExpirationDate:'2014-09-30T00:00:00',BusinessName:'',_id:1,HouseNumber:'266',StreetName:'11TH',Location:'266 E 11TH Ave, Salt Lake City, UT, 84103-2516'}}
+,{rows:55420,cols:9,size:5261258,d:'',url:'http://civicdataprod2.cloudapp.net/storage/f/2014-05-29T23%3A25%3A59.865Z/police-cases-2013-ytd.csv',id:'1d8611e0-edae-4f28-8de9-4eab631c9ad9',made:'2014-05-29T23:26:05.082842',mods:'2014-05-29T23:44:02.297587',
+   C:['_id','CASE','OFFENSE','OFFENSE DESCRIPTION','REPORT DATE','OCCUR DATE','DAY OF WEEK ','LOCATION ','CITY COUNCIL'],
+   T:['int4','text','text','text','timestamp','timestamp','numeric','text','text'],
+   R:{CASE:'SL201312',"CITY COUNCIL":'5',"OFFENSE DESCRIPTION":'TRAFFIC',"OCCUR DATE":'2013-01-01T00:35:00',"REPORT DATE":'2013-01-01T00:37:00',"DAY OF WEEK ":'3',OFFENSE:'5404-0',_id:1,"LOCATION ":'1700 S MAIN ST'}}
+,{rows:107136,cols:11,size:28518651,d:'',url:'http://civicdataprod2.cloudapp.net/storage/f/2014-07-07T21%3A43%3A04.529Z/police-calls-for-service-ytd-2014.csv',id:'827602e7-3a29-48dc-b2a5-021b42147cf0',made:'2014-06-03T15:25:19.786540',mods:'2014-07-07T21:44:00.990524',
+   C:['_id','CALL  NO     ','CLEARED','CALL TYPE  DESC    ','DISPATCH LOCATION','CLOSED DESCRIPTION','ZONE','GRID','COUNCIL','X COORDINATE        ','Y COORDINATE'],
+   T:['int4','text','timestamp','text','text','text','text','text','text','text','text'],
+   R:{"CALL TYPE  DESC    ":'CALL TYPE  DESC    ',"CALL  NO     ":'CALL  NO     ',CLEARED:null,ZONE:'ZONE',"CLOSED DESCRIPTION":'CLOSED DESCRIPTION',"X COORDINATE        ":'X COORDINATE        ',"Y COORDINATE":'Y COORDINATE',GRID:'GRID',COUNCIL:'COUNCIL',_id:1,"DISPATCH LOCATION":'DISPATCH LOCATION'}}
+,{rows:28119,cols:15,size:3796589,d:'',url:'http://civicdataprod2.cloudapp.net/storage/f/2014-07-07T21%3A42%3A28.608Z/police-cases-2014-ytd.csv',id:'c9063ff6-cef5-4eb1-8fb3-13145ec4a634',made:'2014-06-03T15:28:56.465518',mods:'2014-07-07T21:42:44.558151',
+   C:['_id','CASE','NCIC CODE','DESCRIPTION','IBR CODE','REPORT DATE','OCC DATE','DAY OF WEEK','LOCATION','CITY','COUNCIL','ZONE','GRID','X COORDINATE','Y COORDINATE'],
+   T:['int4','text','text','text','text','timestamp','timestamp','numeric','text','text','text','text','text','numeric','numeric'],
+   R:{CASE:'SL201421',CITY:'SALT LAKE CITY',"X COORDINATE":'1887093',DESCRIPTION:'STOLEN VEHICLE',ZONE:'Z3',"OCC DATE":'2014-01-01T00:48:00',"DAY OF WEEK":'4',"IBR CODE":'0',"Y COORDINATE":'886028',GRID:'132',"REPORT DATE":'2014-01-01T00:48:00',COUNCIL:'4',_id:1,"NCIC CODE":'2499-15',LOCATION:'600 W 200 S'}}
+,{rows:1157584,cols:8,size:43228696,d:'',url:'http://civicdataprod2.cloudapp.net/storage/f/2014-07-07T21%3A38%3A35.572Z/water-consumption-by-block.csv',id:'ddfd9bab-f54e-41ea-a47d-2b654ddf5e2c',made:'2014-05-29T23:41:36.416648',mods:'2014-07-07T21:39:06.711913',
+   C:['_id','YEAR','MONTH','TRACK','BLOCK','SERVICE TYPE','WATER CONSUMPTION (100 cu ft)','CONNECTIONS'],
+   T:['int4','numeric','numeric','numeric','numeric','text','numeric','numeric'],
+   R:{"SERVICE TYPE":'Business',TRACK:'100100',MONTH:'1',CONNECTIONS:'1',YEAR:'2001',"WATER CONSUMPTION (100 cu ft)":'4',_id:1,BLOCK:'1003'}}
+,{rows:133324,cols:22,size:18112,d:'',url:'http://www.civicdata.com/api/3/action/datastore_search?resource_id=be5e50cc-a0f8-4da9-ab00-1dc58f7a3dcb',id:'be5e50cc-a0f8-4da9-ab00-1dc58f7a3dcb',made:'2014-06-10T10:45:49.651508',mods:'2014-06-20T12:43:07',
+   C:['_id','RECORD ID','RECORD NAME','DATE OPENED','RECORD MODULE','RECORD STATUS','RECORD STATUS DATE','ADDRESS','BALANCE DUE','DATE ASSIGNED','DATE CLOSED','DATE COMPLETED','DESCRIPTION','JOB VALUE','RECORD TYPE CATEGORY','RECORD TYPE TYPE','RECORD TYPE SUBTYPE','STATUS','TEMPLATE ID','APN','LICENSE NBR','BUSINESS NAME'],
+   T:['int4','text','text','text','text','text','text','text','text','text','text','text','text','text','text','text','text','text','text','text','text','text'],
+   R:{"DATE OPENED":'2012-07-26T00:00:00.000',"RECORD TYPE CATEGORY":'CUA',"BUSINESS NAME":'',"RECORD STATUS DATE":'',"BALANCE DUE":'0',"DATE CLOSED":'2012-09-24T00:00:00.000',"DATE COMPLETED":'',"RECORD STATUS":'Closed',"RECORD NAME":'1195 EVANS AVENUE',"RECORD MODULE":'Planning',"RECORD ID":'2012.0953C',"RECORD TYPE TYPE":'Applications',STATUS:'Closed',"TEMPLATE ID":'12HIS/00000/01ONX',"DATE ASSIGNED":'2012-08-13T00:00:00.000',DESCRIPTION:'Conversion of storage space to brewery.',"JOB VALUE":'0',"RECORD TYPE SUBTYPE":'Planning Entitlements',APN:'',ADDRESS:'401 KEITH ST, SAN FRANCISCO, CA 94124',_id:12574,"LICENSE NBR":''}}
+,{rows:844,cols:7,size:61187,d:'2012년은 전국 지자체 데이터가 포함되어 있으며\r\n2013, 2014년은 서울특별시 데이터만 포함되어 있습니다.',url:'http://civicdataprod2.cloudapp.net/storage/f/2014-06-25T05%3A00%3A56.158Z/expenditure-korea.csv',id:'b82b4c17-0cda-4d56-b321-08c02ffda7cc',made:'2014-06-25T05:01:35.769892',mods:'2014-06-25T05:01:35.535130',
+   C:['_id','key','region','cat1','cat2','amount','time'],
+   T:['int4','numeric','text','text','text','numeric','numeric'],
+   R:{region:'서울특별시',cat2:'011. 입법 및 선거관리',cat1:'010. 일반공공행정',amount:'56251',key:'1',time:'2012',_id:1}}
+,{rows:844,cols:7,size:61187,d:'2012년은 전국 지자체 데이터가 포함되어 있으며\r\n2013, 2014년은 서울특별시 데이터만 포함되어 있습니다.',url:'http://civicdataprod2.cloudapp.net/storage/f/2014-06-25T05%3A00%3A56.158Z/expenditure-korea.csv',id:'b82b4c17-0cda-4d56-b321-08c02ffda7cc',made:'2014-06-25T05:01:35.769892',mods:'2014-06-25T05:01:35.535130',
+   C:['_id','key','region','cat1','cat2','amount','time'],
+   T:['int4','numeric','text','text','text','numeric','numeric'],
+   R:{region:'서울특별시',cat2:'011. 입법 및 선거관리',cat1:'010. 일반공공행정',amount:'56251',key:'1',time:'2012',_id:1}}
+,{rows:22588,cols:23,size:18112,d:'All Building Permits for the City of West Sacramento, CA',url:'http://www.civicdata.com/api/3/action/datastore_search?resource_id=c6b04ad3-5afa-4909-877c-eb760a845423',id:'c6b04ad3-5afa-4909-877c-eb760a845423',made:'2014-06-12T17:24:07.820477',mods:'2014-07-17T00:51:32',
+   C:['_id','RECORD ID','RECORD NAME','DATE OPENED','RECORD MODULE','RECORD STATUS','RECORD STATUS DATE','ADDRESS','BALANCE DUE','DATE ASSIGNED','DATE CLOSED','DATE COMPLETED','DESCRIPTION','JOB VALUE','RECORD TYPE GROUP','RECORD TYPE CATEGORY','RECORD TYPE TYPE','RECORD TYPE SUBTYPE','SHORT NOTES','STATUS','APN','LICENSE NBR','BUSINESS NAME'],
+   T:['int4','text','text','text','text','text','text','text','text','text','text','text','text','text','text','text','text','text','text','text','text','text','text'],
+   R:{"DATE OPENED":'2000-01-03T00:00:00.000',"RECORD TYPE GROUP":'Building',"SHORT NOTES":'',"RECORD TYPE CATEGORY":'NA',"BUSINESS NAME":'',"RECORD STATUS DATE":'',"BALANCE DUE":'0.0',"DATE CLOSED":'',"DATE COMPLETED":'',"RECORD STATUS":'Finaled',"RECORD NAME":'',"RECORD MODULE":'Building',"RECORD ID":'00-01-001',"RECORD TYPE TYPE":'Commercial',STATUS:'Finaled',"DATE ASSIGNED":'',DESCRIPTION:'INSTALL NEW UNINTERUPTED POWER SOURCE',"JOB VALUE":'6336.0',"RECORD TYPE SUBTYPE":'General',APN:'067020051000',ADDRESS:'1584 ENTERPRISE BLVD, City of West Sacramento, CA ',_id:1,"LICENSE NBR":''}}
+,{rows:249639,cols:19,size:-1,d:'',url:'http://www.civicdata.com/api/3/action/datastore_search?resource_id=92c62bd0-64ea-48ed-b28b-6976fba03cde',id:'92c62bd0-64ea-48ed-b28b-6976fba03cde',made:'2014-06-26T19:32:35.107160',mods:'2014-07-17T03:55:25',
+   C:['_id','PERMIT NUMBER','DATE OPENED','PERMIT STATUS','PERMIT STATUS DATE','PERMIT TYPE','ADDRESS','PARCEL NUMBER','BALANCE DUE','DESCRIPTION','RECORD TYPE GROUP','RECORD TYPE CATEGORY','RECORD TYPE TYPE','RECORD TYPE SUBTYPE','LICENSE NBR','LIC BUSINESS NAME','LIC EMAIL','LIC PHONE','CREATED ONLINE'],
+   T:['int4','text','text','text','text','text','text','text','text','text','text','text','text','text','text','text','text','text','text'],
+   R:{"RECORD TYPE TYPE":'Accessories',"LIC BUSINESS NAME":'CASA POOLS',"PARCEL NUMBER":'',"DATE OPENED":'2005-09-01T00:00:00.000',DESCRIPTION:'POOL, PATIO',"LIC PHONE":'(941)625-5056',"RECORD TYPE SUBTYPE":'Residential',"PERMIT STATUS DATE":'2006-08-28T00:00:00.000',"RECORD TYPE CATEGORY":'Swimming Pool',"PERMIT TYPE":'Building/Accessories/Residential/Swimming Pool',"PERMIT NUMBER":'2005090106',"PERMIT STATUS":'Closed',ADDRESS:'13585 JAEGER AV, PORT CHARLOTTE 33953',"CREATED ONLINE":'',"BALANCE DUE":'0.0',_id:54294,"LICENSE NBR":'CPC056749',"LIC EMAIL":'CASAPOOLS@CASAPOOL.COM',"RECORD TYPE GROUP":'Building'}}
+,{rows:1000,cols:8,size:5715255,d:'Charlotte, NC crime incidents.',url:'http://civicdataprod1.cloudapp.net/storage/f/2014-07-07T16%3A23%3A46.108Z/2014.csv',id:'5ca89a1f-237a-45d6-95f5-4de4b524d858',made:'2014-07-07T16:24:47.721296',mods:'2014-07-07T16:24:49.556503',
+   C:['_id','Date','Type','Address','Latitude','Longitude','Link','Description'],
+   T:['int4','timestamp','text','text','numeric','numeric','text','text'],
+   R:{Description:'Robbery',Longitude:'-80.780188',Latitude:'35.095942',Link:'http://spotcrime.com/crime/47378997-0a5f950ca0ab24a1def9c17e6660b786',Address:'8100 BLOCK OF PROVIDENCE RD, CHARLOTTE, NC',Date:'2014-01-01T02:39:00',_id:1,Type:'Robbery'}}
+,{rows:160314,cols:8,size:-1,d:'',url:'http://www.civicdata.com/api/3/action/datastore_search?resource_id=ac3740a2-840f-4a78-b5f1-84fc874902ee',id:'ac3740a2-840f-4a78-b5f1-84fc874902ee',made:'2014-06-26T19:38:46.674225',mods:'2014-07-17T03:55:18',
+   C:['_id','PERMIT NUMBER','PERMIT TYPE','INSPECTION TYPE','INSPECTION DATE','INSPECTION RESULT','INSPECTOR','RESULT COMMENTS'],
+   T:['int4','text','text','text','text','text','text','text'],
+   R:{"RESULT COMMENTS":'',"INSPECTION DATE":'2008-09-18T00:00:00.000',"PERMIT TYPE":'Building/Construction/Commercial/Commercial Building',"PERMIT NUMBER":'2006070335',"INSPECTION RESULT":'Pass',INSPECTOR:' ',_id:9419,"INSPECTION TYPE":'BUILDING ROUGH'}}
+,{rows:1000,cols:8,size:5715255,d:'Charlotte, NC crime incidents.',url:'http://civicdataprod1.cloudapp.net/storage/f/2014-07-07T16%3A23%3A46.108Z/2014.csv',id:'5ca89a1f-237a-45d6-95f5-4de4b524d858',made:'2014-07-07T16:24:47.721296',mods:'2014-07-07T16:24:49.556503',
+   C:['_id','Date','Type','Address','Latitude','Longitude','Link','Description'],
+   T:['int4','timestamp','text','text','numeric','numeric','text','text'],
+   R:{Description:'Robbery',Longitude:'-80.780188',Latitude:'35.095942',Link:'http://spotcrime.com/crime/47378997-0a5f950ca0ab24a1def9c17e6660b786',Address:'8100 BLOCK OF PROVIDENCE RD, CHARLOTTE, NC',Date:'2014-01-01T02:39:00',_id:1,Type:'Robbery'}}
+,{rows:55335,cols:30,size:23336698,d:'',url:'http://civicdataprod1.cloudapp.net/storage/f/2014-07-09T01%3A20%3A36.514Z/landdevelopment-prod.csv',id:'9f57ae4b-fc62-4ae3-895d-aece0e759b5c',made:'2014-07-09T01:24:09.682872',mods:'2014-07-09T01:24:15.719116',
+   C:['_id','PROJECTNUMBER','PROJECTNAME','PROJECTTYPE','PROJECTMODULE','RECORDOPENDATE','RECORDSTATUS','RECORDSTATUSDATE','PARCELNUMBER','ADDRESS','X_COORD','Y_COORD','PROJECTDESCRIPTION','OWNERNAME','OWNERPHONE','OWNERADDRESS','CONTACTFULLNAME','CONTACTPHONE','CONTACTADDRESS','TASK','COORDINATORNAME','COORDINATORPHONE','REZONINGPETITIONNUM','DISTURBEDACREAGE','STATEMAINTAINED','ASSIGNEDENGINEER','ASSIGNEDUF','ASSIGNEDEC','ASSIGNEDCI','URL'],
+   T:['int4','text','text','text','text','timestamp','text','timestamp','text','text','numeric','numeric','text','text','text','text','text','text','text','text','text','text','text','numeric','text','text','text','text','text','text'],
+   R:{Y_COORD:null,PROJECTNAME:'CALDWELLS ON NINTH',X_COORD:null,RECORDOPENDATE:'1999-12-15T00:00:00',COORDINATORPHONE:'',ASSIGNEDUF:'',TASK:'Info Received',ASSIGNEDENGINEER:'',COORDINATORNAME:' ',PROJECTDESCRIPTION:'',PROJECTTYPE:'',REZONINGPETITIONNUM:'',URL:'https://aca.accela.com/charlotte/Cap/CapDetail.aspx?Module=LandDevelopment&TabName=LandDevelopment&capID1=&capID2=&capID3=',DISTURBEDACREAGE:null,ASSIGNEDCI:'',OWNERNAME:'BANK OF AMERICA',RECORDSTATUS:'DONE',STATEMAINTAINED:'',OWNERADDRESS:'101 S TRYON STREET',PROJECTNUMBER:'LS15-43',PARCELNUMBER:'',CONTACTFULLNAME:' ',PROJECTMODULE:'LandDevelopment',CONTACTPHONE:'(704)373-1907',ASSIGNEDEC:'',ADDRESS:'',RECORDSTATUSDATE:null,CONTACTADDRESS:'428 E FOURTH ST SUITE 408',_id:1,OWNERPHONE:'704-388-7058'}}
+,{rows:16757,cols:28,size:4775603,d:'Public toilet locations from the Australian National Public Toilet Map.',url:'http://civicdataprod1.cloudapp.net/storage/f/2014-07-09T17%3A35%3A39.552Z/toilet-locations.csv',id:'8a7cc861-b49b-4506-872e-2153aff575c6',made:'2014-07-09T17:16:23.186255',mods:'2014-07-09T17:36:14.788233',
+   C:['_id','Name','Address1','Town','State','Postcode','Latitude','Longitude','Status','ToiletURL','Male','Female','FacilityType','ToiletType','AccessLimited','PaymentRequired','KeyRequired','Parking','AccessibleMale','AccessibleFemale','MLAK','ParkingAccessible','OpeningHours','BabyChange','Showers','DrinkingWater','SharpsDisposal','SanitaryDisposal'],
+   T:['int4','text','text','text','text','numeric','numeric','numeric','text','text','text','text','text','text','text','text','text','text','text','text','text','text','text','text','text','text','text','text'],
+   R:{SharpsDisposal:'true',KeyRequired:'false',DrinkingWater:'false',MLAK:'false',State:'Western Australia',AccessLimited:'false',Latitude:'-31.921836',OpeningHours:'AllHours',Status:'Verified',PaymentRequired:'false',FacilityType:'Park or reserve',Showers:'true',Address1:'West Road',Town:'Bassendean',SanitaryDisposal:'false',Name:'Sandy Beach Reserve',AccessibleFemale:'true',ParkingAccessible:'false',Longitude:'115.95020622',ToiletURL:'https://toiletmap.gov.au/toilet/1',BabyChange:'false',Male:'true',AccessibleMale:'true',Postcode:'6054',Female:'true',Parking:'false',_id:1,ToiletType:'undefined'}}
+,{rows:400916,cols:8,size:-1,d:'',url:'http://www.civicdata.com/api/3/action/datastore_search?resource_id=0a6d4715-653c-4ba5-9369-8b74ff872d94',id:'0a6d4715-653c-4ba5-9369-8b74ff872d94',made:'2014-06-26T19:35:10.739730',mods:'2014-07-17T03:55:12',
+   C:['_id','PERMIT NUMBER','PERMIT TYPE','WORKFLOW TASK','WORKFLOW TASK STATUS','STATUS DATE','TASK COMMENTS','WORKFLOW TASK UPDATER'],
+   T:['int4','text','text','text','text','text','text','text'],
+   R:{"WORKFLOW TASK UPDATER":'Tina Jones',"PERMIT TYPE":'Building/Construction/Residential/Miscellaneous',"PERMIT NUMBER":'2007102369',"TASK COMMENTS":'',"WORKFLOW TASK":'Finaled',"WORKFLOW TASK STATUS":'Finaled',_id:13040,"STATUS DATE":'2012-10-05T00:00:00.000'}}
+,{rows:360,cols:3,size:18112,d:'',url:'http://www.civicdata.com/api/3/action/datastore_search?resource_id=cd8266fd-aa1f-409b-aa57-9303875b43d9',id:'cd8266fd-aa1f-409b-aa57-9303875b43d9',made:'2014-07-11T15:36:08.213979',mods:'2014-07-17T03:55:42',
+   C:['_id','PARENT_ID','CHILD_ID'],
+   T:['int4','text','text'],
+   R:{PARENT_ID:'0374097',CHILD_ID:'0374097',_id:1}}
+,{rows:2134,cols:4,size:-1,d:'',url:'http://www.civicdata.com/api/3/action/datastore_search?resource_id=ea250373-0107-4ad7-9d38-e993b811db09',id:'ea250373-0107-4ad7-9d38-e993b811db09',made:'2014-07-11T15:23:57.990573',mods:'2014-07-17T03:55:52',
+   C:['_id','RECORD_ID','RECORD_TYPE','PARCEL_NUMBER'],
+   T:['int4','text','text','text'],
+   R:{RECORD_ID:'62069',RECORD_TYPE:'',_id:1,PARCEL_NUMBER:'6568034'}}
+,{rows:2,cols:12,size:-1,d:'',url:'http://www.civicdata.com/api/3/action/datastore_search?resource_id=87d04a1b-2ba9-4adb-a0ee-9ca95d1f7542',id:'87d04a1b-2ba9-4adb-a0ee-9ca95d1f7542',made:'2014-07-15T02:45:14.808444',mods:'2014-07-17T03:55:10',
+   C:['_id','RecordID','RecordName','RecordType','ProjectDescription','RecordOpenDate','RecordStatus','Address','ParcelNumber','PetitionNum','FilingDeadlineDate','LegalPublicHearingNotice'],
+   T:['int4','text','text','text','text','text','text','text','text','text','text','text'],
+   R:{ParcelNumber:'05321103',ProjectDescription:'http://www.charmeck.org/city/charlotte/planning/Rezoning/RezoningPetitions/2014Petitions/Pages/2014-001.aspx\r\n\r\nAll uses in TOD-M Zoning.',RecordType:'Rezoning Petition',RecordID:'RZP-2014-00001',Address:'9040 WILKINSON BV, MECKLENBURG, NC 28214',RecordName:'2014-082 Charlotte- Mecklenburg Planning Department',LegalPublicHearingNotice:'09/15/2014',PetitionNum:'2014-082',RecordStatus:'In Progress',RecordOpenDate:'2014-07-11T00:00:00.000',_id:1,FilingDeadlineDate:''}}
+,{rows:44677,cols:3,size:-1,d:'',url:'http://www.civicdata.com/api/3/action/datastore_search?resource_id=c4adbd4c-3731-46a6-9d71-de47fc804903',id:'c4adbd4c-3731-46a6-9d71-de47fc804903',made:'2014-07-11T15:34:54.534721',mods:'2014-07-17T03:55:46',
+   C:['_id','PARENT_ID','CHILD_ID'],
+   T:['int4','text','text'],
+   R:{PARENT_ID:'3444',CHILD_ID:'2000.1084',_id:1}}
+,{rows:421,cols:10,size:-1,d:'',url:'http://www.civicdata.com/api/3/action/datastore_search?resource_id=73d6d84c-18be-4e1f-8aa4-a83c7cc36d42',id:'73d6d84c-18be-4e1f-8aa4-a83c7cc36d42',made:'2014-07-15T21:06:16.775313',mods:'2014-07-17T03:55:24',
+   C:['_id','business_id','name','address','city','state','postal_code','latitude','longitude','phone_number'],
+   T:['int4','text','text','text','text','text','text','text','text','text'],
+   R:{phone_number:'',city:'Evanston',name:'1835 Hinman',business_id:'09FOOD-0269',longitude:'',state:'IL',postal_code:'60201',address:'1835 HINMAN AVE',latitude:'',_id:1}}
+,{rows:979,cols:5,size:-1,d:'',url:'http://www.civicdata.com/api/3/action/datastore_search?resource_id=88ced0b8-783b-4568-8a0e-cc52f4842797',id:'88ced0b8-783b-4568-8a0e-cc52f4842797',made:'2014-07-16T18:39:36.750059',mods:'2014-07-17T03:55:17',
+   C:['_id','business_id','score','date','type'],
+   T:['int4','text','text','text','text'],
+   R:{date:'2013-01-07T12:01:05.000',score:'85',_id:1,type:'1st Routine',business_id:'08FOOD-0174'}}
+,{rows:1318960,cols:3,size:-1,d:'',url:'http://www.civicdata.com/api/3/action/datastore_search?resource_id=b8c00978-47fd-4753-85c9-f71ae601969f',id:'b8c00978-47fd-4753-85c9-f71ae601969f',made:'2014-07-11T15:24:46.399779',mods:'2014-07-17T03:55:49',
+   C:['_id','RECORD_ID','PARCEL_NUMBER'],
+   T:['int4','text','text'],
+   R:{RECORD_ID:'1981.254',PARCEL_NUMBER:'0322A054',_id:58025}}
+,{rows:2606,cols:5,size:-1,d:'',url:'http://www.civicdata.com/api/3/action/datastore_search?resource_id=20c559c3-9e29-44dd-9997-f8015f0ce8b0',id:'20c559c3-9e29-44dd-9997-f8015f0ce8b0',made:'2014-07-16T18:40:10.356695',mods:'2014-07-17T03:55:10',
+   C:['_id','business_id','date','code','description'],
+   T:['int4','text','text','text','text'],
+   R:{date:'2013-01-07T12:01:05.000',description:'Most foods are labeled/date marked and all items were stored properly. Be sure to have all items at prep line labeled.',_id:1,business_id:'08FOOD-0174',code:'(2) FOOD: Original Container; properly labeled.'}}])

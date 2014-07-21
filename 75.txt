@@ -1,0 +1,9 @@
+IIII([{DataSets:2,Fields:14,CKAN:75,format:'csv',made:'Thu Jul 17 2014 13:59:16 GMT+1000 (E. Australia Standard Time)',ms:1405569556584}
+,{rows:512928,cols:6,size:9315213,d:'',url:'http://data.kk.dk/storage/f/datakkdk/Bef_Kbh_Alder_Statkode.csv',id:'9286af17-f74e-46c9-a428-9fb707542189',made:'2014-01-29T10:29:07.288616',mods:'2014-04-02T14:30:54.918140',
+   C:['_id','AAR','BYDEL','ALDER','STATKODE','PERSONER'],
+   T:['int4','numeric','numeric','numeric','numeric','numeric'],
+   R:{BYDEL:'1',ALDER:'0',STATKODE:'5100',AAR:'2014',PERSONER:'603',_id:1}}
+,{rows:18327,cols:8,size:344715,d:'',url:'http://data.kk.dk/storage/f/datakkdk/Ledighed_Alder_Ledigg_Udd.csv',id:'86432a7d-aa1c-4d13-bc5d-6db80ce78d49',made:'2014-04-02T13:42:36.441075',mods:'2014-04-02T14:30:03.532770',
+   C:['_id','AAR','BYDEL','ALDERSKAT','FORSIKRET','ARBLED','HFUDD','PERSONER'],
+   T:['int4','numeric','numeric','numeric','numeric','numeric','numeric','numeric'],
+   R:{ALDERSKAT:'1',BYDEL:'1',ARBLED:'1',AAR:'2011',FORSIKRET:'1',HFUDD:'1',_id:1,PERSONER:'23'}}])

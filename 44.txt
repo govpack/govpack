@@ -1,0 +1,57 @@
+IIII([{DataSets:14,Fields:97,CKAN:44,format:'csv',made:'Thu Jul 17 2014 13:59:15 GMT+1000 (E. Australia Standard Time)',ms:1405569555693}
+,{rows:12,cols:4,size:544,d:'Data set showing various fishing communities that benefited from ECOWAS-Fund Fisheries Project in the State',url:'http://data.edostate.gov.ng/storage/f/2014-01-17T09%3A40%3A23.272Z/ecowas-fund-fisheries-project-in-edo-state.csv',id:'58420a06-30ed-4ec6-82cd-a8c2a54f8868',made:'2014-01-17T09:40:51.510975',mods:'2014-07-08T14:04:54.376763',
+   C:['_id','LGA','Fishing Communities that benefited from the Project','Fishing Communities that did not benefit from the Project'],
+   T:['int4','text','text','text'],
+   R:{_id:1,"Fishing Communities that did not benefit from the Project":'',"Fishing Communities that benefited from the Project":'Agenebode',LGA:'Etsako East '}}
+,{rows:6,cols:3,size:324,d:'Dataset showing the six Vocational and Technical  Schools in Edo State who benefited from the first set of cheques ',url:'http://data.edostate.gov.ng/storage/f/2014-03-26T11%3A27%3A52.480Z/presentation-of-cheques-to-vocational-and-technical-schools-in-edo-state.csv',id:'b272f8a2-ad0d-4f68-81b2-01ed6de6e30d',made:'2014-03-26T11:28:16.204501',mods:'2014-07-08T14:04:22.598655',
+   C:['_id','NAME OF SCHOOL','Amount Received (N)'],
+   T:['int4','text','text'],
+   R:{"Amount Received (N)":'23,250,.293.00',_id:1,"NAME OF SCHOOL":'Technical College, Benin'}}
+,{rows:9,cols:4,size:483,d:'List of communities  benefitting from SPCU Projects',url:'http://data.edostate.gov.ng/storage/f/2014-03-26T11%3A38%3A44.462Z/communities-benefitting-from-spcu-projects.csv',id:'c7489d4b-745e-4c11-8e3e-dbbf230de20b',made:'2014-03-26T11:39:09.294131',mods:'2014-07-08T14:04:06.954019',
+   C:['_id','Name of community','Amount advanced','Specific project'],
+   T:['int4','text','text','text'],
+   R:{"Name of community":'Iselu Community',_id:1,"Amount advanced":'1,620,000.00',"Specific project":'Community hall'}}
+,{rows:35,cols:8,size:4045,d:'',url:'http://edo.staging.ckanhosted.com/storage/f/2013-07-19T17%3A03%3A12.969Z/2010-capital-development-fund.csv',id:'412036f6-0ed4-439b-97d3-1bc9efcaa9f4',made:'2013-07-19T17:05:27.761150',mods:'2014-07-08T14:03:29.884779',
+   C:['_id','HEAD','SUB-HEAD','DESCRIPTION','BUDGET 2010 (Naira)','ACTUAL 2010 (Naira)','VARIANCE 2010 (Naira)','ACTUAL 2009 (Naira)'],
+   T:['int4','text','text','text','text','text','text','text'],
+   R:{"SUB-HEAD":'-',HEAD:'CAPITAL',DESCRIPTION:'Opening Balance         (a)',"VARIANCE 2010 (Naira)":'9,081,241,271.78',"ACTUAL 2010 (Naira)":'-381,241,271.78',"BUDGET 2010 (Naira)":'8,700,000,000.00',"ACTUAL 2009 (Naira)":'912,279,529.52',_id:1}}
+,{rows:19,cols:7,size:2083,d:'',url:'http://edo.staging.ckanhosted.com/storage/f/2013-07-19T17%3A22%3A38.809Z/2010-cash-flow-statement.csv',id:'f12f151b-99ef-48d6-9b5a-59a0d702756e',made:'2013-07-19T17:23:08.911669',mods:'2014-07-08T14:02:59.300345',
+   C:['_id','HEAD','SUB-HEAD','DESCRIPTION','NOTES','2010 (Naira)','2009 (Naira)'],
+   T:['int4','text','text','text','text','text','text'],
+   R:{"SUB-HEAD":'Receipts          ',HEAD:'Cash Flow from Opting. Activities',DESCRIPTION:'Gross Statutory Allocation',NOTES:'2a',"2009 (Naira)":'21,564,426,915.02',_id:1,"2010 (Naira)":'24,182,710,455.70'}}
+,{rows:15,cols:6,size:1022,d:'Audited Financial Statements for the Year Ended 31st December, 2010 on  Statements of Assets and Liabilities.',url:'http://edo.staging.ckanhosted.com/storage/f/2013-07-22T12%3A24%3A21.639Z/2010-statements-of-assets-liabilities.csv',id:'0bdca688-9b5d-4e40-8cd6-5a65c1b30b25',made:'2013-07-22T12:29:13.419169',mods:'2014-07-08T14:02:22.920625',
+   C:['_id','HEAD','SUB-HEAD','DESCRIPTION','2010(Naira)','2009(Naira)'],
+   T:['int4','text','text','text','text','text'],
+   R:{"SUB-HEAD":' Funds',HEAD:'LIABILITIES',DESCRIPTION:'Consol. Rev. Fund',"2009(Naira)":' 1,732,139,362.19 ',"2010(Naira)":' 101,181,564.75 ',_id:1}}
+,{rows:22,cols:7,size:2579,d:'Audited Financial Statements for the Year Ended 31st December, 2010 on Consolidated Revenue Fund ',url:'http://edo.staging.ckanhosted.com/storage/f/2013-07-22T12%3A16%3A29.317Z/2010-consolidated-revenue-fund.csv',id:'09fabd10-d610-4df5-b80b-f16bd98bcd0a',made:'2013-07-22T12:18:19.725069',mods:'2014-07-08T14:01:41.277691',
+   C:['_id','HEAD','DESCRIPTION','BUDGET 2010 (Niara)','ACTUAL 2010 (Naira)','VARIANCE 2010 (Naira)','ACTUAL 2009 (Naira)'],
+   T:['int4','text','text','text','text','text','text'],
+   R:{HEAD:'RECURRENT REVENUE',DESCRIPTION:'Opening Balance      (a)',"VARIANCE 2010 (Naira)":' (1,732,139,362.19)',"ACTUAL 2010 (Naira)":' 1,732,139,362.19 ',"BUDGET 2010 (Niara)":' -   ',"ACTUAL 2009 (Naira)":' 966,840,303.82 ',_id:1}}
+,{rows:26,cols:6,size:1541,d:'Data-set on Statement of Assets & Liabilities for 2012. Sub-head on Cash, investments, internal and external loans, funds, Advances and others.',url:'http://data.edostate.gov.ng/storage/f/2014-04-15T11%3A46%3A12.216Z/2012-statement-of-assets-liabilities.csv',id:'9732e6a6-6c76-47e4-b24e-7c334a022267',made:'2014-04-15T11:53:13.485039',mods:'2014-07-08T14:01:28.950044',
+   C:['_id','HEAD','SUB-HEAD','DESCRIPTION','ACTUAL 2012 (?)','ACTUAL 2011 (?)','VARIANCE 2012 (Naira)','ACTUAL 2011 (Naira)','ACTUAL 2011 (Naira)'],
+   T:['int4','text','text','text','text','text','text','text','text'],
+   R:{"SUB-HEAD":'Funds',HEAD:'Liabilities',DESCRIPTION:'Consol. Rev. Fund',"ACTUAL 2012 (?)":'500,151,776.16',_id:1,"ACTUAL 2011 (?)":'463,626,708.79'}}
+,{rows:26,cols:6,size:1541,d:'Data-set on Statement of Assets & Liabilities for 2012. Sub-head on Cash, investments, internal and external loans, funds, Advances and others.',url:'http://data.edostate.gov.ng/storage/f/2014-04-15T11%3A46%3A12.216Z/2012-statement-of-assets-liabilities.csv',id:'9732e6a6-6c76-47e4-b24e-7c334a022267',made:'2014-04-15T11:53:13.485039',mods:'2014-07-08T14:01:28.950044',
+   C:['_id','HEAD','SUB-HEAD','DESCRIPTION','ACTUAL 2012 (?)','ACTUAL 2011 (?)','VARIANCE 2012 (Naira)','ACTUAL 2011 (Naira)','ACTUAL 2011 (Naira)'],
+   T:['int4','text','text','text','text','text','text','text','text'],
+   R:{"SUB-HEAD":'Funds',HEAD:'Liabilities',DESCRIPTION:'Consol. Rev. Fund',"ACTUAL 2012 (?)":'500,151,776.16',_id:1,"ACTUAL 2011 (?)":'463,626,708.79'}}
+,{rows:26,cols:6,size:1541,d:'Data-set on Statement of Assets & Liabilities for 2012. Sub-head on Cash, investments, internal and external loans, funds, Advances and others.',url:'http://data.edostate.gov.ng/storage/f/2014-04-15T11%3A46%3A12.216Z/2012-statement-of-assets-liabilities.csv',id:'9732e6a6-6c76-47e4-b24e-7c334a022267',made:'2014-04-15T11:53:13.485039',mods:'2014-07-08T14:01:28.950044',
+   C:['_id','HEAD','SUB-HEAD','DESCRIPTION','ACTUAL 2012 (?)','ACTUAL 2011 (?)','VARIANCE 2012 (Naira)','ACTUAL 2011 (Naira)','ACTUAL 2011 (Naira)'],
+   T:['int4','text','text','text','text','text','text','text','text'],
+   R:{"SUB-HEAD":'Funds',HEAD:'Liabilities',DESCRIPTION:'Consol. Rev. Fund',"ACTUAL 2012 (?)":'500,151,776.16',_id:1,"ACTUAL 2011 (?)":'463,626,708.79'}}
+,{rows:26,cols:6,size:1541,d:'Data-set on Statement of Assets & Liabilities for 2012. Sub-head on Cash, investments, internal and external loans, funds, Advances and others.',url:'http://data.edostate.gov.ng/storage/f/2014-04-15T11%3A46%3A12.216Z/2012-statement-of-assets-liabilities.csv',id:'9732e6a6-6c76-47e4-b24e-7c334a022267',made:'2014-04-15T11:53:13.485039',mods:'2014-07-08T14:01:28.950044',
+   C:['_id','HEAD','SUB-HEAD','DESCRIPTION','ACTUAL 2012 (?)','ACTUAL 2011 (?)','VARIANCE 2012 (Naira)','ACTUAL 2011 (Naira)','ACTUAL 2011 (Naira)'],
+   T:['int4','text','text','text','text','text','text','text','text'],
+   R:{"SUB-HEAD":'Funds',HEAD:'Liabilities',DESCRIPTION:'Consol. Rev. Fund',"ACTUAL 2012 (?)":'500,151,776.16',_id:1,"ACTUAL 2011 (?)":'463,626,708.79'}}
+,{rows:1375,cols:12,size:95775,d:'',url:'http://data.edostate.gov.ng/storage/f/2014-05-20T13%3A02%3A54.181Z/edu-app-test-dataset.csv',id:'beaba0b9-1599-46de-9afd-5a6a687ab768',made:'2014-05-20T13:06:51.434608',mods:'2014-07-08T14:00:22.093828',
+   C:['_id','LGA','SCHOOL NAME ','CATEGORY','YEAR','NUMBER OF TEACHERS','NUMBER OF STUDENTS','NO OF CLASSROOMS','EXTERNAL EXAM ENROLMENT','NUMBER OF STUDENTS PASSED EXTERNAL EXAM','LAT','LONG'],
+   T:['int4','text','text','text','numeric','text','numeric','text','text','text','text','text'],
+   R:{CATEGORY:'Primary',"NUMBER OF STUDENTS PASSED EXTERNAL EXAM":'-',"NUMBER OF TEACHERS":'10',LGA:'Akoko Edo',LONG:'-',"NUMBER OF STUDENTS":'548',LAT:'-',"SCHOOL NAME ":'Afekunu Pry Sch,Ojirami.',YEAR:'2011',"NO OF CLASSROOMS":'9',_id:1,"EXTERNAL EXAM ENROLMENT":'-'}}
+,{rows:3,cols:10,size:207,d:'Description of resource',url:'http://data.edostate.gov.ng/storage/f/2014-07-07T15%3A58%3A00.972Z/dump.csv',id:'580c88b1-4960-4ac0-984b-73ead7df7e72',made:'2014-07-07T15:59:18.326176',mods:'2014-07-08T14:00:16.607321',
+   C:['_id','0','80','51244','-1.93E+09','8.97E+08','2740884','1360','29951','1'],
+   T:['int4','numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric'],
+   R:{0:'0',1:'0',80:'51244',1360:'0',29951:'2229',51244:'80',2740884:'22600000',"8.97E+08":'1930000000',"-1.93E+09":'-897000000',_id:1}}
+,{rows:60,cols:6,size:7274,d:'',url:'http://data.edostate.gov.ng/storage/f/2014-06-26T15%3A53%3A40.678Z/ministry-of-environment-and-public-utilities-list-of-project1.csv',id:'4624013b-e6e3-4c0b-8a9a-d89d83026c84',made:'2014-06-26T15:55:55.945264',mods:'2014-07-08T14:00:17.712654',
+   C:['_id','PROJECT TITLE','CONTRACTOR','CONTRACT SUM (N)','PROJECT LOCATION','PROJECT STATUS'],
+   T:['int4','text','text','text','text','text'],
+   R:{"PROJECT TITLE":'Desiltation of Underground Conduit along Ora Cresent, Joromi and Aerodrome Close, Benin City.',"PROJECT STATUS":'100%',CONTRACTOR:'Cremona Construction Nig. Ltd.',"PROJECT LOCATION":'Oredo',_id:1,"CONTRACT SUM (N)":'42,716,362.50'}}])
