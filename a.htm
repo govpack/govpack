@@ -1,7 +1,7 @@
-﻿<!doctype html><html><head><title>Title Tewak</title>
+﻿<!doctype html><html><head><title>fg</title>
 <style>
 BODY{border:0px;font-family:Verdana}
-
+#d22{background:yellow;padding:0px 33px}
 TD{border:1px solid gray;white-space:nowrap;text-align:center;}
 TABLE{border-collapse:collapse}
 .fr{border-style:none;font-size:120%;text-align:left}
@@ -9,7 +9,8 @@ TABLE{border-collapse:collapse}
 .hh{background-color:silver;color:gray;font-weight:400;font-size:110%}
 .dt{color:white}
 .dl{}
-
+I{color:green}
+CODE{background:#dcdcdc}
 .up{font-size:12pt;text-align:left;background:#ffffcc;padding-left:10px;font-weight:900;font-style:italic;}
 #d3{background:orange;font-size:20pt;padding:4px;border:1px solid black}
 #d4{background:lime;font-size:20pt;padding:4px;border:1px solid black}
@@ -25,11 +26,11 @@ a:visited{color:cornflowerblue;background:hotpink}
 
 .yo{width:274;height:196px}
 #TB{width:100%;height:330px}
-#TB TD{vertical-align:top;border:0px}
+#TB TD{vertical-align:top;}
 
 
 .fm{font-size:5mm;border-radius:7px;background:orange}
-.fm15{background:yellow}
+.fm15{}
 </style>
 <script>
 var KEC={};function UC(s){if(!s){return '#dcdcdc'};if(KEC[s]){return KEC[s]};if(!s.length){return '#dcdcdc'};for(var i=0,h=0;i<s.length;h=s.charCodeAt(i++)+((h<<5)- h));for(var i= 0,c='#';i<3;c+=('00'+((h >>i++*8)&0xFF).toString(16)).slice(-2)); KEC[s]=c;return c;}
@@ -44,9 +45,9 @@ show()
 
 var o1={CKAN:44,port:80}
 var o3={}
+var BT=[]/*buttons*/
 
-
-function init(){
+function init(){BT=[B0,B1,B2]/*buttons*/
 HED=self.document.getElementsByTagName('head')[0];
 
 var o2=l.C(self,'CONFIG');//confirm(JSON.stringify(o2))
@@ -55,7 +56,10 @@ var x=o3.CKAN
 var y=parseInt(self.location.hash.substr(1))||0;
 if(y){o3.CKAN=y;butx(y,true);x=y}else{butx(x)}
 load(x)
+ping()
 }
+
+
 
 function load(x,cb){cb=cb||function(){};
 window.location.hash=x
@@ -65,12 +69,13 @@ d3.innerText='...'
 d5.innerText=''
 d6.innerText=''
 d7.innerText=''
+d22.innerText=''
 d7.href='#'+x
 d1.innerHTML=''
 setTimeout(function(){LOAD(x,cb)},1)
 }
 
-function LOAD(x,cb){cb=cb||function(){};var fp=x+'.txt'
+function LOAD(x,cb){cb=cb||function(){};var fp='./govdat/'+x+'.txt'
 var sx=self.document.createElement('script'); 
 sx.onerror=function(sMsg,sUrl,sLine){//prompt(sMsg,sUrl+sLine)
 } 
@@ -165,6 +170,8 @@ d14.href=o.U
 
 function rosx(o){
 var xhr=new XMLHttpRequest();
+d22.innerHTML='<img src="ani.gif">'
+xhr.onload=function(){d22.innerHTML=this.status+'--'+this.responseText}
 xhr.open('POST','http://127.0.0.1:'+o3.port+'/',true);
 xhr.send(JSON.stringify(o));
 }
@@ -192,6 +199,19 @@ default:return ''+o}
 }
 ,u:function(o){/*Give first object props from the following objects truely madly deeply*/if(typeof o!='object'){return}var s=null;var p='';var P=[];var o2=null;for(var i=1;i<arguments.length;i++){s=arguments[i];if(typeof s!='object'){continue}for(p in s){o2=o;P=p.split('.').reverse();while(P.length>1){o2=o2[P.pop()]}o2[P.pop()]=s[p]}}}
 }
+
+function ping(){
+var xhr=new XMLHttpRequest();
+xhr.open('HEAD','http://127.0.0.1:80/',true);
+xhr.onreadystatechange=function(){RC.innerText=this.status
+if(this.status==200){btns(1);setTimeout(ping,1000)}else{btns(0);setTimeout(ping,1000)}
+}
+try{xhr.send(null)}catch(er){btns(0);setTimeout(ping,1000)}
+}
+
+function btns(on){var e=null;
+for(var i=0;i<BT.length;i++){e=BT[i];e.disabled=on?false:true;e.style.backgroundColor=['silver','lime'][on]}
+}
 </script>
 
 
@@ -200,29 +220,48 @@ default:return ''+o}
 <body id="bd" onload="init()">
 
 
-<table id="TB"><tr>
+<table id="TB">
 
-<td style="width:auto;overflow:hidden;white-space:normal;vertical-align:top;text-align:left" ><b id="d12"></b><p id="d11"></p>
-
+<tr><td style="width:auto;overflow:hidden;white-space:normal;vertical-align:top;text-align:left" ><b id="d12"></b><p id="d11"></p>
+<i>to install govpack run:</i><code>npm install -gf govpack</code>
 <b>
 <b style="display:none">govpack {fetch:<span id="d5"></span>} &nbsp; govpack {filter:<span id="d6"></span>}</b>
 <br><br>govpack Found <span id="d2"></span>&nbsp;<span id="d3"></span> datasets,<br>containing <span id="d4"></span> fields...</b><br>
 <i style="display:none;font-size:11pt;color:silver;margin-left:4px">As shown below, with field names, field types,
 <br><a id="d7" href="#"></a> download links, a count of rows x columns,
 <br>and one row of actual data</i>
-
+<br>the Global list of 110 ckan endpoints was retrieved from  
+<a href="http://ckan.org/instances/" target="_blank">ckan.org</a>
+(credit:links&uarr;images&uarr;descriptions&rarr;)
 </td>
-<td style="width:200px;vertical-align:top"><img id="P1" src="./c_files/datos_codeandomexico_org.png" >
+<td style="width:200px;vertical-align:top"><img id="P1" src="b.ico" >
 <br><a id="d14" href="#" target="_blank"></a>
 </td>
-<td style="width:80pt"><select id="SU" onchange="dude()" size="15"></select>
-<br>
-<button onclick="rosx({fetch:CX})" class="fm fm15" >fetch <b id="d15"></b></button>
-<button onclick="rosx({filter:CX})" class="fm fm16" >filter <b id="d16"></b></button>
-<button onclick="rosx({download:CX})" class="fm fm17" >download <b id="d17"></b></button>
-<button onclick="load(CX)" class="fm fm18" >show <b id="d18"></b></button>
+<td style="text-align:right"><select id="SU" onchange="dude()" size="15"></select></td>
+</tr>
+
+<tr><td style="text-align:left">
+govpack  on
+•<a href="http://govpack.github.io/govpack/" target="_blank">gh-pages</a>
+•<a href="https://github.com/govpack/govpack" target="_blank">github</a>
+•<a href="https://www.npmjs.org/package/govpack" target="_blank">npmjs.org</a>
+•<a href="http://hackerspace.govhack.org/content/npm-install-g-govpack-or-github-govpackgovpack" target="_blank">govhack.org</a>
+<br>ckan
+•<a href="http://docs.ckan.org/en/latest/api/index.html" target="_blank">docs</a>
+•<a href="http://docs.ckan.org/en/ckan-1.8/apiv3.html" target="_blank">apiv3</a>
+
+
+
+</td><td style="text-align:right"><i>to light up the buttons run:</i><br><code><b>govpack</b> {port:80}</code>&rarr;<span id="RC" style="background:lime"></span></td>
+
+<td><b style="font-size:18pt">govpak</b> 
+<button id="B0" disabled="true" onclick="rosx({fetch:CX})" class="fm fm15" >{fetch:<b id="d15"></b>}</button>
+<button id="B1" disabled="true" onclick="rosx({filter:CX})" class="fm fm16" >{filter:<b id="d16"></b>}</button>
+<button id="B2" disabled="true" onclick="rosx({download:CX})" class="fm fm17" >{download:<b id="d17"></b>}</button>
+<button onclick="load(CX)" class="fm fm18" >{show:<b id="d18"></b>}</button>
 </td>
 </tr>
+<tr><td colspan="3" style="text-align:right"><b id="d22"></b></td></tr>
 </table>
 
 <script src="./ufo/aa.txt"></script>
