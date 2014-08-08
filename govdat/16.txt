@@ -1,0 +1,17 @@
+IIII([{DataSets:4,Fields:26,CKAN:16,format:'csv',made:'Mon Aug 04 2014 16:35:03 GMT+1000 (E. Australia Standard Time)',ms:1407134103875}
+,{rows:166785,cols:7,size:3002165,d:'',url:'http://data.kk.dk/storage/f/datakkdk/Bef_Kbh_Alder_Koen_Civst.csv',id:'9fbab4aa-1ee0-4d25-b2b4-b7b63537d2ec',made:'2014-01-20T09:06:24.893088',mods:'2014-04-02T14:31:05.929968',
+   C:['_id','AAR','BYDEL','ALDER','CIVST','KOEN','PERSONER'],
+   T:['int4','numeric','numeric','numeric','text','numeric','numeric'],
+   R:{CIVST:'U',BYDEL:'1',KOEN:'1',ALDER:'0',AAR:'2014',PERSONER:'356',_id:1}}
+,{rows:512928,cols:6,size:9315213,d:'',url:'http://data.kk.dk/storage/f/datakkdk/Bef_Kbh_Alder_Statkode.csv',id:'9286af17-f74e-46c9-a428-9fb707542189',made:'2014-01-29T10:29:07.288616',mods:'2014-04-02T14:30:54.918140',
+   C:['_id','AAR','BYDEL','ALDER','STATKODE','PERSONER'],
+   T:['int4','numeric','numeric','numeric','numeric','numeric'],
+   R:{BYDEL:'1',ALDER:'0',STATKODE:'5100',AAR:'2014',PERSONER:'603',_id:1}}
+,{rows:4718400,cols:5,size:464648329,d:'',url:'http://data.kk.dk/storage/f/datakkdk/parkomat-transaktioner-2013.csv',id:'660e19fa-8838-4a5c-9495-0d7f94fab51e',made:'2014-01-14T10:12:06.031240',mods:null,
+   C:['_id','tlRecordID','tlPDM','tlPayDateTime','tlExpDateTime'],
+   T:['int4','int4','int4','timestamp','timestamp'],
+   R:{tlPayDateTime:'2014-01-07T07:39:00',tlRecordID:63279741,_id:17614629,tlPDM:3212,tlExpDateTime:'2014-01-07T10:16:00'}}
+,{rows:18327,cols:8,size:344715,d:'',url:'http://data.kk.dk/storage/f/datakkdk/Ledighed_Alder_Ledigg_Udd.csv',id:'86432a7d-aa1c-4d13-bc5d-6db80ce78d49',made:'2014-04-02T13:42:36.441075',mods:'2014-04-02T14:30:03.532770',
+   C:['_id','AAR','BYDEL','ALDERSKAT','FORSIKRET','ARBLED','HFUDD','PERSONER'],
+   T:['int4','numeric','numeric','numeric','numeric','numeric','numeric','numeric'],
+   R:{ALDERSKAT:'1',BYDEL:'1',ARBLED:'1',AAR:'2011',FORSIKRET:'1',HFUDD:'1',_id:1,PERSONER:'23'}}])

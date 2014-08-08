@@ -1,0 +1,305 @@
+IIII([{DataSets:76,Fields:587,CKAN:0,format:'csv',made:'Mon Aug 04 2014 16:35:03 GMT+1000 (E. Australia Standard Time)',ms:1407134103172}
+,{rows:17,cols:4,size:534,d:'Distribution of  literate population by Age Group and sex in Edo state. ',url:'http://data.edostate.gov.ng/storage/f/2013-08-01T13%3A12%3A49.654Z/distribution-of-literate-population-by-age-groups-and-sex-in-edo-state.csv',id:'8e53a5ce-a267-4854-8a4e-7b2e1bd857d8',made:'2013-08-01T13:18:00.455634',mods:'2014-07-08T13:46:17.532302',
+   C:['_id','Age Groups','Sex(Males)','Sex(Females)'],
+   T:['int4','text','text','text'],
+   R:{"Sex(Females)":'68,624',"Age Groups":'6-9yrs',_id:1,"Sex(Males)":'73,478'}}
+,{rows:324,cols:5,size:10113,d:'This dataset covers the distribution of population by five years Age Group and sex in Edo state.',url:'http://data.edostate.gov.ng/storage/f/2013-08-01T14%3A16%3A03.720Z/distribution-of-population-by-five-year-age-group-and-sex.csv',id:'f0687625-24ca-41ef-b72f-7dfb7a10f98b',made:'2013-08-01T14:20:16.759643',mods:'2014-07-08T13:45:49.507963',
+   C:['_id','LGA','Age Group','Males','Females'],
+   T:['int4','text','text','text','text'],
+   R:{"Age Group":'0-4',Males:'17,258',_id:1,Females:'16,281',LGA:'Akoko Edo '}}
+,{rows:8,cols:4,size:312,d:'This is the distribution of population by relationship to the head of household and sex in Edo state.',url:'http://data.edostate.gov.ng/storage/f/2013-08-01T14%3A25%3A19.478Z/distribution-of-population-by-relationship-to-the-head-of-household-and-sex-in-edo-state.csv',id:'b771dc31-c408-4a84-8600-c5ec41673c29',made:'2013-08-01T14:29:43.193802',mods:'2014-07-08T13:45:21.596541',
+   C:['_id','Relationship','Sex(Males)','Sex(Females)'],
+   T:['int4','text','text','text'],
+   R:{"Sex(Females)":'174,399',_id:1,"Sex(Males)":'471,880',Relationship:'Head of Household'}}
+,{rows:9,cols:4,size:319,d:'This dataset has the distribution of population by size,class of household and sex.',url:'http://data.edostate.gov.ng/storage/f/2013-08-01T14%3A30%3A23.424Z/distribution-of-population-by-size-class-of-household-and-sex-in-edo-state.csv',id:'fd13e1ee-344f-4220-b9da-a4bd8bb71c39',made:'2013-08-01T14:34:34.211465',mods:'2014-07-08T13:44:43.468521',
+   C:['_id','Size Class of Household','(Males)','Females'],
+   T:['int4','text','text','text'],
+   R:{Females:'38,012',"Size Class of Household":'1 Person',_id:1,"(Males)":'90,682'}}
+,{rows:126,cols:6,size:6179,d:'This data has the distribution of population by type of household and sex.',url:'http://data.edostate.gov.ng/storage/f/2013-08-01T14%3A34%3A49.075Z/distribution-of-population-by-type-of-household-and-sex.csv',id:'c4fdf9dd-7843-4394-a069-a0b425c69808',made:'2013-08-01T14:39:36.966956',mods:'2014-07-08T13:44:08.682703',
+   C:['_id','LGA','TYPE OF HOUSEHOLD','TOTAL NO. OF HOUSEHOLD','MALE','FEMALE'],
+   T:['int4','text','text','text','text','text'],
+   R:{MALE:'129,552',LGA:'Akoko Edo',FEMALE:'127,611',"TOTAL NO. OF HOUSEHOLD":'58,397',"TYPE OF HOUSEHOLD":'Regular',_id:1}}
+,{rows:846,cols:21,size:295519,d:'',url:'http://data.edostate.gov.ng/storage/f/2013-08-05T07%3A53%3A18.046Z/nigeria-major-contract-awards.csv',id:'a017c845-07cc-40c8-9866-2da8144d2add',made:'2013-08-05T08:01:01.547354',mods:'2014-07-08T13:43:35.797416',
+   C:['_id','As of Date','Fiscal Year','Region','Borrower Country','Borrower Country Code','Project ID','Project Name','Procurement Type','Procurement Category','Procurement Method','Product line','WB Contract Number','Major Sector','Contract Description','Contract Signing Date','Supplier','Supplier Country','Supplier Country Code','Total Contract Amount (USD)','Borrower Contract Reference Number'],
+   T:['int4','timestamp','numeric','text','text','text','text','text','text','text','text','text','numeric','text','text','timestamp','text','text','text','text','text'],
+   R:{"Procurement Category":'Goods',"Supplier Country Code":'NG',"Contract Signing Date":'2007-06-04T00:00:00',"As of Date":'2013-07-21T00:00:00',"Project Name":'Micro, Small and Medium Enterprise Project',"Contract Description":'LOTS 2',Region:'AFRICA',"Major Sector":'Industry and trade',"WB Contract Number":'1267890',"Total Contract Amount (USD)":'$123,491.00 ',"Borrower Country Code":'NG',"Borrower Contract Reference Number":'MSME/ICB/GDS/01/2006 LOT 2',"Fiscal Year":'2007',"Borrower Country":'Nigeria',"Supplier Country":'Nigeria',Supplier:'M/S EMPIRE ENTERPRISES',"Product line":'IBRD/IDA',_id:1,"Project ID":'P083082',"Procurement Type":'Equipment Information Technology',"Procurement Method":'International Competitive Bidding'}}
+,{rows:797,cols:3,size:42448,d:'',url:'http://data.edostate.gov.ng/storage/f/2013-08-28T08%3A02%3A22.744Z/directory-of-patient-medicine-shop.csv',id:'79028e24-d572-4d1b-b6e3-752ee3b329bc',made:'2013-08-02T13:25:59.154601',mods:'2014-07-08T13:42:43.784377',
+   C:['_id','LICENSED MEMBERS','ADDRESS'],
+   T:['int4','text','text'],
+   R:{_id:1,"LICENSED MEMBERS":'Aghawo Micheal',ADDRESS:'61, Ohovbe Rd. Benin City'}}
+,{rows:156,cols:5,size:9995,d:'',url:'http://data.edostate.gov.ng/storage/f/2013-08-02T13%3A22%3A29.759Z/directory-of-registered-pharmaceutical-shops-in-edo-state.csv',id:'eedbc014-3fd3-44b5-8bdd-ca08213132eb',made:'2013-08-02T13:26:47.723445',mods:'2014-07-08T13:42:08.919760',
+   C:['_id','LGA','S/N','NAME OF FACILITY','ADDRESS'],
+   T:['int4','text','numeric','text','text'],
+   R:{ADDRESS:'2 Abuja Express Way, Ibillo',_id:1,"S/N":'1',"NAME OF FACILITY":'Veras Pharmacy',LGA:'Akoko Edo'}}
+,{rows:16,cols:3,size:418,d:'',url:'http://data.edostate.gov.ng/storage/f/2013-08-02T13%3A27%3A42.790Z/list-of-leprosy-clinics-in-edo-state-by-lga.csv',id:'ae042d59-0e64-47d8-8294-0027cd36635e',made:'2013-08-02T13:32:04.302830',mods:'2014-07-08T13:40:53.032289',
+   C:['_id','LGA','NAME'],
+   T:['int4','text','text'],
+   R:{_id:1,NAME:'Ibillo',LGA:'Akoko Edo'}}
+,{rows:88,cols:15,size:2554,d:'This data contains the summary of capital expenditure for the year 2006',url:'http://data.edostate.gov.ng/storage/f/2013-08-21T12%3A37%3A34.262Z/2006-summary-of-capital-expenditure.csv',id:'7ba8b140-a087-4c6d-a2fd-01f98b4861fd',made:'2013-08-21T12:48:32.846918',mods:'2014-07-08T13:37:53.936338',
+   C:['_id','BUDGET TITLE','YEAR','HEAD','SUBHEAD','MINISTRY/DEPARTMENT/PARASTATAL','2005 APPROVED PROVISION PERSONNEL COSTS 3','2005 APPROVED PROVISION OVERHEAD COST 4','2005 APPROVED PROVISION TOTAL 5','ACTUAL  EXPENDITURE  AS  AT  SEPT.  2005 PERSONNEL COSTS 6','ACTUAL  EXPENDITURE  AS  AT  SEPT.  2005 OVERHEAD COSTS 7','ACTUAL  EXPENDITURE  AS  AT  SEPT.  2005 TOTAL 8','2006  PROPOSED  PROVISION PERSONNEL COSTS 9','2006  PROPOSED  PROVISION OVERHEAD COST 10','2006  PROPOSED  PROVISION TOTAL 11'],
+   T:['int4','text','numeric','numeric','text','text','text','text','text','text','text','text','text','text','text'],
+   R:{HEAD:'412',SUBHEAD:'412a',"2005 APPROVED PROVISION OVERHEAD COST 4":'780,000,000',"2005 APPROVED PROVISION TOTAL 5":'815,661,000',"2006  PROPOSED  PROVISION TOTAL 11":'909,000,000',"ACTUAL  EXPENDITURE  AS  AT  SEPT.  2005 OVERHEAD COSTS 7":'483,477,730',"ACTUAL  EXPENDITURE  AS  AT  SEPT.  2005 TOTAL 8":'507,323,337',"2006  PROPOSED  PROVISION OVERHEAD COST 10":'860,000,000',"MINISTRY/DEPARTMENT/PARASTATAL":'Governors Office(Department of Government House and Protocol)',YEAR:'2006',"2005 APPROVED PROVISION PERSONNEL COSTS 3":'35,661,000',"ACTUAL  EXPENDITURE  AS  AT  SEPT.  2005 PERSONNEL COSTS 6":'23,845,607',_id:1,"BUDGET TITLE":'Personnel and Overhead Costs Analysis',"2006  PROPOSED  PROVISION PERSONNEL COSTS 9":'49,000,000'}}
+,{rows:88,cols:15,size:2554,d:'This data contains the summary of capital expenditure for the year 2006',url:'http://data.edostate.gov.ng/storage/f/2013-08-21T12%3A37%3A34.262Z/2006-summary-of-capital-expenditure.csv',id:'7ba8b140-a087-4c6d-a2fd-01f98b4861fd',made:'2013-08-21T12:48:32.846918',mods:'2014-07-08T13:37:53.936338',
+   C:['_id','BUDGET TITLE','YEAR','HEAD','SUBHEAD','MINISTRY/DEPARTMENT/PARASTATAL','2005 APPROVED PROVISION PERSONNEL COSTS 3','2005 APPROVED PROVISION OVERHEAD COST 4','2005 APPROVED PROVISION TOTAL 5','ACTUAL  EXPENDITURE  AS  AT  SEPT.  2005 PERSONNEL COSTS 6','ACTUAL  EXPENDITURE  AS  AT  SEPT.  2005 OVERHEAD COSTS 7','ACTUAL  EXPENDITURE  AS  AT  SEPT.  2005 TOTAL 8','2006  PROPOSED  PROVISION PERSONNEL COSTS 9','2006  PROPOSED  PROVISION OVERHEAD COST 10','2006  PROPOSED  PROVISION TOTAL 11'],
+   T:['int4','text','numeric','numeric','text','text','text','text','text','text','text','text','text','text','text'],
+   R:{HEAD:'412',SUBHEAD:'412a',"2005 APPROVED PROVISION OVERHEAD COST 4":'780,000,000',"2005 APPROVED PROVISION TOTAL 5":'815,661,000',"2006  PROPOSED  PROVISION TOTAL 11":'909,000,000',"ACTUAL  EXPENDITURE  AS  AT  SEPT.  2005 OVERHEAD COSTS 7":'483,477,730',"ACTUAL  EXPENDITURE  AS  AT  SEPT.  2005 TOTAL 8":'507,323,337',"2006  PROPOSED  PROVISION OVERHEAD COST 10":'860,000,000',"MINISTRY/DEPARTMENT/PARASTATAL":'Governors Office(Department of Government House and Protocol)',YEAR:'2006',"2005 APPROVED PROVISION PERSONNEL COSTS 3":'35,661,000',"ACTUAL  EXPENDITURE  AS  AT  SEPT.  2005 PERSONNEL COSTS 6":'23,845,607',_id:1,"BUDGET TITLE":'Personnel and Overhead Costs Analysis',"2006  PROPOSED  PROVISION PERSONNEL COSTS 9":'49,000,000'}}
+,{rows:712,cols:14,size:4320,d:'This data contains the summary of capital expenditure for the year 2008',url:'http://data.edostate.gov.ng/storage/f/2013-08-21T13%3A29%3A12.185Z/2008-summary-of-capital-expenditure.csv',id:'d7206f31-d46e-4600-9143-e025b37efb85',made:'2013-08-21T13:34:17.014906',mods:'2014-07-08T13:32:45.832893',
+   C:['_id','BUDGET TITLE','YEAR','SUMMARY/DATAILS','HEAD','SUBHEAD','RECURRENT REVENUE DECRIPTION','MINISTRY/DEPARTMENT/PARASTATAL','DETAILS OF RECURRENT REVENUE ESTIMATES','APPROVED ESTIMATES 2008 ','APPROVED ESTIMATES 2007','ACTUAL  REVENUE JANSEPT 2007','FORECAST OF ACTUAL REVENUE OCTDEC. 2007','ACTUAL REVENUE 2006 '],
+   T:['int4','text','numeric','text','numeric','text','text','text','text','text','text','text','text','text'],
+   R:{HEAD:'401',SUBHEAD:'',"SUMMARY/DATAILS":'Summary',"ACTUAL  REVENUE JANSEPT 2007":'3,336,134,711',"RECURRENT REVENUE DECRIPTION":'Taxes',"DETAILS OF RECURRENT REVENUE ESTIMATES":'',"ACTUAL REVENUE 2006 ":'1,975,086,093',"FORECAST OF ACTUAL REVENUE OCTDEC. 2007":'1,112,078,000',"MINISTRY/DEPARTMENT/PARASTATAL":'',YEAR:'2008',"APPROVED ESTIMATES 2007":'2,599,400,000',_id:1,"BUDGET TITLE":'Summary and Details of Recurrent Revenue Estimates',"APPROVED ESTIMATES 2008 ":'5,094,500,000'}}
+,{rows:712,cols:14,size:4320,d:'This data contains the summary of capital expenditure for the year 2008',url:'http://data.edostate.gov.ng/storage/f/2013-08-21T13%3A29%3A12.185Z/2008-summary-of-capital-expenditure.csv',id:'d7206f31-d46e-4600-9143-e025b37efb85',made:'2013-08-21T13:34:17.014906',mods:'2014-07-08T13:32:45.832893',
+   C:['_id','BUDGET TITLE','YEAR','SUMMARY/DATAILS','HEAD','SUBHEAD','RECURRENT REVENUE DECRIPTION','MINISTRY/DEPARTMENT/PARASTATAL','DETAILS OF RECURRENT REVENUE ESTIMATES','APPROVED ESTIMATES 2008 ','APPROVED ESTIMATES 2007','ACTUAL  REVENUE JANSEPT 2007','FORECAST OF ACTUAL REVENUE OCTDEC. 2007','ACTUAL REVENUE 2006 '],
+   T:['int4','text','numeric','text','numeric','text','text','text','text','text','text','text','text','text'],
+   R:{HEAD:'401',SUBHEAD:'',"SUMMARY/DATAILS":'Summary',"ACTUAL  REVENUE JANSEPT 2007":'3,336,134,711',"RECURRENT REVENUE DECRIPTION":'Taxes',"DETAILS OF RECURRENT REVENUE ESTIMATES":'',"ACTUAL REVENUE 2006 ":'1,975,086,093',"FORECAST OF ACTUAL REVENUE OCTDEC. 2007":'1,112,078,000',"MINISTRY/DEPARTMENT/PARASTATAL":'',YEAR:'2008',"APPROVED ESTIMATES 2007":'2,599,400,000',_id:1,"BUDGET TITLE":'Summary and Details of Recurrent Revenue Estimates',"APPROVED ESTIMATES 2008 ":'5,094,500,000'}}
+,{rows:265,cols:14,size:47874,d:'This data contains the summary and details of 2007 recurrent revenue estimates.',url:'http://data.edostate.gov.ng/storage/f/2013-08-21T13%3A08%3A14.768Z/2007-recurrent-revenue-estimates.csv',id:'af93e4f2-b046-4612-9122-397d22695d6e',made:'2013-08-21T13:13:17.325247',mods:'2014-07-08T13:34:45.902920',
+   C:['_id','BUDGET TITLE','YEAR','SUMMARY/DETAILS','HEAD','SUB-HEAD','MINISTRY/DEPARTMENT/PARASTATAL','BUDGET DESCRIPTION','DETAILS OF RECURENT REVENUE ESTIMATES              ','PROPOSED ESTIMATES 2008                                 ','APPROVED ESTIMATES 2007            ','ACTUAL  REVENUE JAN-JUNE 2007             ','FORECAST OF ACTUAL REVENUE JULY-DEC. 2007                  ','ACTUAL REVENUE           '],
+   T:['int4','text','numeric','text','numeric','text','text','text','text','text','text','text','text','text'],
+   R:{"SUB-HEAD":'',HEAD:'401',"ACTUAL REVENUE           ":'',"SUMMARY/DETAILS":'Summary',"ACTUAL  REVENUE JAN-JUNE 2007             ":'',"DETAILS OF RECURENT REVENUE ESTIMATES              ":'',"FORECAST OF ACTUAL REVENUE JULY-DEC. 2007                  ":'',"MINISTRY/DEPARTMENT/PARASTATAL":'',YEAR:'2007',"PROPOSED ESTIMATES 2008                                 ":'',_id:1,"BUDGET TITLE":'Summary of Recurrent Revenue Estimates',"APPROVED ESTIMATES 2007            ":'2,599,400,000',"BUDGET DESCRIPTION":'Taxes'}}
+,{rows:254,cols:14,size:47866,d:'This data contains the summary and details of 2009 recurrent revenue estimates.',url:'http://data.edostate.gov.ng/storage/f/2013-08-21T13%3A54%3A44.134Z/2009-recurrent-revenue-estimate.csv',id:'2d3edc9c-1b07-49be-b9a2-db124aef530d',made:'2013-08-21T13:59:47.151137',mods:'2014-07-08T13:29:39.846949',
+   C:['_id','BUDGET TITLE','YEAR','SUMMARY/DETAILS','HEAD','SUB-HEAD','RECURRENT REVENUE ESTIMATE DESCRIPTION','MINISTRY / DEPARTMENT /PARASTATAL','DETAILS OF RECURRENT REVENUE ESTIMATES','APPROVED ESTIMATES 2009 \n(Naira)','APPROVED ESTIMATES 2008 \n(Naira)','ACTUAL  REVENUE JAN-SEPT 2008\n(Naira)','FORECAST OF ACTUAL REVENUE OCT-DEC. 2008\n(Naira)','ACTUAL REVENUE 2007 '],
+   T:['int4','text','numeric','text','numeric','text','text','text','text','text','text','text','text','text'],
+   R:{"SUB-HEAD":'',HEAD:'401',"APPROVED ESTIMATES 2009 \n(Naira)":'9,406,000,000',"SUMMARY/DETAILS":'Summary',"FORECAST OF ACTUAL REVENUE OCT-DEC. 2008\n(Naira)":'2,884,655,220',"DETAILS OF RECURRENT REVENUE ESTIMATES":'',"ACTUAL REVENUE 2007 ":'8,187,602,474',"MINISTRY / DEPARTMENT /PARASTATAL":'',"APPROVED ESTIMATES 2008 \n(Naira)":'5,594,500,000',"ACTUAL  REVENUE JAN-SEPT 2008\n(Naira)":'2,778,881,931',YEAR:'2009',"RECURRENT REVENUE ESTIMATE DESCRIPTION":'Taxes',_id:1,"BUDGET TITLE":' Recurrent Revenue Estimates'}}
+,{rows:10,cols:7,size:1375,d:'This dataset contains list of projects being supervise by ministry of works,showing names and addresses of contractors,contract sum and their status.',url:'http://edostate.ckanhosted.com/storage/f/2013-07-25T12%3A45%3A47.413Z/housing-projects-in-edo-state-being-supervised-by-the-ministry-of-works.csv',id:'f41224ad-810d-4232-9270-4154c4425744',made:'2013-07-25T12:50:10.068475',mods:'2014-07-08T13:27:11.474368',
+   C:['_id','S/N','LOCATION','PROJECT','CONTRACT SUM','NAME OF CONTRACTOR/  ADDRESS','STATUS'],
+   T:['int4','numeric','text','text','text','text','text'],
+   R:{STATUS:'On-Going',"NAME OF CONTRACTOR/  ADDRESS":'Prime Energy & Gas production Ltd. #5 Golfers Road, Benin City',"S/N":'1',"CONTRACT SUM":'Reprised 19,334,197.04',PROJECT:'Completion of camo clinic at the N.Y.S.C Permanent Orientation Camp',LOCATION:'OKADA',_id:1}}
+,{rows:18,cols:4,size:334,d:'This dataset shows the number of PHC, Health centers and head post by LGA in Edo state.',url:'http://data.edostate.gov.ng/storage/f/2013-08-28T09%3A48%3A17.262Z/summary-of-inventory-of-health-facilities-in-edo-state.csv',id:'258a3ba9-ecb6-4b3d-b2cc-fe9fd7fe264b',made:'2013-08-28T09:53:17.310478',mods:'2014-07-08T13:26:42.553787',
+   C:['_id','LGAs','NO OF PHC/HEALTH CENTRES','HEALTH POST'],
+   T:['int4','text','numeric','numeric'],
+   R:{"NO OF PHC/HEALTH CENTRES":'38',_id:1,"HEALTH POST":null,LGAs:'Akoko-Edo'}}
+,{rows:254,cols:14,size:47866,d:'This data contains the summary and details of 2009 recurrent revenue estimates.',url:'http://data.edostate.gov.ng/storage/f/2013-08-21T13%3A54%3A44.134Z/2009-recurrent-revenue-estimate.csv',id:'2d3edc9c-1b07-49be-b9a2-db124aef530d',made:'2013-08-21T13:59:47.151137',mods:'2014-07-08T13:29:39.846949',
+   C:['_id','BUDGET TITLE','YEAR','SUMMARY/DETAILS','HEAD','SUB-HEAD','RECURRENT REVENUE ESTIMATE DESCRIPTION','MINISTRY / DEPARTMENT /PARASTATAL','DETAILS OF RECURRENT REVENUE ESTIMATES','APPROVED ESTIMATES 2009 \n(Naira)','APPROVED ESTIMATES 2008 \n(Naira)','ACTUAL  REVENUE JAN-SEPT 2008\n(Naira)','FORECAST OF ACTUAL REVENUE OCT-DEC. 2008\n(Naira)','ACTUAL REVENUE 2007 '],
+   T:['int4','text','numeric','text','numeric','text','text','text','text','text','text','text','text','text'],
+   R:{"SUB-HEAD":'',HEAD:'401',"APPROVED ESTIMATES 2009 \n(Naira)":'9,406,000,000',"SUMMARY/DETAILS":'Summary',"FORECAST OF ACTUAL REVENUE OCT-DEC. 2008\n(Naira)":'2,884,655,220',"DETAILS OF RECURRENT REVENUE ESTIMATES":'',"ACTUAL REVENUE 2007 ":'8,187,602,474',"MINISTRY / DEPARTMENT /PARASTATAL":'',"APPROVED ESTIMATES 2008 \n(Naira)":'5,594,500,000',"ACTUAL  REVENUE JAN-SEPT 2008\n(Naira)":'2,778,881,931',YEAR:'2009',"RECURRENT REVENUE ESTIMATE DESCRIPTION":'Taxes',_id:1,"BUDGET TITLE":' Recurrent Revenue Estimates'}}
+,{rows:254,cols:14,size:47866,d:'This data contains the summary and details of 2009 recurrent revenue estimates.',url:'http://data.edostate.gov.ng/storage/f/2013-08-21T13%3A54%3A44.134Z/2009-recurrent-revenue-estimate.csv',id:'2d3edc9c-1b07-49be-b9a2-db124aef530d',made:'2013-08-21T13:59:47.151137',mods:'2014-07-08T13:29:39.846949',
+   C:['_id','BUDGET TITLE','YEAR','SUMMARY/DETAILS','HEAD','SUB-HEAD','RECURRENT REVENUE ESTIMATE DESCRIPTION','MINISTRY / DEPARTMENT /PARASTATAL','DETAILS OF RECURRENT REVENUE ESTIMATES','APPROVED ESTIMATES 2009 \n(Naira)','APPROVED ESTIMATES 2008 \n(Naira)','ACTUAL  REVENUE JAN-SEPT 2008\n(Naira)','FORECAST OF ACTUAL REVENUE OCT-DEC. 2008\n(Naira)','ACTUAL REVENUE 2007 '],
+   T:['int4','text','numeric','text','numeric','text','text','text','text','text','text','text','text','text'],
+   R:{"SUB-HEAD":'',HEAD:'401',"APPROVED ESTIMATES 2009 \n(Naira)":'9,406,000,000',"SUMMARY/DETAILS":'Summary',"FORECAST OF ACTUAL REVENUE OCT-DEC. 2008\n(Naira)":'2,884,655,220',"DETAILS OF RECURRENT REVENUE ESTIMATES":'',"ACTUAL REVENUE 2007 ":'8,187,602,474',"MINISTRY / DEPARTMENT /PARASTATAL":'',"APPROVED ESTIMATES 2008 \n(Naira)":'5,594,500,000',"ACTUAL  REVENUE JAN-SEPT 2008\n(Naira)":'2,778,881,931',YEAR:'2009',"RECURRENT REVENUE ESTIMATE DESCRIPTION":'Taxes',_id:1,"BUDGET TITLE":' Recurrent Revenue Estimates'}}
+,{rows:88,cols:15,size:2554,d:'This data contains the summary of capital expenditure for the year 2006',url:'http://data.edostate.gov.ng/storage/f/2013-08-21T12%3A37%3A34.262Z/2006-summary-of-capital-expenditure.csv',id:'7ba8b140-a087-4c6d-a2fd-01f98b4861fd',made:'2013-08-21T12:48:32.846918',mods:'2014-07-08T13:37:53.936338',
+   C:['_id','BUDGET TITLE','YEAR','HEAD','SUBHEAD','MINISTRY/DEPARTMENT/PARASTATAL','2005 APPROVED PROVISION PERSONNEL COSTS 3','2005 APPROVED PROVISION OVERHEAD COST 4','2005 APPROVED PROVISION TOTAL 5','ACTUAL  EXPENDITURE  AS  AT  SEPT.  2005 PERSONNEL COSTS 6','ACTUAL  EXPENDITURE  AS  AT  SEPT.  2005 OVERHEAD COSTS 7','ACTUAL  EXPENDITURE  AS  AT  SEPT.  2005 TOTAL 8','2006  PROPOSED  PROVISION PERSONNEL COSTS 9','2006  PROPOSED  PROVISION OVERHEAD COST 10','2006  PROPOSED  PROVISION TOTAL 11'],
+   T:['int4','text','numeric','numeric','text','text','text','text','text','text','text','text','text','text','text'],
+   R:{HEAD:'412',SUBHEAD:'412a',"2005 APPROVED PROVISION OVERHEAD COST 4":'780,000,000',"2005 APPROVED PROVISION TOTAL 5":'815,661,000',"2006  PROPOSED  PROVISION TOTAL 11":'909,000,000',"ACTUAL  EXPENDITURE  AS  AT  SEPT.  2005 OVERHEAD COSTS 7":'483,477,730',"ACTUAL  EXPENDITURE  AS  AT  SEPT.  2005 TOTAL 8":'507,323,337',"2006  PROPOSED  PROVISION OVERHEAD COST 10":'860,000,000',"MINISTRY/DEPARTMENT/PARASTATAL":'Governors Office(Department of Government House and Protocol)',YEAR:'2006',"2005 APPROVED PROVISION PERSONNEL COSTS 3":'35,661,000',"ACTUAL  EXPENDITURE  AS  AT  SEPT.  2005 PERSONNEL COSTS 6":'23,845,607',_id:1,"BUDGET TITLE":'Personnel and Overhead Costs Analysis',"2006  PROPOSED  PROVISION PERSONNEL COSTS 9":'49,000,000'}}
+,{rows:88,cols:15,size:2554,d:'This data contains the summary of capital expenditure for the year 2006',url:'http://data.edostate.gov.ng/storage/f/2013-08-21T12%3A37%3A34.262Z/2006-summary-of-capital-expenditure.csv',id:'7ba8b140-a087-4c6d-a2fd-01f98b4861fd',made:'2013-08-21T12:48:32.846918',mods:'2014-07-08T13:37:53.936338',
+   C:['_id','BUDGET TITLE','YEAR','HEAD','SUBHEAD','MINISTRY/DEPARTMENT/PARASTATAL','2005 APPROVED PROVISION PERSONNEL COSTS 3','2005 APPROVED PROVISION OVERHEAD COST 4','2005 APPROVED PROVISION TOTAL 5','ACTUAL  EXPENDITURE  AS  AT  SEPT.  2005 PERSONNEL COSTS 6','ACTUAL  EXPENDITURE  AS  AT  SEPT.  2005 OVERHEAD COSTS 7','ACTUAL  EXPENDITURE  AS  AT  SEPT.  2005 TOTAL 8','2006  PROPOSED  PROVISION PERSONNEL COSTS 9','2006  PROPOSED  PROVISION OVERHEAD COST 10','2006  PROPOSED  PROVISION TOTAL 11'],
+   T:['int4','text','numeric','numeric','text','text','text','text','text','text','text','text','text','text','text'],
+   R:{HEAD:'412',SUBHEAD:'412a',"2005 APPROVED PROVISION OVERHEAD COST 4":'780,000,000',"2005 APPROVED PROVISION TOTAL 5":'815,661,000',"2006  PROPOSED  PROVISION TOTAL 11":'909,000,000',"ACTUAL  EXPENDITURE  AS  AT  SEPT.  2005 OVERHEAD COSTS 7":'483,477,730',"ACTUAL  EXPENDITURE  AS  AT  SEPT.  2005 TOTAL 8":'507,323,337',"2006  PROPOSED  PROVISION OVERHEAD COST 10":'860,000,000',"MINISTRY/DEPARTMENT/PARASTATAL":'Governors Office(Department of Government House and Protocol)',YEAR:'2006',"2005 APPROVED PROVISION PERSONNEL COSTS 3":'35,661,000',"ACTUAL  EXPENDITURE  AS  AT  SEPT.  2005 PERSONNEL COSTS 6":'23,845,607',_id:1,"BUDGET TITLE":'Personnel and Overhead Costs Analysis',"2006  PROPOSED  PROVISION PERSONNEL COSTS 9":'49,000,000'}}
+,{rows:18,cols:6,size:990,d:'Population Distribution by Local Government Area',url:'http://data.edostate.gov.ng/storage/f/2013-08-28T10%3A17%3A10.938Z/2006-census-population-distribution-by-l-g-a.csv',id:'51aa18bb-ab54-47dd-a144-494f41496bc8',made:'2013-08-28T10:22:07.406867',mods:'2014-07-08T13:26:07.622458',
+   C:['_id','L.G.A.','SENATORIAL DISTRICT','LAND SIZE (in Sq KM)','MALE','FEMALE'],
+   T:['int4','text','text','text','text','text'],
+   R:{"SENATORIAL DISTRICT":'EDO NORTH',"L.G.A.":'Akoko-Edo ',MALE:'132,184',FEMALE:'129,383',_id:1,"LAND SIZE (in Sq KM)":'1,392'}}
+,{rows:17,cols:6,size:875,d:'Distribution of Population (Age 6 and Above) by Sex, Age Group and Literary Status in Edo State',url:'http://data.edostate.gov.ng/storage/f/2013-08-28T10%3A54%3A50.586Z/distribution-of-population-age-6-and-above-by-sex-age-groups-and-literacy-status.csv',id:'aed36382-f0c7-40c2-9cad-42de95b13852',made:'2013-08-28T10:59:44.204682',mods:'2014-07-08T13:25:34.304547',
+   C:['_id','Age Groups','Male Literate','Male Not Literate','Female Literate','Female Not Literate'],
+   T:['int4','text','text','text','text','text'],
+   R:{"Age Groups":'6-9yrs',"Male Not Literate":'87,982',_id:1,"Female Not Literate":'81,198',"Female Literate":'68,624',"Male Literate":'73,478'}}
+,{rows:35,cols:6,size:2195,d:'',url:'http://data.edostate.gov.ng/storage/f/2013-08-28T16%3A15%3A32.249Z/legal-waste-bin-dump-coordinates.csv',id:'b707628f-2660-485e-8457-7199c3287436',made:'2013-08-28T16:20:57.705140',mods:'2014-07-08T13:22:14.369401',
+   C:['_id','S/N','POI','Road','Y-Coordinate','X-Coordinate'],
+   T:['int4','numeric','text','text','numeric','numeric'],
+   R:{"X-Coordinate":'5.61915',"S/N":'1',"Y-Coordinate":'6.319616667',POI:'Waste bin at admin 1',_id:1,Road:'GW/030'}}
+,{rows:94,cols:6,size:9971,d:'List of Registered churches showing their year of registration and their addresses in Edo state. \r\n\r\n\r\n',url:'http://data.edostate.gov.ng/storage/f/2013-08-28T12%3A07%3A28.764Z/list-of-registered-churches.csv',id:'961f447d-3889-4a53-86f6-8cc78e663902',made:'2013-08-28T12:12:20.504600',mods:'2014-07-08T13:22:36.914730',
+   C:['_id','NAME OF CHURCH','REG. NO','LOCAL GOVT.','YEAR OF REGISTRATION','ADDRESS'],
+   T:['int4','text','text','text','numeric','text'],
+   R:{"LOCAL GOVT.":'Oredo',"REG. NO":'YA/CLB/0426',"NAME OF CHURCH":'Accredited Church of God For World Service',"YEAR OF REGISTRATION":'2000',ADDRESS:'80 Akenzua Streetoff Airport Road, Benin City',_id:1}}
+,{rows:65414,cols:7,size:551287,d:'This dataset contains the list and addresses of registered organization in Edo state having their area of concern and year of registration. ',url:'http://data.edostate.gov.ng/storage/f/2013-08-28T11%3A59%3A49.101Z/list-of-registered-organisation.csv',id:'d64d2c33-eafb-45fa-8185-86a16b2bf37a',made:'2013-08-28T12:04:51.356760',mods:'2014-07-08T13:23:03.128142',
+   C:['_id','NAME OF ORGANIZATION','REG. NO','LOCAL GOVT.','YEAR OF REGISTRATION','AREA OF CONCERN','ADDRESS'],
+   T:['int4','text','text','text','text','text','text'],
+   R:{"LOCAL GOVT.":'Ikpoba Okha',"NAME OF ORGANIZATION":'All Young Star Club of Benin ',"REG. NO":'YA/CLB/3761',"AREA OF CONCERN":'WELFARE',ADDRESS:'10 Abraham Street Ikpoba Okha L.G.A ',_id:1,"YEAR OF REGISTRATION":'2010'}}
+,{rows:69,cols:4,size:1883,d:'List of Cocoa Livelihood Programme-Planting, Replaning & Diversification (CLP-PRD) Schools in Edo State\r\n',url:'http://data.edostate.gov.ng/storage/f/2013-08-31T13%3A24%3A27.059Z/cocoa-livelihood-programme-planting-replaning-diversification-clp-prd-schools.csv',id:'3dc428aa-bccd-4cf8-a579-ea3049ef9633',made:'2013-08-31T13:29:58.699926',mods:'2014-07-08T13:21:02.243941',
+   C:['_id','SCHOOL','FARMER PARTICIPANTS','LOCAL GOVERNMENT AREA'],
+   T:['int4','text','numeric','text'],
+   R:{SCHOOL:'Olumoye',_id:1,"LOCAL GOVERNMENT AREA":'Ovia North East',"FARMER PARTICIPANTS":'32'}}
+,{rows:576,cols:28,size:46986,d:'Statistics on Edo State summary of Disease Surveillance of communicable and  Non-communicable Diseases showing the numbers of death rate, Cases in-patients and Cases out-patients for the year 2011.',url:'http://data.edostate.gov.ng/storage/f/2013-08-31T13%3A07%3A27.449Z/edo-state-disease-surveillance-survey-2011-summary.csv',id:'549cc3c1-e3fa-46e7-b1f7-dbc0297017fb',made:'2013-08-31T13:13:10.858975',mods:'2014-07-08T13:21:36.045146',
+   C:['_id','Month','Disease Type','Cases out-patients, 0-28 days ','Cases out-patients, 1-11 months ','Cases out-patients, 12-59 months','Cases out-patients, 5-9 years','Cases out-patients, 10-19 years','Cases out-patients, 20-40 years','Cases out-patients, >40 years','Cases out-patients, Total','Cases in-patients, 0-28 days','Cases in-patients, 1-11 months','Cases in-patients, 12-59 months','Cases in-patients, 5-9 years','Cases in-patients, 10-19 years','Cases in-patients, 20-40 years','Cases in-patients, >40 years','Cases in-patients, Total',' Total cases in & out  patient','Deaths, 0-28 days','Deaths, 1-11 months','Deaths,12-59 months','Deaths, 5-9 years','Deaths, 10-19 years','Deaths, 20-40 years','Deaths,>40 years','Deaths,Total'],
+   T:['int4','timestamp','text','numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric'],
+   R:{"Deaths,12-59 months":'0',"Cases in-patients, 0-28 days":'0',"Cases in-patients, 12-59 months":'0',"Cases in-patients, >40 years":'0',"Cases out-patients, Total":'0',"Cases in-patients, 1-11 months":'0',"Cases out-patients, 5-9 years":'0',"Cases out-patients, >40 years":'0',"Cases out-patients, 10-19 years":'0',"Cases out-patients, 1-11 months ":'0',"Deaths,>40 years":'0',"Cases out-patients, 12-59 months":'0'," Total cases in & out  patient":'0',"Deaths,Total":'0',"Cases out-patients, 0-28 days ":'0',"Cases out-patients, 20-40 years":'0',"Cases in-patients, 20-40 years":'0',"Cases in-patients, Total":'0',"Deaths, 0-28 days":'0',"Deaths, 20-40 years":'0',"Deaths, 10-19 years":'0',"Cases in-patients, 10-19 years":'0',"Cases in-patients, 5-9 years":'0',"Disease Type":'Anthrax',Month:'2014-01-08T00:00:00',"Deaths, 5-9 years":'0',_id:1,"Deaths, 1-11 months":'0'}}
+,{rows:24,cols:3,size:688,d:'This data contain the name and position of Edo State Farmers Field School Management Team',url:'http://data.edostate.gov.ng/storage/f/2013-08-31T13%3A34%3A08.858Z/cocoa-farmers-field-school-management-team.csv',id:'b47b1643-3dd4-496d-800c-ab310de93b39',made:'2013-08-31T13:39:44.871216',mods:'2014-07-08T13:20:41.975444',
+   C:['_id','NAME','POSITION'],
+   T:['int4','text','text'],
+   R:{POSITION:'cordinator',_id:1,NAME:'F.O. Idahor'}}
+,{rows:18,cols:8,size:1321,d:'This file contains budget allocation for rural water and sanitation for the year 2013',url:'http://data.edostate.gov.ng/storage/f/2013-08-15T23%3A12%3A19.859Z/rural-water-and-sanitation-2013.csv',id:'c669de68-42b1-4c9a-b85c-7a9e4becf6b3',made:'2013-08-15T15:18:25.815891',mods:'2014-07-08T13:15:38.652143',
+   C:['_id','SECTOR','SUB-SECTOR','HEAD','L.G.A','ID','APPROVED APPROPRIATION','YEAR'],
+   T:['int4','text','text','text','text','text','numeric','numeric'],
+   R:{SECTOR:'ENVIRONMENTAL',HEAD:'454C',"SUB-SECTOR":'RURAL WATER AND SANITATION',"L.G.A":'AKOKO EDO',"APPROVED APPROPRIATION":'7500000',YEAR:'2011',_id:1,ID:'AKOK'}}
+,{rows:18,cols:8,size:1375,d:'This file is contains Budget allocation to the various Water projects per L.G.A for the year 2013',url:'http://data.edostate.gov.ng/storage/f/2013-08-15T16%3A07%3A30.182Z/water-resources2013.csv',id:'f73bc2be-a894-4da5-8b47-d09e937bcf7e',made:'2013-08-15T08:13:41.053793',mods:'2014-07-08T13:17:59.638027',
+   C:['_id','SECTOR','SUB-SECTOR','HEAD','L.G.A','ID',' APPROVED APPROPRIATION ','YEAR'],
+   T:['int4','text','text','text','text','text','numeric','numeric'],
+   R:{SECTOR:'  ENVIRONMENTAL',HEAD:'     454B',"SUB-SECTOR":'WATER RESOURCES',"L.G.A":'AKOKO-EDO',YEAR:'2011'," APPROVED APPROPRIATION ":'50000000',_id:1,ID:'AKOK'}}
+,{rows:18,cols:8,size:1375,d:'This file is contains Budget allocation to the various Water projects per L.G.A for the year 2013',url:'http://data.edostate.gov.ng/storage/f/2013-08-15T16%3A07%3A30.182Z/water-resources2013.csv',id:'f73bc2be-a894-4da5-8b47-d09e937bcf7e',made:'2013-08-15T08:13:41.053793',mods:'2014-07-08T13:17:59.638027',
+   C:['_id','SECTOR','SUB-SECTOR','HEAD','L.G.A','ID',' APPROVED APPROPRIATION ','YEAR'],
+   T:['int4','text','text','text','text','text','numeric','numeric'],
+   R:{SECTOR:'  ENVIRONMENTAL',HEAD:'     454B',"SUB-SECTOR":'WATER RESOURCES',"L.G.A":'AKOKO-EDO',YEAR:'2011'," APPROVED APPROPRIATION ":'50000000',_id:1,ID:'AKOK'}}
+,{rows:18,cols:8,size:1156,d:'Budget distribution for road projects embarked on  across the various local government of the state for the year 2010',url:'http://data.edostate.gov.ng/storage/f/2013-08-12T20%3A13%3A50.587Z/budgetroads2010.csv',id:'b828934d-d086-4435-b1ef-6439bdfd2c31',made:'2013-08-12T12:21:03.856834',mods:'2014-07-08T13:19:34.661867',
+   C:['_id','SECTOR','SUB-SECTOR','HEAD','L.G.A','ID','APPROVED APPROPRIATION','YEAR'],
+   T:['int4','text','text','numeric','text','text','numeric','numeric'],
+   R:{SECTOR:'ECONOMIC',HEAD:'416',"SUB-SECTOR":'Works (Roads) ',"L.G.A":'AKOKO-EDO',"APPROVED APPROPRIATION":'1350000000',YEAR:'2011',_id:1,ID:'AKOK'}}
+,{rows:18,cols:8,size:1156,d:'Budget distribution for road projects embarked on  across the various local government of the state for the year 2010',url:'http://data.edostate.gov.ng/storage/f/2013-08-12T20%3A13%3A50.587Z/budgetroads2010.csv',id:'b828934d-d086-4435-b1ef-6439bdfd2c31',made:'2013-08-12T12:21:03.856834',mods:'2014-07-08T13:19:34.661867',
+   C:['_id','SECTOR','SUB-SECTOR','HEAD','L.G.A','ID','APPROVED APPROPRIATION','YEAR'],
+   T:['int4','text','text','numeric','text','text','numeric','numeric'],
+   R:{SECTOR:'ECONOMIC',HEAD:'416',"SUB-SECTOR":'Works (Roads) ',"L.G.A":'AKOKO-EDO',"APPROVED APPROPRIATION":'1350000000',YEAR:'2011',_id:1,ID:'AKOK'}}
+,{rows:41,cols:5,size:2529,d:'Data describing road construction, the length of the road and their level of completion as at January 2013 in Edo State',url:'http://data.edostate.gov.ng/storage/f/2013-09-03T08%3A58%3A45.837Z/road-contracts-list-and-status-as-at-january-2013.csv',id:'f22e53bb-fa4d-4f8f-9c5b-14c20d5e3052',made:'2013-09-03T09:04:48.656590',mods:'2014-07-08T13:20:19.278983',
+   C:['_id','Location (Local Govt Area)','Name Of Road','Length (Km)','Level Of Completion'],
+   T:['int4','text','text','text','text'],
+   R:{"Location (Local Govt Area)":'Oredo/Egor',"Name Of Road":'2nd West Circular Road/Part Of Aruosaghae Street',_id:1,"Level Of Completion":'100%',"Length (Km)":'1.97 Km'}}
+,{rows:18,cols:8,size:1407,d:'This file contains the disaggregated budget for energy distribution for the year 2013',url:'http://data.edostate.gov.ng/storage/f/2013-08-14T16%3A09%3A43.185Z/rural-electrification-2013.csv',id:'94ced25e-a58c-44d4-b8a6-6ad0cdaa5a06',made:'2013-08-14T08:15:38.206260',mods:'2014-07-08T13:14:28.388787',
+   C:['_id','SECTOR','SUB-SECTOR','HEAD','L.G.A ','ID',' APPROVED APPROPRIATION','YEAR'],
+   T:['int4','text','text','text','text','text','numeric','numeric'],
+   R:{SECTOR:'ECONOMIC',HEAD:'454A',"SUB-SECTOR":'ENERGY (RURAL ELECTRIFICATION)',"L.G.A ":'AKOKO-EDO',YEAR:'2013',_id:1," APPROVED APPROPRIATION":'44500000',ID:'AKOK'}}
+,{rows:18,cols:8,size:1375,d:'This file is contains Budget allocation to the various Water projects per L.G.A for the year 2013',url:'http://data.edostate.gov.ng/storage/f/2013-08-15T16%3A07%3A30.182Z/water-resources2013.csv',id:'f73bc2be-a894-4da5-8b47-d09e937bcf7e',made:'2013-08-15T08:13:41.053793',mods:'2014-07-08T13:17:59.638027',
+   C:['_id','SECTOR','SUB-SECTOR','HEAD','L.G.A','ID',' APPROVED APPROPRIATION ','YEAR'],
+   T:['int4','text','text','text','text','text','numeric','numeric'],
+   R:{SECTOR:'  ENVIRONMENTAL',HEAD:'     454B',"SUB-SECTOR":'WATER RESOURCES',"L.G.A":'AKOKO-EDO',YEAR:'2011'," APPROVED APPROPRIATION ":'50000000',_id:1,ID:'AKOK'}}
+,{rows:18,cols:8,size:1407,d:'This file contains the disaggregated budget for energy distribution for the year 2013',url:'http://data.edostate.gov.ng/storage/f/2013-08-14T16%3A09%3A43.185Z/rural-electrification-2013.csv',id:'94ced25e-a58c-44d4-b8a6-6ad0cdaa5a06',made:'2013-08-14T08:15:38.206260',mods:'2014-07-08T13:14:28.388787',
+   C:['_id','SECTOR','SUB-SECTOR','HEAD','L.G.A ','ID',' APPROVED APPROPRIATION','YEAR'],
+   T:['int4','text','text','text','text','text','numeric','numeric'],
+   R:{SECTOR:'ECONOMIC',HEAD:'454A',"SUB-SECTOR":'ENERGY (RURAL ELECTRIFICATION)',"L.G.A ":'AKOKO-EDO',YEAR:'2013',_id:1," APPROVED APPROPRIATION":'44500000',ID:'AKOK'}}
+,{rows:18,cols:8,size:1321,d:'This file contains budget allocation for rural water and sanitation for the year 2013',url:'http://data.edostate.gov.ng/storage/f/2013-08-15T23%3A12%3A19.859Z/rural-water-and-sanitation-2013.csv',id:'c669de68-42b1-4c9a-b85c-7a9e4becf6b3',made:'2013-08-15T15:18:25.815891',mods:'2014-07-08T13:15:38.652143',
+   C:['_id','SECTOR','SUB-SECTOR','HEAD','L.G.A','ID','APPROVED APPROPRIATION','YEAR'],
+   T:['int4','text','text','text','text','text','numeric','numeric'],
+   R:{SECTOR:'ENVIRONMENTAL',HEAD:'454C',"SUB-SECTOR":'RURAL WATER AND SANITATION',"L.G.A":'AKOKO EDO',"APPROVED APPROPRIATION":'7500000',YEAR:'2011',_id:1,ID:'AKOK'}}
+,{rows:18,cols:8,size:1407,d:'This file contains the disaggregated budget for energy distribution for the year 2013',url:'http://data.edostate.gov.ng/storage/f/2013-08-14T16%3A09%3A43.185Z/rural-electrification-2013.csv',id:'94ced25e-a58c-44d4-b8a6-6ad0cdaa5a06',made:'2013-08-14T08:15:38.206260',mods:'2014-07-08T13:14:28.388787',
+   C:['_id','SECTOR','SUB-SECTOR','HEAD','L.G.A ','ID',' APPROVED APPROPRIATION','YEAR'],
+   T:['int4','text','text','text','text','text','numeric','numeric'],
+   R:{SECTOR:'ECONOMIC',HEAD:'454A',"SUB-SECTOR":'ENERGY (RURAL ELECTRIFICATION)',"L.G.A ":'AKOKO-EDO',YEAR:'2013',_id:1," APPROVED APPROPRIATION":'44500000',ID:'AKOK'}}
+,{rows:34,cols:10,size:7787,d:'This data contain the list of all the bills passed by Edo State House Assembly from 2009 to 2012',url:'http://data.edostate.gov.ng/storage/f/2013-09-03T12%3A19%3A34.142Z/bills-passed-from-2009-2012.csv',id:'3adc19be-8315-4101-9e9c-81af9988abe8',made:'2013-09-03T12:25:06.933938',mods:'2014-07-08T13:12:23.528213',
+   C:['_id','S/N OF TITLE OF BILL','DATE','TITLE OF BILLS','DATE OF 1ST READING','DATE OF 2ND READING','DATE REFERRED TO COMMITTEE','DATE OF 3RD READING','DATE SENT FOR ASSENT','DATE OF ASSENT'],
+   T:['int4','text','timestamp','text','timestamp','timestamp','timestamp','timestamp','timestamp','timestamp'],
+   R:{"S/N OF TITLE OF BILL":'H.A. 18. 2008 ',"DATE OF 1ST READING":'2008-11-24T00:00:00',"DATE SENT FOR ASSENT":null,"DATE OF 3RD READING":'2009-06-03T00:00:00',"DATE REFERRED TO COMMITTEE":'2008-12-17T00:00:00',"DATE OF 2ND READING":'2008-12-17T00:00:00',DATE:'2008-11-24T00:00:00',"DATE OF ASSENT":null,_id:1,"TITLE OF BILLS":'A Bill for a Law to Prohibit Encroachment on Land in the State and for other Purposes Connected therewith. Hon. Ereghan Sunday Ebosele (Esan Central).'}}
+,{rows:18,cols:8,size:1375,d:'This file is contains Budget allocation to the various Water projects per L.G.A for the year 2013',url:'http://data.edostate.gov.ng/storage/f/2013-08-15T16%3A07%3A30.182Z/water-resources2013.csv',id:'f73bc2be-a894-4da5-8b47-d09e937bcf7e',made:'2013-08-15T08:13:41.053793',mods:'2014-07-08T13:17:59.638027',
+   C:['_id','SECTOR','SUB-SECTOR','HEAD','L.G.A','ID',' APPROVED APPROPRIATION ','YEAR'],
+   T:['int4','text','text','text','text','text','numeric','numeric'],
+   R:{SECTOR:'  ENVIRONMENTAL',HEAD:'     454B',"SUB-SECTOR":'WATER RESOURCES',"L.G.A":'AKOKO-EDO',YEAR:'2011'," APPROVED APPROPRIATION ":'50000000',_id:1,ID:'AKOK'}}
+,{rows:18,cols:8,size:1407,d:'This file contains the disaggregated budget for energy distribution for the year 2013',url:'http://data.edostate.gov.ng/storage/f/2013-08-14T16%3A09%3A43.185Z/rural-electrification-2013.csv',id:'94ced25e-a58c-44d4-b8a6-6ad0cdaa5a06',made:'2013-08-14T08:15:38.206260',mods:'2014-07-08T13:14:28.388787',
+   C:['_id','SECTOR','SUB-SECTOR','HEAD','L.G.A ','ID',' APPROVED APPROPRIATION','YEAR'],
+   T:['int4','text','text','text','text','text','numeric','numeric'],
+   R:{SECTOR:'ECONOMIC',HEAD:'454A',"SUB-SECTOR":'ENERGY (RURAL ELECTRIFICATION)',"L.G.A ":'AKOKO-EDO',YEAR:'2013',_id:1," APPROVED APPROPRIATION":'44500000',ID:'AKOK'}}
+,{rows:55,cols:3,size:2436,d:'Data showing the list of registered Private Companies with Ministry of Commerce of Commerce and Industry.',url:'http://data.edostate.gov.ng/storage/f/2013-09-03T13%3A30%3A20.163Z/list-of-private-companies-in-edo-state.csv',id:'33c29736-fece-4ca1-9a26-924f3359d572',made:'2013-09-03T13:32:03.066342',mods:'2014-07-08T14:14:50.173678',
+   C:['_id','NAME OF COMPANY','ADRESS'],
+   T:['int4','text','text'],
+   R:{_id:1,ADRESS:'Ehor',"NAME OF COMPANY":'Fruit Juice Procesing Company'}}
+,{rows:18,cols:8,size:1156,d:'Budget distribution for road projects embarked on  across the various local government of the state for the year 2010',url:'http://data.edostate.gov.ng/storage/f/2013-08-12T20%3A13%3A50.587Z/budgetroads2010.csv',id:'b828934d-d086-4435-b1ef-6439bdfd2c31',made:'2013-08-12T12:21:03.856834',mods:'2014-07-08T13:19:34.661867',
+   C:['_id','SECTOR','SUB-SECTOR','HEAD','L.G.A','ID','APPROVED APPROPRIATION','YEAR'],
+   T:['int4','text','text','numeric','text','text','numeric','numeric'],
+   R:{SECTOR:'ECONOMIC',HEAD:'416',"SUB-SECTOR":'Works (Roads) ',"L.G.A":'AKOKO-EDO',"APPROVED APPROPRIATION":'1350000000',YEAR:'2011',_id:1,ID:'AKOK'}}
+,{rows:18,cols:8,size:1407,d:'This file contains the disaggregated budget for energy distribution for the year 2013',url:'http://data.edostate.gov.ng/storage/f/2013-08-14T16%3A09%3A43.185Z/rural-electrification-2013.csv',id:'94ced25e-a58c-44d4-b8a6-6ad0cdaa5a06',made:'2013-08-14T08:15:38.206260',mods:'2014-07-08T13:14:28.388787',
+   C:['_id','SECTOR','SUB-SECTOR','HEAD','L.G.A ','ID',' APPROVED APPROPRIATION','YEAR'],
+   T:['int4','text','text','text','text','text','numeric','numeric'],
+   R:{SECTOR:'ECONOMIC',HEAD:'454A',"SUB-SECTOR":'ENERGY (RURAL ELECTRIFICATION)',"L.G.A ":'AKOKO-EDO',YEAR:'2013',_id:1," APPROVED APPROPRIATION":'44500000',ID:'AKOK'}}
+,{rows:18,cols:5,size:925,d:'Names and phone numbers of Local Government Chairmen in Edo State.',url:'http://data.edostate.gov.ng/storage/f/2013-09-05T13%3A24%3A56.716Z/local-government-chairmen-and-their-phone-numbers.csv',id:'441e3b72-e392-4379-8ea1-4bc8be89e265',made:'2013-09-05T13:31:01.578525',mods:'2014-07-08T14:13:53.424658',
+   C:['_id','NAMES OF CHAIRMAN','LOCAL GOVERNMENT AREA','PHONE NUMBER 1','PHONE NUMBER 2'],
+   T:['int4','text','text','numeric','numeric'],
+   R:{"PHONE NUMBER 1":'8067841263',"NAMES OF CHAIRMAN":'Hon. Julius Asemota',_id:1,"LOCAL GOVERNMENT AREA":'Igueben',"PHONE NUMBER 2":null}}
+,{rows:78,cols:4,size:3991,d:'Data showing the names and kingdom of traditional rulers in the State',url:'http://data.edostate.gov.ng/storage/f/2013-09-06T11%3A38%3A48.185Z/list-traditional-rulers-in-edo-state-as-updated-10th-june-2013.csv',id:'19421edc-0180-43a0-aa8a-a7930bef4fe2',made:'2013-09-06T11:44:43.115465',mods:'2014-07-08T14:13:01.630189',
+   C:['_id','NAME OF TRADITIONAL RULER','TITLE','KINGDOM'],
+   T:['int4','text','text','text'],
+   R:{KINGDOM:'Benin Kingdom',"NAME OF TRADITIONAL RULER":'Omo\' N\' Oba N\' Edo Uku Akpolokpo',_id:1,TITLE:'The Oba of Benin'}}
+,{rows:18,cols:8,size:1321,d:'This file contains budget allocation for rural water and sanitation for the year 2013',url:'http://data.edostate.gov.ng/storage/f/2013-08-15T23%3A12%3A19.859Z/rural-water-and-sanitation-2013.csv',id:'c669de68-42b1-4c9a-b85c-7a9e4becf6b3',made:'2013-08-15T15:18:25.815891',mods:'2014-07-08T13:15:38.652143',
+   C:['_id','SECTOR','SUB-SECTOR','HEAD','L.G.A','ID','APPROVED APPROPRIATION','YEAR'],
+   T:['int4','text','text','text','text','text','numeric','numeric'],
+   R:{SECTOR:'ENVIRONMENTAL',HEAD:'454C',"SUB-SECTOR":'RURAL WATER AND SANITATION',"L.G.A":'AKOKO EDO',"APPROVED APPROPRIATION":'7500000',YEAR:'2011',_id:1,ID:'AKOK'}}
+,{rows:900,cols:7,size:58221,d:'',url:'http://data.edostate.gov.ng/storage/f/2013-08-28T16%3A06%3A11.608Z/useh-okhoro-gra-coordinates.csv',id:'01e13f70-8c90-4ef8-8fdb-e9d56db06ed3',made:'2013-08-28T16:12:34.839853',mods:'2014-07-08T14:12:25.496275',
+   C:['_id','S/N','POI','Address','Community','Y-Coordinates','X-Coordinate'],
+   T:['int4','numeric','text','text','text','numeric','numeric'],
+   R:{"X-Coordinate":'5.5755',"Y-Coordinates":'6.352933333',POI:'St John the Envangelist Catholic Church',Community:'Useh',"S/N":'1',Address:'',_id:1}}
+,{rows:18,cols:8,size:1375,d:'This file is contains Budget allocation to the various Water projects per L.G.A for the year 2013',url:'http://data.edostate.gov.ng/storage/f/2013-08-15T16%3A07%3A30.182Z/water-resources2013.csv',id:'f73bc2be-a894-4da5-8b47-d09e937bcf7e',made:'2013-08-15T08:13:41.053793',mods:'2014-07-08T13:17:59.638027',
+   C:['_id','SECTOR','SUB-SECTOR','HEAD','L.G.A','ID',' APPROVED APPROPRIATION ','YEAR'],
+   T:['int4','text','text','text','text','text','numeric','numeric'],
+   R:{SECTOR:'  ENVIRONMENTAL',HEAD:'     454B',"SUB-SECTOR":'WATER RESOURCES',"L.G.A":'AKOKO-EDO',YEAR:'2011'," APPROVED APPROPRIATION ":'50000000',_id:1,ID:'AKOK'}}
+,{rows:18,cols:4,size:822,d:'Names and phone numbers of Head of service in the 18 local Government of Edo State',url:'http://data.edostate.gov.ng/storage/f/2013-09-05T13%3A35%3A12.254Z/local-government-head-of-service-h-o-s-and-their-phone-numbers.csv',id:'d2484e5d-3a1b-4959-90a8-4651c3713381',made:'2013-09-05T13:40:47.157899',mods:'2014-07-08T14:14:22.835109',
+   C:['_id','NAMES OF H.O.S','LOCAL GOVERNMENT AREA','PHONE NUMBERS'],
+   T:['int4','text','text','numeric'],
+   R:{"PHONE NUMBERS":'8030495046',_id:1,"LOCAL GOVERNMENT AREA":'Igueben',"NAMES OF H.O.S":'Tom. O. Ebhotemen'}}
+,{rows:18,cols:8,size:1156,d:'Budget distribution for road projects embarked on  across the various local government of the state for the year 2010',url:'http://data.edostate.gov.ng/storage/f/2013-08-12T20%3A13%3A50.587Z/budgetroads2010.csv',id:'b828934d-d086-4435-b1ef-6439bdfd2c31',made:'2013-08-12T12:21:03.856834',mods:'2014-07-08T13:19:34.661867',
+   C:['_id','SECTOR','SUB-SECTOR','HEAD','L.G.A','ID','APPROVED APPROPRIATION','YEAR'],
+   T:['int4','text','text','numeric','text','text','numeric','numeric'],
+   R:{SECTOR:'ECONOMIC',HEAD:'416',"SUB-SECTOR":'Works (Roads) ',"L.G.A":'AKOKO-EDO',"APPROVED APPROPRIATION":'1350000000',YEAR:'2011',_id:1,ID:'AKOK'}}
+,{rows:33,cols:5,size:1706,d:'List of dataset containing location of hospitals in Edo State.',url:'http://data.edostate.gov.ng/storage/f/2013-08-02T13%3A24%3A24.644Z/distribution-of-hopital-in-edo-state.csv',id:'8eb0e65c-ff00-4ae5-9a5b-3bd48d981446',made:'2013-08-02T13:28:41.881890',mods:'2014-07-08T14:11:47.280763',
+   C:['_id','MEDICAL ZONE','LOCAL GOVERNMENT','NAME OF HOSPITAL','BED COMPLIMENT'],
+   T:['int4','text','text','text','numeric'],
+   R:{"MEDICAL ZONE":'Benin',_id:1,"NAME OF HOSPITAL":'Central Hospital B/City',"LOCAL GOVERNMENT":'Oredo',"BED COMPLIMENT":'434'}}
+,{rows:897,cols:8,size:11386,d:'A schedule showing the names, Participating town/villages, duration and the purpose of the festivals in Edo State.',url:'http://data.edostate.gov.ng/storage/f/2013-09-09T12%3A22%3A53.778Z/edo-calendar-of-festival.csv',id:'f3036832-186d-4c88-9e03-ee7dc4ffdbe6',made:'2013-09-09T12:28:57.117533',mods:'2014-07-08T14:11:09.061321',
+   C:['_id','Month','Name of Festival ','Frequency of Occurrence','Participating Towns/Villages','Local Govt. Area','Duration','Purpose'],
+   T:['int4','timestamp','text','text','text','text','text','text'],
+   R:{"Frequency of Occurrence":'Yearly',Month:'2014-01-08T00:00:00',Purpose:'To make the barren fruitful',Duration:'9 days',"Local Govt. Area":'Etsako',_id:1,"Name of Festival ":'Giele',"Participating Towns/Villages":'Uzairue'}}
+,{rows:111,cols:5,size:7338,d:'Data showing completed Micro Projects by Edo CSDP',url:'http://data.edostate.gov.ng/storage/f/2013-09-10T13%3A57%3A43.494Z/completed-micro-projects-by-edo-csdp.csv',id:'8b03bd2c-6027-4d61-928f-e8ece557c7d8',made:'2013-09-10T14:03:51.826620',mods:'2014-07-08T14:08:57.624593',
+   C:['_id','Community','Local Government','Description of Micro-Project','Sector'],
+   T:['int4','text','text','text','text'],
+   R:{Sector:'Education',_id:1,"Local Government":'Esan North',Community:'Amendokhian ',"Description of Micro-Project":'Amendokhian CDP/Secondary School Hall Project'}}
+,{rows:43,cols:5,size:2473,d:'Data showing on-going projects by Edo-CSDP',url:'http://data.edostate.gov.ng/storage/f/2013-09-10T14%3A00%3A16.404Z/on-going-micro-projects-by-edo-csdp.csv',id:'acc8af07-8824-4f6e-b0dd-ec43b6f10fc5',made:'2013-09-10T14:06:24.424424',mods:'2014-07-08T14:08:29.157077',
+   C:['_id','Community','Local Government','Description of Micro-Project','Sector'],
+   T:['int4','text','text','text','text'],
+   R:{Sector:'Education',_id:1,"Local Government":'Ikpoba-Okha',Community:'Abiala ',"Description of Micro-Project":'Abiala CDP/Primary school project'}}
+,{rows:16,cols:7,size:1118,d:'Geo data showing the location of illegal waste dump in Benin metropolis.',url:'http://data.edostate.gov.ng/storage/f/2013-08-28T15%3A52%3A25.344Z/ilegal-waste-dump-coordinates.csv',id:'78366718-d3c9-4a98-afe3-1c1e8ac9b5e2',made:'2013-08-28T15:58:12.931664',mods:'2014-07-08T14:06:15.733252',
+   C:['_id','S/N','POI','Address','Place','Y-Coordinate','X-Coordinate'],
+   T:['int4','numeric','text','text','text','numeric','numeric'],
+   R:{"X-Coordinate":'5.600166667',POI:'OMOKARO JUNCTION ',"S/N":'1',"Y-Coordinate":'6.3573',Place:'SILUKO ROAD',Address:'ALONG SILUKO ROAD',_id:1}}
+,{rows:6,cols:3,size:324,d:'Dataset showing the six Vocational and Technical  Schools in Edo State who benefited from the first set of cheques ',url:'http://data.edostate.gov.ng/storage/f/2014-03-26T11%3A27%3A52.480Z/presentation-of-cheques-to-vocational-and-technical-schools-in-edo-state.csv',id:'b272f8a2-ad0d-4f68-81b2-01ed6de6e30d',made:'2014-03-26T11:28:16.204501',mods:'2014-07-08T14:04:22.598655',
+   C:['_id','NAME OF SCHOOL','Amount Received (N)'],
+   T:['int4','text','text'],
+   R:{"Amount Received (N)":'23,250,.293.00',_id:1,"NAME OF SCHOOL":'Technical College, Benin'}}
+,{rows:28,cols:4,size:1905,d:'Data set showing various types of Agro-based raw materials and their location in Edo State.',url:'http://data.edostate.gov.ng/storage/f/2014-01-15T07%3A20%3A50.140Z/agro-based-raw-materials-in-edo-state.csv',id:'c51c48c1-489b-441e-85b3-1057968a3fb4',made:'2014-01-15T07:21:37.467765',mods:'2014-07-08T14:06:00.338981',
+   C:['_id','RAW MATERIALS','LOCATION-LGA','IDUSTRIAL USES'],
+   T:['int4','text','text','text'],
+   R:{"RAW MATERIALS":'Cassava',_id:1,"LOCATION-LGA":'18 LGAs ot the state',"IDUSTRIAL USES":'Garri, industrial starch, alcohol, animal feed etc'}}
+,{rows:15,cols:6,size:1022,d:'Audited Financial Statements for the Year Ended 31st December, 2010 on  Statements of Assets and Liabilities.',url:'http://edo.staging.ckanhosted.com/storage/f/2013-07-22T12%3A24%3A21.639Z/2010-statements-of-assets-liabilities.csv',id:'0bdca688-9b5d-4e40-8cd6-5a65c1b30b25',made:'2013-07-22T12:29:13.419169',mods:'2014-07-08T14:02:22.920625',
+   C:['_id','HEAD','SUB-HEAD','DESCRIPTION','2010(Naira)','2009(Naira)'],
+   T:['int4','text','text','text','text','text'],
+   R:{"SUB-HEAD":' Funds',HEAD:'LIABILITIES',DESCRIPTION:'Consol. Rev. Fund',"2009(Naira)":' 1,732,139,362.19 ',"2010(Naira)":' 101,181,564.75 ',_id:1}}
+,{rows:9,cols:4,size:483,d:'List of communities  benefitting from SPCU Projects',url:'http://data.edostate.gov.ng/storage/f/2014-03-26T11%3A38%3A44.462Z/communities-benefitting-from-spcu-projects.csv',id:'c7489d4b-745e-4c11-8e3e-dbbf230de20b',made:'2014-03-26T11:39:09.294131',mods:'2014-07-08T14:04:06.954019',
+   C:['_id','Name of community','Amount advanced','Specific project'],
+   T:['int4','text','text','text'],
+   R:{"Name of community":'Iselu Community',_id:1,"Amount advanced":'1,620,000.00',"Specific project":'Community hall'}}
+,{rows:19,cols:7,size:2083,d:'',url:'http://edo.staging.ckanhosted.com/storage/f/2013-07-19T17%3A22%3A38.809Z/2010-cash-flow-statement.csv',id:'f12f151b-99ef-48d6-9b5a-59a0d702756e',made:'2013-07-19T17:23:08.911669',mods:'2014-07-08T14:02:59.300345',
+   C:['_id','HEAD','SUB-HEAD','DESCRIPTION','NOTES','2010 (Naira)','2009 (Naira)'],
+   T:['int4','text','text','text','text','text','text'],
+   R:{"SUB-HEAD":'Receipts          ',HEAD:'Cash Flow from Opting. Activities',DESCRIPTION:'Gross Statutory Allocation',NOTES:'2a',"2009 (Naira)":'21,564,426,915.02',_id:1,"2010 (Naira)":'24,182,710,455.70'}}
+,{rows:48,cols:9,size:1541,d:'Data-set on Statement of Assets & Liabilities for 2012. Sub-head on Cash, investments, internal and external loans, funds, Advances and others.',url:'http://data.edostate.gov.ng/storage/f/2014-04-15T11%3A46%3A12.216Z/2012-statement-of-assets-liabilities.csv',id:'6eeb6982-6721-4548-a9a8-2adf99f8ff98',made:'2014-04-15T11:53:13.485039',mods:'2014-07-08T14:01:28.950044',
+   C:['_id','HEAD','SECTOR','DESCRIPTION','NOTES','BUDGET 2012 (Naira)','ACTUAL 2012 (Naira)','VARIANCE 2012 (Naira)','ACTUAL 2011 (Naira)'],
+   T:['int4','text','text','text','text','text','text','text','text'],
+   R:{SECTOR:'-',HEAD:'Capital',DESCRIPTION:'Opening Balance        ',NOTES:'  a',"BUDGET 2012 (Naira)":'5,000,000,000.00',"VARIANCE 2012 (Naira)":'6,789,505,073.17',"ACTUAL 2012 (Naira)":'-1,789,505,073.17',_id:1,"ACTUAL 2011 (Naira)":'-651,366,378.01'}}
+,{rows:48,cols:9,size:1541,d:'Data-set on Statement of Assets & Liabilities for 2012. Sub-head on Cash, investments, internal and external loans, funds, Advances and others.',url:'http://data.edostate.gov.ng/storage/f/2014-04-15T11%3A46%3A12.216Z/2012-statement-of-assets-liabilities.csv',id:'6eeb6982-6721-4548-a9a8-2adf99f8ff98',made:'2014-04-15T11:53:13.485039',mods:'2014-07-08T14:01:28.950044',
+   C:['_id','HEAD','SECTOR','DESCRIPTION','NOTES','BUDGET 2012 (Naira)','ACTUAL 2012 (Naira)','VARIANCE 2012 (Naira)','ACTUAL 2011 (Naira)'],
+   T:['int4','text','text','text','text','text','text','text','text'],
+   R:{SECTOR:'-',HEAD:'Capital',DESCRIPTION:'Opening Balance        ',NOTES:'  a',"BUDGET 2012 (Naira)":'5,000,000,000.00',"VARIANCE 2012 (Naira)":'6,789,505,073.17',"ACTUAL 2012 (Naira)":'-1,789,505,073.17',_id:1,"ACTUAL 2011 (Naira)":'-651,366,378.01'}}
+,{rows:48,cols:9,size:1541,d:'Data-set on Statement of Assets & Liabilities for 2012. Sub-head on Cash, investments, internal and external loans, funds, Advances and others.',url:'http://data.edostate.gov.ng/storage/f/2014-04-15T11%3A46%3A12.216Z/2012-statement-of-assets-liabilities.csv',id:'6eeb6982-6721-4548-a9a8-2adf99f8ff98',made:'2014-04-15T11:53:13.485039',mods:'2014-07-08T14:01:28.950044',
+   C:['_id','HEAD','SECTOR','DESCRIPTION','NOTES','BUDGET 2012 (Naira)','ACTUAL 2012 (Naira)','VARIANCE 2012 (Naira)','ACTUAL 2011 (Naira)'],
+   T:['int4','text','text','text','text','text','text','text','text'],
+   R:{SECTOR:'-',HEAD:'Capital',DESCRIPTION:'Opening Balance        ',NOTES:'  a',"BUDGET 2012 (Naira)":'5,000,000,000.00',"VARIANCE 2012 (Naira)":'6,789,505,073.17',"ACTUAL 2012 (Naira)":'-1,789,505,073.17',_id:1,"ACTUAL 2011 (Naira)":'-651,366,378.01'}}
+,{rows:54,cols:6,size:1950,d:'Data set showing various quantity of graded Cash Crops in tonnes from 2010 to 2012',url:'http://data.edostate.gov.ng/storage/f/2014-01-17T09%3A38%3A44.175Z/quantity-of-graded-cash-crops-in-edo-state.csv',id:'df650a26-b250-4d7c-8579-d39dca1ed00e',made:'2014-01-17T09:39:14.409436',mods:'2014-07-08T14:05:16.714243',
+   C:['_id','LGA','TYPES OF CASH CROP','QUANTITY GRADED (TONNES) IN 2010','QUANTITY GRADED (TONNES) IN 2011','QUANTITY GRADED (TONNES) IN 2012'],
+   T:['int4','text','text','text','text','text'],
+   R:{"TYPES OF CASH CROP":'Cocoa',"QUANTITY GRADED (TONNES) IN 2010":'5,415',"QUANTITY GRADED (TONNES) IN 2011":'4,910',"QUANTITY GRADED (TONNES) IN 2012":'5,705',LGA:'Akoko-Edo',_id:1}}
+,{rows:35,cols:8,size:4045,d:'',url:'http://edo.staging.ckanhosted.com/storage/f/2013-07-19T17%3A03%3A12.969Z/2010-capital-development-fund.csv',id:'412036f6-0ed4-439b-97d3-1bc9efcaa9f4',made:'2013-07-19T17:05:27.761150',mods:'2014-07-08T14:03:29.884779',
+   C:['_id','HEAD','SUB-HEAD','DESCRIPTION','BUDGET 2010 (Naira)','ACTUAL 2010 (Naira)','VARIANCE 2010 (Naira)','ACTUAL 2009 (Naira)'],
+   T:['int4','text','text','text','text','text','text','text'],
+   R:{"SUB-HEAD":'-',HEAD:'CAPITAL',DESCRIPTION:'Opening Balance         (a)',"VARIANCE 2010 (Naira)":'9,081,241,271.78',"ACTUAL 2010 (Naira)":'-381,241,271.78',"BUDGET 2010 (Naira)":'8,700,000,000.00',"ACTUAL 2009 (Naira)":'912,279,529.52',_id:1}}
+,{rows:48,cols:9,size:1541,d:'Data-set on Statement of Assets & Liabilities for 2012. Sub-head on Cash, investments, internal and external loans, funds, Advances and others.',url:'http://data.edostate.gov.ng/storage/f/2014-04-15T11%3A46%3A12.216Z/2012-statement-of-assets-liabilities.csv',id:'6eeb6982-6721-4548-a9a8-2adf99f8ff98',made:'2014-04-15T11:53:13.485039',mods:'2014-07-08T14:01:28.950044',
+   C:['_id','HEAD','SECTOR','DESCRIPTION','NOTES','BUDGET 2012 (Naira)','ACTUAL 2012 (Naira)','VARIANCE 2012 (Naira)','ACTUAL 2011 (Naira)'],
+   T:['int4','text','text','text','text','text','text','text','text'],
+   R:{SECTOR:'-',HEAD:'Capital',DESCRIPTION:'Opening Balance        ',NOTES:'  a',"BUDGET 2012 (Naira)":'5,000,000,000.00',"VARIANCE 2012 (Naira)":'6,789,505,073.17',"ACTUAL 2012 (Naira)":'-1,789,505,073.17',_id:1,"ACTUAL 2011 (Naira)":'-651,366,378.01'}}
+,{rows:12,cols:4,size:544,d:'Data set showing various fishing communities that benefited from ECOWAS-Fund Fisheries Project in the State',url:'http://data.edostate.gov.ng/storage/f/2014-01-17T09%3A40%3A23.272Z/ecowas-fund-fisheries-project-in-edo-state.csv',id:'58420a06-30ed-4ec6-82cd-a8c2a54f8868',made:'2014-01-17T09:40:51.510975',mods:'2014-07-08T14:04:54.376763',
+   C:['_id','LGA','Fishing Communities that benefited from the Project','Fishing Communities that did not benefit from the Project'],
+   T:['int4','text','text','text'],
+   R:{_id:1,"Fishing Communities that did not benefit from the Project":'',"Fishing Communities that benefited from the Project":'Agenebode',LGA:'Etsako East '}}
+,{rows:11,cols:4,size:1017,d:'Data set showing various types of solid minerals and their location in Edo State.',url:'http://data.edostate.gov.ng/storage/f/2014-01-15T07%3A27%3A31.852Z/solid-minerals-in-edo-state.csv',id:'b606a596-98bd-475c-909e-1982725afeae',made:'2014-01-15T07:28:04.810090',mods:'2014-07-08T14:05:40.354356',
+   C:['_id','RAW MATERIALS','LOCATION-LGA','INDUSTRIAL USES'],
+   T:['int4','text','text','text'],
+   R:{"RAW MATERIALS":'Limestone',_id:1,"INDUSTRIAL USES":'Production of cement, paint, lime, Fertilizer, Animal feeds.  ',"LOCATION-LGA":'Etsako East, Etsako West'}}
+,{rows:1375,cols:12,size:95775,d:'',url:'http://data.edostate.gov.ng/storage/f/2014-05-20T13%3A02%3A54.181Z/edu-app-test-dataset.csv',id:'beaba0b9-1599-46de-9afd-5a6a687ab768',made:'2014-05-20T13:06:51.434608',mods:'2014-07-08T14:00:22.093828',
+   C:['_id','LGA','SCHOOL NAME ','CATEGORY','YEAR','NUMBER OF TEACHERS','NUMBER OF STUDENTS','NO OF CLASSROOMS','EXTERNAL EXAM ENROLMENT','NUMBER OF STUDENTS PASSED EXTERNAL EXAM','LAT','LONG'],
+   T:['int4','text','text','text','numeric','text','numeric','text','text','text','text','text'],
+   R:{CATEGORY:'Primary',"NUMBER OF STUDENTS PASSED EXTERNAL EXAM":'-',"NUMBER OF TEACHERS":'10',LGA:'Akoko Edo',LONG:'-',"NUMBER OF STUDENTS":'548',LAT:'-',"SCHOOL NAME ":'Afekunu Pry Sch,Ojirami.',YEAR:'2011',"NO OF CLASSROOMS":'9',_id:1,"EXTERNAL EXAM ENROLMENT":'-'}}
+,{rows:22,cols:7,size:2579,d:'Audited Financial Statements for the Year Ended 31st December, 2010 on Consolidated Revenue Fund ',url:'http://edo.staging.ckanhosted.com/storage/f/2013-07-22T12%3A16%3A29.317Z/2010-consolidated-revenue-fund.csv',id:'09fabd10-d610-4df5-b80b-f16bd98bcd0a',made:'2013-07-22T12:18:19.725069',mods:'2014-07-08T14:01:41.277691',
+   C:['_id','HEAD','DESCRIPTION','BUDGET 2010 (Niara)','ACTUAL 2010 (Naira)','VARIANCE 2010 (Naira)','ACTUAL 2009 (Naira)'],
+   T:['int4','text','text','text','text','text','text'],
+   R:{HEAD:'RECURRENT REVENUE',DESCRIPTION:'Opening Balance      (a)',"VARIANCE 2010 (Naira)":' (1,732,139,362.19)',"ACTUAL 2010 (Naira)":' 1,732,139,362.19 ',"BUDGET 2010 (Niara)":' -   ',"ACTUAL 2009 (Naira)":' 966,840,303.82 ',_id:1}}
+,{rows:60,cols:6,size:7274,d:'',url:'http://data.edostate.gov.ng/storage/f/2014-06-26T15%3A53%3A40.678Z/ministry-of-environment-and-public-utilities-list-of-project1.csv',id:'4624013b-e6e3-4c0b-8a9a-d89d83026c84',made:'2014-06-26T15:55:55.945264',mods:'2014-07-08T14:00:17.712654',
+   C:['_id','PROJECT TITLE','CONTRACTOR','CONTRACT SUM (N)','PROJECT LOCATION','PROJECT STATUS'],
+   T:['int4','text','text','text','text','text'],
+   R:{"PROJECT TITLE":'Desiltation of Underground Conduit along Ora Cresent, Joromi and Aerodrome Close, Benin City.',"PROJECT STATUS":'100%',CONTRACTOR:'Cremona Construction Nig. Ltd.',"PROJECT LOCATION":'Oredo',_id:1,"CONTRACT SUM (N)":'42,716,362.50'}}
+,{rows:8803,cols:8,size:1009941,d:'Data showing the names, address, registration number, certification number and date of registration of registered societies by LGA in Edo State.',url:'http://data.edostate.gov.ng/storage/f/2013-09-10T14%3A19%3A41.745Z/society-register-listing.csv',id:'8452a076-82b2-4db6-ad5d-4431003ebd20',made:'2013-09-10T14:26:00.884290',mods:'2014-07-08T14:07:21.005313',
+   C:['_id','Local Govt. Area','File No.','Society Name','Society Address','Register No.','Certificate No','Date Reg.'],
+   T:['int4','text','text','text','text','text','text','timestamp'],
+   R:{_id:1,"Society Address":'No. 53B, State Low Cost Housing Estate, Igarra',"File No.":'CD9713',"Certificate No":'04744',"Register No.":'3141',"Date Reg.":'1999-05-01T00:00:00',"Local Govt. Area":'Akoko Edo',"Society Name":'Ozas  M. P. C. S. L.'}}
+,{rows:3,cols:10,size:207,d:'Description of resource',url:'http://data.edostate.gov.ng/storage/f/2014-07-07T15%3A58%3A00.972Z/dump.csv',id:'580c88b1-4960-4ac0-984b-73ead7df7e72',made:'2014-07-07T15:59:18.326176',mods:'2014-07-08T14:00:16.607321',
+   C:['_id','0','80','51244','-1.93E+09','8.97E+08','2740884','1360','29951','1'],
+   T:['int4','numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric'],
+   R:{0:'0',1:'0',80:'51244',1360:'0',29951:'2229',51244:'80',2740884:'22600000',"8.97E+08":'1930000000',"-1.93E+09":'-897000000',_id:1}}])

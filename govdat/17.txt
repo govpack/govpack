@@ -1,0 +1,25 @@
+IIII([{DataSets:6,Fields:57,CKAN:17,format:'csv',made:'Mon Aug 04 2014 16:35:03 GMT+1000 (E. Australia Standard Time)',ms:1407134103953}
+,{rows:437,cols:6,size:30343,d:'Acidentes com Vítimas ocorridos no ano de 2014 a partir de março',url:'http://dados.recife.pe.gov.br/storage/f/2014-07-23T15%3A08%3A29.371Z/acidentes-2014.csv',id:'121bfaa2-5894-4c5a-b40b-219bb2ac4fc4',made:'2014-07-22T21:08:23.745984',mods:'2014-07-23T12:13:54.265143',
+   C:['_id','tipo_acidente','data_acidente','latitude','longitude','envolvido'],
+   T:['int4','text','timestamp','float8','float8','text'],
+   R:{longitude:-34.949516058,tipo_acidente:'Ciclistas',data_acidente:'2014-03-01T00:00:00',latitude:-8.03481752592,_id:1,envolvido:'Bicicleta'}}
+,{rows:409,cols:8,size:27774,d:'Contém as informações de das áreas de atuações dos veículos de coletas',url:'http://dados.recife.pe.gov.br/storage/f/2014-07-22T00%3A16%3A17.761Z/rotas.csv',id:'32728ce1-7aeb-4416-837f-f3051d3a4203',made:'2014-07-21T21:24:06.914982',mods:'2014-07-21T21:24:08.218698',
+   C:['_id','PERCUSSO_ID','ROTA_ID','LOCAL_ID','EMP_ID','ROTA_DESC','TPCIRCUITO_DESC','LOCAL_NOME'],
+   T:['int4','numeric','text','numeric','numeric','text','text','text'],
+   R:{ROTA_ID:'0533',TPCIRCUITO_DESC:'ÁREA',ROTA_DESC:'SETORES DIÁRIOS VESPERTINOS',LOCAL_NOME:'SANTO ANTONIO',LOCAL_ID:'27',EMP_ID:'699',_id:1,PERCUSSO_ID:'1091'}}
+,{rows:5046,cols:7,size:327098,d:'Definições de Roteiros de Coleta de Resíduos',url:'http://dados.recife.pe.gov.br/storage/f/2014-07-23T17%3A07%3A54.810Z/roteirizacao.csv',id:'f4ca6471-bb7b-4412-b248-d522948aa789',made:'2014-07-23T14:13:13.480579',mods:'2014-07-23T14:13:14.765181',
+   C:['_id','intervalo','setor','endereco','turno','rota_setor','frequencia'],
+   T:['int4','text','text','text','text','numeric','text'],
+   R:{rota_setor:'1',intervalo:'07:30 à 12:00 hs',turno:'MANHÃ',endereco:'R OLÍMPIO CHACON',setor:'6-02 A',_id:1,frequencia:'DIARIA'}}
+,{rows:129702,cols:12,size:6859111,d:'Descrição dos atendimentos de solicitações da Emlurb (156) – 2014',url:'http://dados.recife.pe.gov.br/storage/f/2014-07-18T22%3A31%3A31.506Z/156-cco-2014.csv',id:'5721b921-e994-45cc-b864-3c57a7193784',made:'2014-07-15T17:25:06.544521',mods:'2014-07-18T21:07:34.173747',
+   C:['_id','GRUPOSERVICO_CODIGO','GRUPOSERVICO_DESCRICAO','SERVICO_CODIGO','SERVICO_DESCRICAO','LOGRADOURO','NUMERO','BAIRRO','RPA','DATA_DEMANDA','SITUACAO','DATA_ULT_SITUACAO'],
+   T:['int4','numeric','text','numeric','text','text','text','text','numeric','timestamp','text','timestamp'],
+   R:{GRUPOSERVICO_CODIGO:'20',SERVICO_DESCRICAO:'REMOÇÃO DE ENTULHOS',SITUACAO:'ATENDIDA',BAIRRO:'BONGI',GRUPOSERVICO_DESCRICAO:'LIMPEZA URBANA',LOGRADOURO:'AV  MANOEL GONCALVES DA LUZ',NUMERO:'210',RPA:'5',DATA_DEMANDA:'2013-01-01T00:00:00',DATA_ULT_SITUACAO:'2013-01-03T00:00:00',_id:1,SERVICO_CODIGO:'3'}}
+,{rows:129702,cols:12,size:6859111,d:'Descrição dos atendimentos de solicitações da Emlurb (156) – 2014',url:'http://dados.recife.pe.gov.br/storage/f/2014-07-18T22%3A31%3A31.506Z/156-cco-2014.csv',id:'5721b921-e994-45cc-b864-3c57a7193784',made:'2014-07-15T17:25:06.544521',mods:'2014-07-18T21:07:34.173747',
+   C:['_id','GRUPOSERVICO_CODIGO','GRUPOSERVICO_DESCRICAO','SERVICO_CODIGO','SERVICO_DESCRICAO','LOGRADOURO','NUMERO','BAIRRO','RPA','DATA_DEMANDA','SITUACAO','DATA_ULT_SITUACAO'],
+   T:['int4','numeric','text','numeric','text','text','text','text','numeric','timestamp','text','timestamp'],
+   R:{GRUPOSERVICO_CODIGO:'20',SERVICO_DESCRICAO:'REMOÇÃO DE ENTULHOS',SITUACAO:'ATENDIDA',BAIRRO:'BONGI',GRUPOSERVICO_DESCRICAO:'LIMPEZA URBANA',LOGRADOURO:'AV  MANOEL GONCALVES DA LUZ',NUMERO:'210',RPA:'5',DATA_DEMANDA:'2013-01-01T00:00:00',DATA_ULT_SITUACAO:'2013-01-03T00:00:00',_id:1,SERVICO_CODIGO:'3'}}
+,{rows:129702,cols:12,size:6859111,d:'Descrição dos atendimentos de solicitações da Emlurb (156) – 2014',url:'http://dados.recife.pe.gov.br/storage/f/2014-07-18T22%3A31%3A31.506Z/156-cco-2014.csv',id:'5721b921-e994-45cc-b864-3c57a7193784',made:'2014-07-15T17:25:06.544521',mods:'2014-07-18T21:07:34.173747',
+   C:['_id','GRUPOSERVICO_CODIGO','GRUPOSERVICO_DESCRICAO','SERVICO_CODIGO','SERVICO_DESCRICAO','LOGRADOURO','NUMERO','BAIRRO','RPA','DATA_DEMANDA','SITUACAO','DATA_ULT_SITUACAO'],
+   T:['int4','numeric','text','numeric','text','text','text','text','numeric','timestamp','text','timestamp'],
+   R:{GRUPOSERVICO_CODIGO:'20',SERVICO_DESCRICAO:'REMOÇÃO DE ENTULHOS',SITUACAO:'ATENDIDA',BAIRRO:'BONGI',GRUPOSERVICO_DESCRICAO:'LIMPEZA URBANA',LOGRADOURO:'AV  MANOEL GONCALVES DA LUZ',NUMERO:'210',RPA:'5',DATA_DEMANDA:'2013-01-01T00:00:00',DATA_ULT_SITUACAO:'2013-01-03T00:00:00',_id:1,SERVICO_CODIGO:'3'}}])

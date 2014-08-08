@@ -1,0 +1,73 @@
+IIII([{DataSets:18,Fields:188,CKAN:71,format:'csv',made:'Mon Aug 04 2014 16:35:08 GMT+1000 (E. Australia Standard Time)',ms:1407134108953}
+,{rows:291,cols:15,size:18460,d:'',url:'http://dati.toscana.it/storage/f/2013-11-22T105947/Movimento_popolazione_2012.csv',id:'817d9bd5-e0b0-40c5-ba1b-ad5c991f6e4f',made:'2013-11-22T12:00:44.495199',mods:'2014-01-15T23:11:46.417094',
+   C:['_id','ANNO','CODICE COMUNE','PROVINCIA','COMUNE','POPOLAZIONE RESIDENTE AL 1 GENNAIO','NATI VIVI','MORTI','ISCRITTI DALL\'ESTERO','ISCRITTI DALL\'INTERNO','ALTRI ISCRITTI','CANCELLATI PER L\'ESTERO','CANCELLATI PER L\'INTERNO','ALTRI CANCELLATI','POPOLAZIONE RESIDENTE AL 31 DICEMBRE'],
+   T:['int4','numeric','numeric','text','text','numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric'],
+   R:{COMUNE:'Aulla',"CODICE COMUNE":'45001',PROVINCIA:'MS',"ISCRITTI DALL\'INTERNO":'470',"ALTRI CANCELLATI":'9',"CANCELLATI PER L\'ESTERO":'19',"POPOLAZIONE RESIDENTE AL 31 DICEMBRE":'11274',ANNO:'2012',MORTI:'136',"CANCELLATI PER L\'INTERNO":'473',"NATI VIVI":'93',"ISCRITTI DALL\'ESTERO":'52',_id:1,"POPOLAZIONE RESIDENTE AL 1 GENNAIO":'11279',"ALTRI ISCRITTI":'17'}}
+,{rows:288,cols:19,size:48725,d:'',url:'http://dati.toscana.it/storage/f/2013-12-12T082908/classificazioni_territoriali_Comuni.csv',id:'c050807f-6a90-4543-a0c1-58306506444c',made:'2013-12-12T09:29:53.186243',mods:'2014-01-15T23:18:29.336745',
+   C:['_id','Anno','Codice Istat Comune','Denominazione Comune','Codice Catastale Comune','Codice Istat provincia','Denominazione provincia','Codice Area Vasta','Area Vasta','Codice ASL','ASL','Codice Zona','Zona','Codice Zona Altimetrica','Zona Altimetrica','Codice Centro Impiego','Centro Impiego','Codice Risorsa Turistica','Risorsa Turistica'],
+   T:['int4','numeric','numeric','text','text','numeric','text','numeric','text','numeric','text','numeric','text','numeric','text','numeric','text','numeric','text'],
+   R:{"Codice Catastale Comune":' ',Zona:'della Lunigiana',"Codice Zona Altimetrica":'3',"Codice Area Vasta":'2',"Codice ASL":'101',"Centro Impiego":'MASSA',"Denominazione Comune":'Aulla',"Risorsa Turistica":'Altro interesse',"Codice Risorsa Turistica":'9',"Area Vasta":'Area Vasta Nord-Ovest',Anno:'2013',"Denominazione provincia":'Massa Carrara',"Codice Centro Impiego":'9046028000100',ASL:'Az. ASL 1 di Massa Carrara',"Zona Altimetrica":'Collina Interna',"Codice Istat Comune":'45001',"Codice Zona":'1011',_id:1,"Codice Istat provincia":'45'}}
+,{rows:3745,cols:8,size:215898,d:'',url:'http://dati.toscana.it/storage/f/2013-12-12T093954/ASIA_IMPRESE_2008_2010_NATURA_GIURIDICA.csv',id:'f2747288-e29d-4630-9108-ab36c4a7de95',made:'2013-12-12T10:40:03.377787',mods:'2014-01-15T23:13:55.509179',
+   C:['_id','ANNO','CODICE_COMUNE','COMUNE','PROVINCIA','FORMA_GIURIDICA','NUMERO_IMPRESE','ADDETTI_TOTALI_MEDIA'],
+   T:['int4','numeric','numeric','text','text','text','numeric','numeric'],
+   R:{COMUNE:'Aulla',CODICE_COMUNE:'45001',NUMERO_IMPRESE:'2',ANNO:'2010',FORMA_GIURIDICA:'Altra forma',ADDETTI_TOTALI_MEDIA:'40.04',PROVINCIA:'MS',_id:1}}
+,{rows:657,cols:12,size:56377,d:'',url:'http://dati.toscana.it/storage/f/2013-12-13T081422/Censimento-Istituzionipubper--forma-giuridica.csv',id:'fdde2370-4138-4272-86ac-3d2a6ae0a500',made:'2013-12-13T09:14:32.516643',mods:'2014-01-15T23:13:03.194968',
+   C:['_id','anno','codice_comune','denominazione_comune','forma_giuridica','istituzioni','addetti','esterni','temporanei','volontari','unita_locali','addetti_unitlocali'],
+   T:['int4','numeric','numeric','text','text','numeric','numeric','numeric','numeric','numeric','numeric','numeric'],
+   R:{volontari:null,codice_comune:'45001',esterni:null,istituzioni:null,unita_locali:'3',temporanei:null,addetti:null,anno:'2011',forma_giuridica:'Altra forma giuridica',addetti_unitlocali:'17',_id:1,denominazione_comune:'Aulla'}}
+,{rows:856,cols:8,size:42048,d:'',url:'http://dati.toscana.it/storage/f/2013-11-22T110822/movimento_per_comune2012.csv',id:'33e33d64-9a59-423c-bc20-485c534d3b67',made:'2013-11-22T12:08:35.729518',mods:'2014-01-15T23:09:43.809959',
+   C:['_id','anno','Provincia','Comune (cod Istat)','Comune (denominazione)','Provenienza','arrivi','presenze'],
+   T:['int4','text','text','text','text','text','numeric','numeric'],
+   R:{Provenienza:'Italiani',Provincia:'ar',"Comune (cod Istat)":'051001',presenze:'12097',anno:'2012',"Comune (denominazione)":'Anghiari',arrivi:'4267',_id:1}}
+,{rows:861,cols:10,size:47692,d:'',url:'http://dati.toscana.it/storage/f/2013-11-22T112032/struttura-offerta-ricettiva-2012.csv',id:'bada2cbd-c115-450c-ac0d-359b1b56dac8',made:'2013-11-22T12:20:49.267464',mods:'2014-01-15T23:08:26.457126',
+   C:['_id','anno','codistat','comune','prov','tipo','Esercizi','Camere','Letti','Bagni'],
+   T:['int4','numeric','numeric','text','text','text','numeric','numeric','numeric','numeric'],
+   R:{comune:'Aulla',Esercizi:'3',Bagni:'48',tipo:'alberghiero',codistat:'45001',Camere:'64',anno:'2012',prov:'ms',_id:1,Letti:'125'}}
+,{rows:7473,cols:9,size:739419,d:'',url:'http://dati.toscana.it/storage/f/2013-12-12T095214/ASIA_IMPRESE_2008_2010-attivit%C3%A0-ECONOMICA.csv',id:'5a2dc79b-05c5-4ff1-ad63-6374d1aac83f',made:'2013-12-12T10:52:19.184719',mods:'2014-01-27T04:03:32.255083',
+   C:['_id','Anno','codistat','descom','prov','ateco','descrizione_ateco','imprese','addetti_imp'],
+   T:['int4','numeric','numeric','text','text','text','text','numeric','numeric'],
+   R:{ateco:'BDE',descrizione_ateco:'ATTIVITA\' ESTRATTIVE, FORNITURA DI ENERGIA ELETTRICA E DI ACQUA',codistat:'45001',addetti_imp:'20.08',Anno:'2010',descom:'Aulla',prov:'MS',imprese:'2',_id:1}}
+,{rows:28987,cols:17,size:1681163,d:'',url:'http://dati.toscana.it/storage/f/2013-12-16T090253/Popolazione-residente-per-et%C3%A0%2C-sesso-e-stato-civile-Anno-2012.csv',id:'a86fe69a-96a0-41a6-9abe-d5a5153fdc5d',made:'2013-12-16T10:03:05.576460',mods:'2014-01-27T04:03:16.450288',
+   C:['_id','Anno ','Codice Comune','Comune','Provincia','Etŕ','Celibi','Coniugati','Divorziati','Vedovi','Totale Maschi','Nubili','Coniugate','Divorziate','Vedove','Totale Femmine','Popolazione Totale'],
+   T:['int4','numeric','numeric','text','text','numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric','numeric'],
+   R:{Comune:'Anghiari',"Codice Comune":'51001',Provincia:'AR',Vedove:null,"Etŕ":null,Vedovi:null,Divorziati:null,"Totale Maschi":'18',"Totale Femmine":'20',Coniugati:null,Divorziate:null,"Popolazione Totale":'38',"Anno ":'2012',Coniugate:null,_id:1,Celibi:'18',Nubili:'20'}}
+,{rows:1472,cols:9,size:114412,d:'',url:'http://dati.toscana.it/storage/f/2014-01-13T120531/Aziende-e-superfici-%28COMUNE-FCONDUZ-CLASSESAU%29.csv',id:'1b38932d-85a7-4adc-95ac-404001762cc3',made:'2014-01-13T13:05:45.024445',mods:'2014-01-15T23:39:42.309627',
+   C:['_id','anno','codice_comune','denominazione_comune','classe_sau(ettari)','forma_conduzione','aziende','sat(ettari)','sau(ettari)'],
+   T:['int4','numeric','numeric','text','text','text','numeric','numeric','numeric'],
+   R:{forma_conduzione:'altra forma',codice_comune:'45001',"sau(ettari)":'1.5',"classe_sau(ettari)":'Fino a 1.99',anno:'2010',aziende:'2',_id:1,"sat(ettari)":'10.97',denominazione_comune:'Aulla'}}
+,{rows:852,cols:10,size:43198,d:'',url:'http://dati.toscana.it/storage/f/2014-01-13T120019/Manodopera-%28COMUNE-e-CLASSESAU%29.csv',id:'dc1851df-cb09-4b75-8974-c0c1928fee36',made:'2014-01-13T13:00:26.119238',mods:'2014-01-15T23:39:26.905394',
+   C:['_id','anno','codice_comune','denominazione_comune','classe_sau','aziende','mano_saltuaria','mano_nonassuntidirettamente','mano_familiare','mano_nonfam_continuativa'],
+   T:['int4','numeric','numeric','text','text','numeric','numeric','numeric','numeric','numeric'],
+   R:{codice_comune:'45001',mano_familiare:'391',mano_nonfam_continuativa:'1',mano_nonassuntidirettamente:'3',classe_sau:'Fino a 1.99',anno:'2010',aziende:'205',mano_saltuaria:'24',_id:1,denominazione_comune:'Aulla'}}
+,{rows:1079,cols:8,size:68387,d:'',url:'http://dati.toscana.it/storage/f/2014-02-27T074609/IMPRESEartcladdettiaddetti.csv',id:'b8f891b9-945d-404c-951d-fc8712e662a8',made:'2014-02-27T08:46:20.821760',mods:'2014-02-27T08:46:21.578375',
+   C:['_id','anno','codice_comune','comune','artigiana','classe_addetti','imprese','addetti'],
+   T:['int4','numeric','numeric','text','text','text','numeric','numeric'],
+   R:{comune:'Aulla',codice_comune:'45001',addetti:'139',classe_addetti:'10 addetti e piů',anno:'2011',imprese:'12',_id:1,artigiana:'artigiana'}}
+,{rows:4366,cols:12,size:489923,d:'',url:'http://dati.toscana.it/storage/f/2014-03-28T072752/ASIA_IMPRESE_2011-attivit%C3%A0-ECONOMICA.csv',id:'81ffb3fc-4551-400b-b9c6-d3b6636307b4',made:'2014-03-28T08:28:03.310651',mods:'2014-03-28T08:28:03.891624',
+   C:['_id','ANNO','CODICE_COMUNE','COMUNE','PROVINCIA','CODICE_ATECO','DESCRIZIONE_ATECO','IMPRESA_ARTIGIANA','NUMERO_IMPRESE','ADDETTI_INDIPENDENTI_MEDIA','ADDETTI_DIPENDENTI_MEDIA','ADDETTI_TOTALI_MEDIA'],
+   T:['int4','numeric','numeric','text','text','text','text','numeric','numeric','numeric','numeric','numeric'],
+   R:{COMUNE:'Aulla',CODICE_COMUNE:'45001',DESCRIZIONE_ATECO:'ATTIVITÀ ESTRATTIVE, FORNITURA DI ENERGIA ELETTRICA E DI ACQUA',IMPRESA_ARTIGIANA:null,NUMERO_IMPRESE:'2',ANNO:'2011',ADDETTI_TOTALI_MEDIA:'40.27',ADDETTI_INDIPENDENTI_MEDIA:'1.00',PROVINCIA:'MS',_id:1,CODICE_ATECO:'BDE',ADDETTI_DIPENDENTI_MEDIA:'39.27'}}
+,{rows:11967,cols:12,size:896200,d:'',url:'http://dati.toscana.it/storage/f/2013-11-22T114257/Stranieri_residenti_Per_sesso_cittadinanza_2010.csv',id:'d4a745f0-c6d4-40bf-8323-4655c27840c9',made:'2013-11-22T12:43:08.267924',mods:'2014-01-15T23:10:19.010636',
+   C:['_id','ANNO','CODICE COMUNE ','PROVINCIA','Comune','CONTINENTE','AREA GEOGRAFICA','CODICE CITTADINANZA','CITTADINANZA','CITTADINI STRANIERI-MASCHI','CITTADINI STRANIERI-FEMMINE','CITTADINI STRANIERI-TOTALE'],
+   T:['int4','numeric','numeric','text','text','text','text','numeric','text','numeric','numeric','numeric'],
+   R:{Comune:'Aulla',"CITTADINI STRANIERI-TOTALE":'285',"CITTADINI STRANIERI-FEMMINE":'117',PROVINCIA:'MS',"CODICE CITTADINANZA":'436',CITTADINANZA:'Marocco ',ANNO:'2010',"CITTADINI STRANIERI-MASCHI":'168',CONTINENTE:'Africa',"AREA GEOGRAFICA":'Africa Settentrionale',"CODICE COMUNE ":'45001',_id:1}}
+,{rows:861,cols:9,size:43402,d:'',url:'http://dati.toscana.it/storage/f/2014-06-06T063240/consistenza_per_comune2013.csv',id:'f87d2502-08da-4245-83f3-161d5f114614',made:'2014-06-06T08:32:51.067089',mods:'2014-06-06T08:32:52.062694',
+   C:['_id','codistat','comune','prov','tipo','Bagni','Camere','Esercizi','Letti'],
+   T:['int4','numeric','text','text','text','numeric','numeric','numeric','numeric'],
+   R:{comune:'Aulla',Esercizi:'3',Bagni:'91',tipo:'alberghiero',codistat:'45001',Camere:'73',prov:'ms',_id:1,Letti:'137'}}
+,{rows:287,cols:5,size:10481,d:'',url:'http://dati.toscana.it/storage/f/2014-01-13T112921/Superfici-localizzazione-terreni-%28COMUNE%29.csv',id:'4309af16-c84d-48ce-8897-4b93b9d25dbd',made:'2014-01-13T12:48:59.433145',mods:'2014-01-15T23:39:06.198298',
+   C:['_id','codice_comune','denominazione_comune','sau_effettiva','sat_effettiva'],
+   T:['int4','numeric','text','numeric','numeric'],
+   R:{sat_effettiva:'1326.87',_id:1,codice_comune:'45001',sau_effettiva:'600.26',denominazione_comune:'Aulla'}}
+,{rows:11290,cols:9,size:1015360,d:'',url:'http://dati.toscana.it/storage/f/2014-02-27T082238/IMPRESE-comune-ateco-fg.csv',id:'e10a9ef9-000f-4813-a337-59ddd09ee84c',made:'2014-02-27T09:22:46.682648',mods:'2014-02-27T09:22:52.306932',
+   C:['_id','anno','codice_comune','comune','ateco','forma_giuridica','imprese','addetti','dipendenti'],
+   T:['int4','numeric','numeric','text','text','text','numeric','numeric','numeric'],
+   R:{comune:'Aulla',ateco:'attivita\' finanziarie assicurative',codice_comune:'45001',dipendenti:'12',addetti:'36',anno:'2011',forma_giuridica:'Impresa individuale',imprese:'22',_id:1}}
+,{rows:856,cols:8,size:42028,d:'',url:'http://dati.toscana.it/storage/f/2014-06-06T062618/movimento_per_comune2013.csv',id:'a3a7356c-01a6-496e-bdf1-311a44f31852',made:'2014-06-06T08:27:07.630792',mods:'2014-06-06T08:27:09.004907',
+   C:['_id','anno','Provincia','Comune (cod. Istat)','Comune (denominazione)','Provenienza','arrivi','presenze'],
+   T:['int4','text','text','text','text','text','numeric','numeric'],
+   R:{Provenienza:'Italiani',Provincia:'ar',presenze:'13146',"Comune (denominazione)":'Anghiari',anno:'2013',"Comune (cod. Istat)":'051001',arrivi:'3907',_id:1}}
+,{rows:4346,cols:8,size:309860,d:'',url:'http://dati.toscana.it/storage/f/2014-02-27T083535/UL-comune-ateco-addetti.csv',id:'ebb4f214-5e34-4a37-b7b1-09c50ade5ae4',made:'2014-02-27T09:35:43.469248',mods:'2014-02-27T09:35:44.105542',
+   C:['_id','anno','codice_comune','comune','ateco','unita_locali','addetti','dipendenti_extraUE'],
+   T:['int4','numeric','numeric','text','text','numeric','numeric','numeric'],
+   R:{comune:'Aulla',ateco:'attivitŕ finanziarie assicurative',codice_comune:'45001',unita_locali:'39',addetti:'116115',anno:'2011',_id:1,dipendenti_extraUE:'3'}}])

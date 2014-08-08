@@ -1,0 +1,25 @@
+IIII([{DataSets:6,Fields:30,CKAN:2,format:'csv',made:'Mon Aug 04 2014 16:35:03 GMT+1000 (E. Australia Standard Time)',ms:1407134103266}
+,{rows:9,cols:6,size:354,d:'a',url:'http://catalog.data.ug/dataset/cda5acda-c942-4967-b91f-80c32d424480/resource/1bc212f7-a59c-4ab3-8570-1a05f61b5d14/download/a.csv',id:'1bc212f7-a59c-4ab3-8570-1a05f61b5d14',made:'2014-06-27T12:48:53.694208',mods:'2014-07-03T17:00:43.555148',
+   C:['_id','amount(excl.donor)billion UGX','year','from','to','key'],
+   T:['int4','numeric','timestamp','text','text','numeric'],
+   R:{"amount(excl.donor)billion UGX":'208.45',from:'n/a',to:'Security(Total)',key:'0',year:'2000-01-03T00:00:00',_id:1}}
+,{rows:8,cols:5,size:250,d:'ugbudget_1995_96',url:'http://catalog.data.ug/dataset/07f5051f-af5a-4027-89aa-93b0292ac46f/resource/16e137c0-8cff-4935-bde9-b82efd66a9ed/download/ugbudget199596.csv',id:'16e137c0-8cff-4935-bde9-b82efd66a9ed',made:'2014-06-27T18:56:38.457758',mods:'2014-07-03T17:00:51.340470',
+   C:['_id','To','From','Amount','Year'],
+   T:['int4','text','text','numeric','text'],
+   R:{To:'SECURITY(TOTAL)',Amount:'121.14',_id:1,From:'',Year:'1995-96'}}
+,{rows:8,cols:5,size:305,d:'2003-04 Budget',url:'http://catalog.data.ug/dataset/4260a218-8c77-46b9-bcf5-7d82d1bbda49/resource/4adcd697-c78f-461e-b102-22ea9aa82bc6/download/200304budget.csv',id:'4adcd697-c78f-461e-b102-22ea9aa82bc6',made:'2014-06-27T18:46:46.564828',mods:'2014-07-03T17:00:49.755651',
+   C:['_id','To','From ','TOTAL','Time'],
+   T:['int4','text','numeric','numeric','timestamp'],
+   R:{To:'SECURITY(TOTAL)',TOTAL:'331.15',_id:1,"From ":'0.00',Time:'2003-04-03T00:00:00'}}
+,{rows:8,cols:5,size:223,d:'',url:'http://catalog.data.ug/dataset/98a9b1ee-34a9-4fcd-9b70-e36538b1ada6/resource/fb3a968b-b7fb-47da-b8a8-00b8775fc622/download/approvedugandanbudget0809.csv',id:'fb3a968b-b7fb-47da-b8a8-00b8775fc622',made:'2014-06-27T19:18:07.688402',mods:'2014-07-03T17:00:54.049680',
+   C:['_id','amount','year','from','to'],
+   T:['int4','numeric','numeric','text','text'],
+   R:{to:'Security',amount:'477.24',_id:1,from:'',year:'2008'}}
+,{rows:8,cols:5,size:298,d:'ug_budget2001_02',url:'http://catalog.data.ug/dataset/fe9605cf-1760-4736-8e33-61f3dba260c3/resource/ac1468a5-9d3d-48a3-8600-d42d281a9a2b/download/ugbudget200102.csv',id:'ac1468a5-9d3d-48a3-8600-d42d281a9a2b',made:'2014-06-27T18:31:58.417167',mods:'2014-07-03T17:00:46.702615',
+   C:['_id','TO','from','amount','time'],
+   T:['int4','text','numeric','numeric','timestamp'],
+   R:{TO:'SECURITY(TOTAL)',amount:'229.24',_id:1,from:'0.00',time:'2001-02-03T00:00:00'}}
+,{rows:8,cols:4,size:206,d:'African Open Data_budget_1995-96',url:'http://catalog.data.ug/dataset/dd24f4c9-5915-4636-a948-e3d70940b745/resource/ac91277f-b346-4507-b0a5-34fbdab5e4d6/download/africanopendatabudget199495.csv',id:'ac91277f-b346-4507-b0a5-34fbdab5e4d6',made:'2014-06-27T18:37:28.101641',mods:'2014-07-03T17:00:48.052823',
+   C:['_id','to','amount','time'],
+   T:['int4','text','numeric','text'],
+   R:{to:'SECURITY',amount:'116.20',_id:1,time:'1994-95'}}])

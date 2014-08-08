@@ -1,0 +1,276 @@
+﻿<!doctype html><html><head><title>fg</title>
+<style>
+BODY{border:0px;font-family:Verdana}
+#d22{background:yellow;padding:0px 33px}
+TD{border:1px solid gray;white-space:nowrap;text-align:center;}
+TABLE{border-collapse:collapse}
+.fr{border-style:none;font-size:120%;text-align:left}
+.th{background-color:silver;font-weight:900;font-size:120%}
+.hh{background-color:silver;color:gray;font-weight:400;font-size:110%}
+.dt{color:white}
+.dl{}
+I{color:green}
+CODE{background:#dcdcdc}
+.up{font-size:12pt;text-align:left;background:#ffffcc;padding-left:10px;font-weight:900;font-style:italic;}
+#d3{background:orange;font-size:20pt;padding:4px;border:1px solid black}
+#d4{background:lime;font-size:20pt;padding:4px;border:1px solid black}
+.db{width:100%;display:inline-block;}
+a{color:cornflowerblue;text-decoration:none}
+a:hover{background:lime;text-decoration:underline overline;color:black}
+a:visited{color:cornflowerblue;background:hotpink}
+.rn{position:absolute;right:30px;top:265px;}
+.rn a{font-size:200%}
+#SU{font-family:monospace}
+#d12{margin-left:14px}
+#d11{font-size:11pt;text-align:justify;text-justify:newspaper;background:#e9f2f4;border:1px solid gray;margin:2px 4px;padding:4px;}
+
+.yo{width:274;height:196px}
+#TB{width:100%;height:330px}
+#TB TD{vertical-align:top;}
+
+
+.fm{font-size:5mm;border-radius:7px;background:orange}
+.fm15{}
+</style>
+<script>
+var KEC={};function UC(s){if(!s){return '#dcdcdc'};if(KEC[s]){return KEC[s]};if(!s.length){return '#dcdcdc'};for(var i=0,h=0;i<s.length;h=s.charCodeAt(i++)+((h<<5)- h));for(var i= 0,c='#';i<3;c+=('00'+((h >>i++*8)&0xFF).toString(16)).slice(-2)); KEC[s]=c;return c;}
+function SZ(b,places){/*Bytes to "FileSize.places[b|K|MB|GB]" string*/var x='b';if(b>1024){b=b/1024;if(b<1024){x='K'}else{b=b/1024;if(b<1024){x='MB'}else{b=b/1024;x='GB'}}};return b.toFixed(isNaN(places)?1:places)+''+x}
+function ABC(x){/*http://stackoverflow.com/questions/181596/how-to-convert-a-column-number-eg-127-into-an-excel-column-eg-aa*/var end=x;var AB='';var mod=0;while(end>0){mod=(end-1)%26;AB=String.fromCharCode(65+mod) + AB;end=parseInt((end-mod)/26)}return AB}
+
+function IIII(yo){YO=yo;wow=YO[0];fom=wow.format.toString();FOM=fom.toUpperCase()
+sude(wow.CKAN)
+show()
+}
+
+
+var o1={CKAN:44,port:80}
+var o3={}
+var BT=[]/*buttons*/
+
+function init(){BT=[B0,B1,B2]/*buttons*/
+HED=self.document.getElementsByTagName('head')[0];
+
+var o2=l.C(self,'CONFIG');//confirm(JSON.stringify(o2))
+l.u(o3,o1,o2)
+var x=o3.CKAN
+var y=parseInt(self.location.hash.substr(1))||0;
+if(y){o3.CKAN=y;butx(y,true);x=y}else{butx(x)}
+load(x)
+ping()
+}
+
+
+
+function load(x,cb){cb=cb||function(){};
+window.location.hash=x
+d4.innerText='...'
+d2.innerText=''
+d3.innerText='...'
+d5.innerText=''
+d6.innerText=''
+d7.innerText=''
+d22.innerText=''
+d7.href='#'+x
+d1.innerHTML=''
+setTimeout(function(){LOAD(x,cb)},1)
+}
+
+function LOAD(x,cb){cb=cb||function(){};var fp='./govdat/'+x+'.txt'
+var sx=self.document.createElement('script'); 
+sx.onerror=function(sMsg,sUrl,sLine){//prompt(sMsg,sUrl+sLine)
+} 
+if(sx.onload===null){sx.onload=cb}else{
+sx.onreadystatechange=function(){if(sx.readyState!='loaded'&&sx.readyState!='complete'){return} 
+cb()}} 
+sx.src=fp;HED.appendChild(sx)
+}
+
+function show(){
+d4.innerText=wow.Fields
+d2.innerText=wow.DataSets
+d3.innerText=wow.format
+d5.innerText=wow.CKAN
+d6.innerText=wow.CKAN
+d7.innerText=fom
+d7.href='#'+wow.CKAN
+var o=null;var tgs='';var C=[];var T=[];var R=[];var tb='';var L=0
+for(var i=1;i<YO.length;i++){o=YO[i]
+if(!(o.C && o.T && o.R)){return}
+C=o.C;T=o.T;R=o.R;L=C.length
+if(!L){return}
+tb='<table>\n<tr>'
+tb+='<td colspan="'+(C.length)+'" class=fr ><b>•'+o.d+'</b>'
+tb+='</td></tr>'
+tb+='<tr>';for(var c=1;c<L;c++){tb+='<td class=hh >'+ABC(c)+'</td>'};tb+='</tr>'
+tb+='<tr>';for(var c=1;c<L;c++){tb+='<td class=th style="background:'+UC(C[c])+'">'+C[c]+'</td>'};tb+='</tr>'
+tb+='<tr class=dt >';for(var c=1;c<L;c++){tb+='<td style="background:'+UC(T[c])+'">'+T[c]+'</td>'};tb+='</tr>'
+tb+='<tr>';for(var c=1;c<L;c++){tb+='<td>'+R[C[c]]+'</td>'};tb+='</tr>'
+tb+='<tr>'
+tb+='<td class=dl>'
+tb+='<a title="'+o.url+'" href="'+o.url+'" target="_blank" class="db" >'+fom
+if(o.size!=-1){tb+=' '+SZ(o.size)+''}
+tb+='</a>&nbsp;&nbsp;&nbsp;</td>'
+tb+='<td class=up colspan="'+(C.length-1)+'">'+o.rows+' rows × '+o.cols+' columns </td></tr>'
+tb+='</table>'
+tgs+='<br><br>'+tb
+}
+d1.innerHTML=tgs
+}
+var CK=[];
+function DATA(o){CK=o.CK;menu()}
+//var DTS=new Array(60).join('.');
+function menu(){var o=null;
+//alert(CK.length)
+for(var i=0;i<CK.length;i++){o=CK[i];
+op=document.createElement('OPTION');
+try{
+var C=(o.C||'').replace(', ',',');
+var d=('\u00A0\u00A0\u00A0\u00A0'+i).slice(-4)+' '+o.U.split('/')[2].replace('www.','');
+d+=(new Array(Math.max(1,60-d.length-C.length)).join('.'))+C;
+op.text=d
+op.value=i
+SU.appendChild(op)
+}catch(er){alert(er.stack)}
+}
+}
+
+var CX=0
+
+function buty(x){
+d15.innerText=x;
+d16.innerText=x;
+d17.innerText=x;
+d18.innerText=x;
+}
+
+function butx(x,soft){
+o3.CKAN=x;buty(x);CX=x;
+if(soft){return}
+//alert(JSON.stringify(o3))
+l.C(self,'CONFIG',o3)
+}
+
+function dude(){
+var x=SU.selectedIndex;
+butx(x)
+sude(x)
+setTimeout(function(){load(CX)},22)
+}
+
+function sude(x){
+var o=CK[x];if(!o){return}
+P1.src='./px/'+x+'.jpg'
+d11.innerText=o.D
+d12.innerText=o.C
+d14.innerText=o.U
+d14.href=o.U
+
+}
+
+
+function rosx(o){
+var xhr=new XMLHttpRequest();
+d22.innerHTML='<img src="ani.gif">'
+xhr.onload=function(){d22.innerHTML=this.status+'--'+this.responseText}
+xhr.open('POST','http://127.0.0.1:'+o3.port+'/',true);
+xhr.send(JSON.stringify(o));
+}
+
+
+var l={version:1e6
+,C:function(win,x,v){/*Get/set cookie*/if(win.localStorage){if(v!=undefined){win.localStorage[x]=l.j(v)}return l.o(win.localStorage[x])}if(v!=undefined){var d8=new Date();d8.setMonth(d8.getMonth()+1);win.document.cookie=x+'=##'+x+'##'+escape(l.j(v))+'##'+x+'##; expires=' + d8.toUTCString()+';';return v}if(win.document.cookie.match(new RegExp(x+'=##'+x+'##(.*)##'+x+'##'))){return l.o(unescape(RegExp.$1))}return ''}
+,o:function(js,SAFE){/*Saphire • Returns the evaluated JavaScript text or JSON object*/if(SAFE){alert('REMOVE USE OF l.o(js,SAFE) use o.J(js) instead');return JSON.parse(js)};try{return eval('('+js+')')}catch(e){return js/*WOB::undefined*/}}
+,j:function(o,s,q){/*JSON.stringify alternative*/
+if(s==2){return JSON.stringify(o)}
+if(o===null){return 'null'}
+function DS(s){return s.replace(/[\\]/g, '\\\\').replace(/'/g, '\\\'').replace(/[\b]/g,'\\b').replace(/[\f]/g,'\\f').replace(/[\n]/g,'\\n').replace(/[\r]/g,'\\r').replace(/[\t]/g,'\\t')}
+switch(typeof o){case 'undefined':return 'undefined';
+case 'string':return '\''+DS(o)+'\'';
+case 'number':return ''+o;case 'object':
+if(o.constructor.toString().indexOf('Date()')>0){return o.getTime()}
+if(o.constructor.toString().indexOf('RegExp()')>0){return ''+o}
+var RA=[];var AR=(o.constructor.toString().indexOf('Array()')>0);
+var v;for(var p in o){if(!o.hasOwnProperty(p)){continue}
+if(s){v=''+o[p]}else{v=this.j(o[p])}if(AR){RA.push(v);continue}
+if(q){RA.push('"'+p+'":'+v);continue}
+if((/^[$\w]+$/.test(p) && !/^\d/.test(p))||/^\d+$/.test(p)){RA.push(p+':'+v);continue}
+RA.push('"'+DS(p)+'":'+v)}return ((AR?'[':'{')+RA.join(',')+(!AR?'}':']')).replace(/},/g,'}\n,').replace(/,T:\[/g,',\n   T:[').replace(/,C:\[/g,',\n   C:[').replace(/,R:\{/g,',\n   R:{');
+default:return ''+o}
+}
+,u:function(o){/*Give first object props from the following objects truely madly deeply*/if(typeof o!='object'){return}var s=null;var p='';var P=[];var o2=null;for(var i=1;i<arguments.length;i++){s=arguments[i];if(typeof s!='object'){continue}for(p in s){o2=o;P=p.split('.').reverse();while(P.length>1){o2=o2[P.pop()]}o2[P.pop()]=s[p]}}}
+}
+
+function ping(){
+var xhr=new XMLHttpRequest();
+xhr.open('HEAD','http://127.0.0.1:80/',true);
+xhr.onreadystatechange=function(){RC.innerText=this.status
+if(this.status==200){btns(1);setTimeout(ping,1000)}else{btns(0);setTimeout(ping,1000)}
+}
+try{xhr.send(null)}catch(er){btns(0);setTimeout(ping,1000)}
+}
+
+function btns(on){var e=null;
+for(var i=0;i<BT.length;i++){e=BT[i];e.disabled=on?false:true;e.style.backgroundColor=['silver','lime'][on]}
+}
+</script>
+
+
+
+</head>
+<body id="bd" onload="init()">
+
+
+<table id="TB">
+
+<tr><td style="width:auto;overflow:hidden;white-space:normal;vertical-align:top;text-align:left" ><b id="d12"></b><p id="d11"></p>
+<i>to install govpack run:</i><code>npm install -gf govpack</code>
+<b>
+<b style="display:none">govpack {fetch:<span id="d5"></span>} &nbsp; govpack {filter:<span id="d6"></span>}</b>
+<br><br>govpack Found <span id="d2"></span>&nbsp;<span id="d3"></span> datasets,<br>containing <span id="d4"></span> fields...</b><br>
+<i style="display:none;font-size:11pt;color:silver;margin-left:4px">As shown below, with field names, field types,
+<br><a id="d7" href="#"></a> download links, a count of rows x columns,
+<br>and one row of actual data</i>
+<br>the Global list of 110 ckan endpoints was retrieved from  
+<a href="http://ckan.org/instances/" target="_blank">ckan.org</a>
+(credit:links&uarr;images&uarr;descriptions&rarr;)
+</td>
+<td style="width:200px;vertical-align:top"><img id="P1" src="b.ico" >
+<br><a id="d14" href="#" target="_blank"></a>
+</td>
+<td style="text-align:right"><select id="SU" onchange="dude()" size="15"></select></td>
+</tr>
+
+<tr><td style="text-align:left">
+govpack  on
+•<a href="http://govpack.github.io/govpack/" target="_blank">gh-pages</a>
+•<a href="https://github.com/govpack/govpack" target="_blank">github</a>
+•<a href="https://www.npmjs.org/package/govpack" target="_blank">npmjs.org</a>
+•<a href="http://hackerspace.govhack.org/content/npm-install-g-govpack-or-github-govpackgovpack" target="_blank">govhack.org</a>
+<br>ckan
+•<a href="http://docs.ckan.org/en/latest/api/index.html" target="_blank">docs</a>
+•<a href="http://docs.ckan.org/en/ckan-1.8/apiv3.html" target="_blank">apiv3</a>
+
+
+
+</td><td style="text-align:right"><i>to light up the buttons run:</i><br><code><b>govpack</b> {port:80}</code>&rarr;<span id="RC" style="background:lime"></span></td>
+
+<td><b style="font-size:18pt">govpak</b> 
+<button id="B0" disabled="true" onclick="rosx({fetch:CX})" class="fm fm15" >{fetch:<b id="d15"></b>}</button>
+<button id="B1" disabled="true" onclick="rosx({filter:CX})" class="fm fm16" >{filter:<b id="d16"></b>}</button>
+<button id="B2" disabled="true" onclick="rosx({download:CX})" class="fm fm17" >{download:<b id="d17"></b>}</button>
+<button onclick="load(CX)" class="fm fm18" >{show:<b id="d18"></b>}</button>
+</td>
+</tr>
+<tr><td colspan="3" style="text-align:right"><b id="d22"></b></td></tr>
+</table>
+
+<script src="./ufo/aa.txt"></script>
+
+
+
+
+<div id="d1"></div>
+
+
+</body>
+</html>
