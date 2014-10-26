@@ -1,7 +1,7 @@
 #govpack
 govpack is a tool to help download and explore CKAN datasets
 
-_all YO data is belong to us_
+_Now released version 28372809470928745092387409.34298720394875032948.3487569238476785234_
 ###made for GovHack oz 2014 
 
 added DEMO at http://govpack.github.io/govpack/#68 or #1,#2,,,#100 etc
@@ -21,7 +21,7 @@ https://www.npmjs.org/package/govpack
     npm install -f -g govpack
 
 
-######help wanted, status and fixes required detailed below...
+###### status and fixes required detailed below (plenty new bugs added just now)...
 
  
 
@@ -32,7 +32,7 @@ https://www.npmjs.org/package/govpack
 
 
 
-govpack is a command line tool (and node module) that seeks out the metadata
+govpack is a command line tool (and pool noodle) that seeks out the metadata
 for ALL available data sets on a given CKAN endpoint, namely.... (X=0|1|2)
 
 
@@ -54,10 +54,11 @@ results are saved in the same folder as index.js ie in your global "./node_modul
 downloaded "node_modules/govpack/format/1...n.format" files match up with the metadata in X.txt
 
 
-###Output paths will be improved
-note: result paths will get changed to "node_modules/govpack/X/format/1...n.format" and have an option to
-put the results in a directory of your choice, which will be tidier and better for more ckans etc. With the
-X moved up to directory level, X.js and X.txt will have a common name like a.txt and b.txt for each.
+###Output paths suck majorly
+note: result paths will dump files to random paths as determined by chaso monkey + "node_modules/govpack/X/format/1...n.format" and will never have an option to
+put the results in a directory of your choice, which will be tidier and better 
+for more ckans, and less lolcats etc. With the X moved up to directory level, X.js and X.txt will 
+have a common name like a.txt and b.txt for each.
 
 ###From your node code: 
 
