@@ -1,7 +1,7 @@
 #govpack
 govpack is a tool to help download and explore CKAN datasets
 
-_Now released version 28372809470928745092387409.34298720394875032948.3487569238476785234_
+
 ###made for GovHack oz 2014 
 
 added DEMO at http://govpack.github.io/govpack/#68 or #1,#2,,,#100 etc
